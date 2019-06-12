@@ -1,0 +1,150 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>发送邮件 &#8212; hedwi 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/bizstyle.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="鉴权" href="auth.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="auth.html" title="鉴权"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">hedwi 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="auth.html"
+                        title="previous chapter">鉴权</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/email.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="mail">
+<span id="api-email"></span><span id="id1"></span><h1>发送邮件<a class="headerlink" href="#mail" title="Permalink to this headline">¶</a></h1>
+<p>接口地址：</p>
+<ul class="simple">
+<li><a class="reference external" href="https://api.hedwi.com/mail/:domain">https://api.hedwi.com/mail/:domain</a></li>
+</ul>
+<p>HTTP请求方式：</p>
+<ul class="simple">
+<li>POST</li>
+</ul>
+<p>请求参数：</p>
+<ul class="simple">
+<li>from<ul>
+<li>发件人</li>
+</ul>
+</li>
+<li>to<ul>
+<li>收件人</li>
+</ul>
+</li>
+<li>subject<ul>
+<li>邮件主题</li>
+</ul>
+</li>
+<li>html<ul>
+<li>邮件html内容</li>
+</ul>
+</li>
+<li>text<ul>
+<li>邮件纯文本内容</li>
+</ul>
+</li>
+</ul>
+<p>响应代码：</p>
+<ul class="simple">
+<li>共通返回</li>
+</ul>
+<p>示例:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">curl</span> <span class="o">-</span><span class="n">X</span> <span class="n">POST</span> <span class="o">-</span><span class="n">s</span> <span class="o">--</span><span class="n">user</span> <span class="s1">&#39;api:d5e76748-7b9a-11e9-bb91-f21898b25098&#39;</span> \
+<span class="s1">&#39;https://api.hedwi.com/mail/example.hedwi.com&#39;</span> \
+<span class="o">-</span><span class="n">F</span> <span class="n">from</span><span class="o">=</span><span class="s1">&#39;user@example.hedwi.com&#39;</span> \
+<span class="o">-</span><span class="n">F</span> <span class="n">to</span><span class="o">=</span><span class="s1">&#39;support@hedwi.com&#39;</span> \
+<span class="o">-</span><span class="n">F</span> <span class="n">subject</span><span class="o">=</span><span class="s1">&#39;Hello&#39;</span> \
+<span class="o">-</span><span class="n">F</span> <span class="n">text</span><span class="o">=</span><span class="s1">&#39;Testing email from Hedwi!&#39;</span>
+</pre></div>
+</div>
+<p>返回参考：</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nt">&quot;code&quot;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span>
+    <span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="s2">&quot;干得漂亮！要开始使用请从这里注册帐号: http://www.hedwi.com/signup&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;ts&quot;</span><span class="p">:</span><span class="mi">1560340668</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="auth.html" title="鉴权"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">hedwi 1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, solos.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
+    </div>
+  </body>
+</html>
