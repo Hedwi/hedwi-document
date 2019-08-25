@@ -77,15 +77,45 @@
             
   <div class="section" id="auth">
 <span id="api-auth"></span><span id="id1"></span><h1>鉴权<a class="headerlink" href="#auth" title="Permalink to this headline">¶</a></h1>
+<p>使用BasicAuth，需要在请求headers中增加Authorization</p>
+<p>Authorization生成算法：用冒号拼接字符串api和你的key，然后转成base64，再拼接”Basic “前缀即可。</p>
 <ul class="simple">
-<li>使用BasicAuth，需要在请求headers中增加Authorization</li>
-<li>Authorization生成算法：用冒号拼接字符串api和你的key，然后转成base64，再拼接”Basic “前缀即可。</li>
 <li>golang示例:</li>
 </ul>
 <div class="highlight-go notranslate"><div class="highlight"><pre><span></span><span class="nx">key</span> <span class="o">:=</span> <span class="s">&quot;d5e76748-7b9a-11e9-bb91-f21898b25098&quot;</span>
 <span class="nx">source</span> <span class="o">:=</span> <span class="s">&quot;api:&quot;</span> <span class="o">+</span> <span class="nx">key</span>
 <span class="nx">auth</span> <span class="o">:=</span> <span class="s">&quot;Basic &quot;</span> <span class="o">+</span> <span class="nx">b64</span><span class="p">.</span><span class="nx">StdEncoding</span><span class="p">.</span><span class="nx">EncodeToString</span><span class="p">([]</span><span class="nb">byte</span><span class="p">(</span><span class="nx">source</span><span class="p">))</span>
 <span class="nx">headers</span> <span class="o">:=</span> <span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">string</span><span class="p">{</span><span class="s">&quot;Authorization&quot;</span><span class="p">:</span> <span class="nx">auth</span><span class="p">}</span>
+</pre></div>
+</div>
+<ul>
+<li><p class="first">python示例:</p>
+<p>完整示例 <a class="reference download internal" download="" href="_downloads/818ffe8b20e1fd9ec52488355b0f9609/auth.py"><code class="xref download docutils literal notranslate"><span class="pre">auth.py</span></code></a></p>
+</li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">base64</span> <span class="kn">import</span> <span class="n">b64encode</span>
+<span class="n">key</span> <span class="o">=</span> <span class="s2">&quot;d5e76748-7b9a-11e9-bb91-f21898b25098&quot;</span>
+<span class="n">source</span> <span class="o">=</span> <span class="s2">&quot;api:&quot;</span> <span class="o">+</span> <span class="n">key</span>
+<span class="n">auth</span> <span class="o">=</span> <span class="s2">&quot;Basic &quot;</span> <span class="o">+</span> <span class="n">b64encode</span><span class="p">(</span><span class="n">source</span><span class="p">)</span>
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="n">auth</span><span class="p">}</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li>php示例：</li>
+</ul>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="x">function sendEmail() {</span>
+<span class="x">    $data = array(&quot;from&quot; =&gt; &quot;user@example.hedwi.com&gt;&quot;, &quot;to&quot; =&gt; &quot;support@hedwi.com&quot;,</span>
+<span class="x">                  &quot;subject&quot; =&gt; &quot;Hello&quot;, &quot;text&quot; =&gt; &quot;Testing email from Hedwi!&quot;);</span>
+<span class="x">    $ch = curl_init(&quot;https://api.hedwi.com/mail/example.hedwi.com&quot;);</span>
+<span class="x">    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);</span>
+<span class="x">    curl_setopt($ch, CURLINFO_HEADER_OUT, true);</span>
+<span class="x">    curl_setopt($ch, CURLOPT_POST, true);</span>
+<span class="x">    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);</span>
+<span class="x">    curl_setopt($ch, CURLOPT_USERPWD, &quot;api:d5e76748-7b9a-11e9-bb91-f21898b25098&quot;);</span>
+<span class="x">    $result = curl_exec($ch);</span>
+<span class="x">    curl_close($ch);</span>
+<span class="x">    return $result</span>
+<span class="x">}</span>
 </pre></div>
 </div>
 </div>
