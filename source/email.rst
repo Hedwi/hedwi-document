@@ -13,6 +13,10 @@ HTTP请求方式：
 
 *  POST
 
+鉴权：
+
+* 参考 :ref:`api-auth` 章节
+
 请求参数：
 
 * from
