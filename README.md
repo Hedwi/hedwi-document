@@ -1,9 +1,6 @@
 # hedwi-docs
 
-# 关于
+### 关于
 
-  hedwi接口文档
+    hedwi API文档
 
-# 在线浏览
-
-  http://docs.hedwi.com

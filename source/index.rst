@@ -12,6 +12,7 @@ Hedwi API文档
 .. toctree::
    :maxdepth: 2
 
+   dnsconfig
    auth
    email
     
