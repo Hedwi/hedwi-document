@@ -7,6 +7,7 @@ import (
 
 	//"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
+	"github.com/gin-contrib/static"
 
 	"hedwi-docs/config"
 )
@@ -26,7 +27,7 @@ func main() {
 	port := ":" + strconv.Itoa(config.DefaultConfig.Port)
 	print(port)
 
-	router := gin.Default()
-	router.Static("/", "./build/html")
-	router.Run(port)
+	r := gin.Default()
+	r.Use(static.Serve("/", static.LocalFile("./build/html", true)))
+	r.Run(port)
 }
