@@ -39,6 +39,7 @@ HTTP请求方式：
 
   - 邮件纯文本内容
 
+
 响应代码：
 
 * 共通返回
@@ -68,7 +69,7 @@ HTTP请求方式：
 
 接口地址：
 
-* https://api.hedwi.com/templatemail/:domain
+* https://api.hedwi.com/mail/:domain
 
 HTTP请求方式：
 
@@ -96,7 +97,7 @@ HTTP请求方式：
 
   - 模板名称
 
-* variables
+* hedwi-variables
 
   - 模板变量
 
@@ -107,7 +108,7 @@ HTTP请求方式：
 示例::
     
     curl -X POST -s --user 'api:d5e76748-7b9a-11e9-bb91-f21898b25098' \
-    'https://api.hedwi.com/templatemail/example.hedwi.com' \
+    'https://api.hedwi.com/mail/example.hedwi.com' \
     -F from='user@example.hedwi.com' \
     -F to='support@hedwi.com' \
     -F subject='Hello' \
