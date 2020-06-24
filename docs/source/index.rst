@@ -15,6 +15,8 @@ Hedwi API文档
    dnsconfig
    auth
    email
+   smtp
+   qq
     
 Indices and tables
 ==================

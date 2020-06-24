@@ -99,7 +99,7 @@ HTTP请求方式：
 
 * hedwi-variables
 
-  - 模板变量
+  - 模板变量  
 
 响应代码：
 
@@ -124,3 +124,14 @@ HTTP请求方式：
         "message":"干得漂亮！要开始使用请从这里注册帐号: http://www.hedwi.com/signup",
         "ts":1560340668
     }
+
+模板变量调用示例：
+
+.. code-block:: html
+
+    <html>
+        <body>
+            <h1>你好 {{name}}</h1>
+        </body>
+    </html>
+
