@@ -67,6 +67,6 @@ TXT记录值为 v=spf1 include:spf.hedwi.net ~all
 
 - `http://www.ietf.org/rfc/rfc4408.txt <http://www.ietf.org/rfc/rfc4408.txt>`_
 - `https://support.google.com/a/answer/33786?hl=zh-Hans <https://support.google.com/a/answer/33786?hl=zh-Hans>`_
-        - `http://service.exmail.qq.com/cgi-bin/help?subtype=1&&id=20012&&no=1000580t <http://service.exmail.qq.com/cgi-bin/help?subtype=1&&id=20012&&no=1000580>`_
-        - `http://www.sysgeek.cn/sender-policy-framework-spf-exchange/ <http://www.sysgeek.cn/sender-policy-framework-spf-exchange/>`_
+- `http://service.exmail.qq.com/cgi-bin/help?subtype=1&&id=20012&&no=1000580t <http://service.exmail.qq.com/cgi-bin/help?subtype=1&&id=20012&&no=1000580>`_
+- `http://www.sysgeek.cn/sender-policy-framework-spf-exchange/ <http://www.sysgeek.cn/sender-policy-framework-spf-exchange/>`_
 
