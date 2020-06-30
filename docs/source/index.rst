@@ -16,6 +16,8 @@ Hedwi API文档
    auth
    email
    smtp
+   spf
+   dkim
    qq
     
 Indices and tables
