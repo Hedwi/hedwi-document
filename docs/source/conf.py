@@ -22,7 +22,7 @@ import jieba
 html_search_options = {'dict': jieba.DEFAULT_DICT}
 
 project = u'hedwi'
-copyright = u'2019, solos'
+copyright = u'2019-2020, solos'
 author = u'solos'
 
 # The short X.Y version
@@ -84,8 +84,9 @@ html_theme = 'bizstyle'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
-
+#html_theme_options = {}
+#html_logo = 'logo.png'
+    
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
