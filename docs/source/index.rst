@@ -19,18 +19,14 @@ Hedwi API文档
 .. toctree::
    :maxdepth: 2
 
+   start
    dnsconfig
    auth
    email
    smtp
-   record
    mailtester
    qq
 
-    
-Indices and tables
-==================
+   record
 
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
