@@ -22,9 +22,11 @@ Hedwi API文档
    start
    dnsconfig
    auth
+   verify
    email
    smtp
    mailtester
+   inboxrulesconfig
    qq
 
    record
