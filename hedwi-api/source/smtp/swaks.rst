@@ -1,9 +1,9 @@
-.. _help-smtp:
+.. _help-smtp-swaks:
 
-.. _smtp:
+.. _smtp-swaks:
 
-SMTP发信
-------------
+SMTP发信-swaks测试
+--------------------
 
 SMTP发信使用任意用户名和默认SMTP密码即可。
 
@@ -24,3 +24,4 @@ SMTP服务器：smtp.hedwi.net  端口: 25 / 25000/ 465
         --tls \
 	--h-Subject: "Hello" \
 	--body 'Testing some Hedwi awesomness!'
+
