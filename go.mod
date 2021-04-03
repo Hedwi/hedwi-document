@@ -1,4 +1,4 @@
-module hedwi-docs
+module hedwi-document
 
 go 1.12
 

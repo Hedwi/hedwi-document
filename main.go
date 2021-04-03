@@ -6,10 +6,10 @@ import (
 	"strconv"
 
 	//"github.com/gin-contrib/pprof"
-	"github.com/gin-gonic/gin"
 	"github.com/gin-contrib/static"
+	"github.com/gin-gonic/gin"
 
-	"hedwi-docs/config"
+	"hedwi-document/config"
 )
 
 func init() {

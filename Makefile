@@ -1,16 +1,21 @@
-all: build backup doc
+all: build-hedwiapi hedwiapi
 
-build:
-	cd ./docs && make html && cd ..
+build-hedwiapi:
+	cd ./hedwi-api/ && make html && cd ..
 	GOOS=linux GOARCH=amd64 go build
 
-backup:
-	scp -r ./docs/build hedwi-docsbackup:/data/www/hedwi-docs/
-	scp -r hedwi-docs hedwi-docsbackup:/data/www/hedwi-docs/_tmp
-	ssh hedwi-docsbackup "cd /data/www/hedwi-docs/ && mv _tmp hedwi-docs && supervisorctl -c ./hedwi-docs_supervisord.conf reload"
+build-hedwimail:
+	cd ./hedwi-mail/ && make html && cd ..
+	GOOS=linux GOARCH=amd64 go build
 
-doc:
-	echo 'docs'
-	scp -r ./docs/build hedwi-docs:/data/www/hedwi-docs/
-	scp -r hedwi-docs hedwi-docs:/data/www/hedwi-docs/_tmp
-	ssh hedwi-docs "cd /data/www/hedwi-docs/ && mv _tmp hedwi-docs && supervisorctl -c ./hedwi-docs_supervisord.conf reload"
+hedwiapi:
+	echo 'hedwi-api'
+	scp -r ./hedwi-api/build server1:/data/www/hedwi-document/
+	scp -r hedwi-document server1:/data/www/hedwi-document/_tmp
+	ssh server1 "cd /data/www/hedwi-document/ && mv _tmp hedwi-document && supervisorctl -c /data/www/hedwi-api_supervisord.conf restart hedwi-document"
+	scp -r ./hedwi-api/build server2:/data/www/hedwi-document/
+	scp -r hedwi-document server2:/data/www/hedwi-document/_tmp
+	ssh server2 "cd /data/www/hedwi-document/ && mv _tmp hedwi-document && supervisorctl -c /data/www/hedwi-api_supervisord.conf restart hedwi-document"
+	scp -r ./hedwi-api/build server3:/data/www/hedwi-document/
+	scp -r hedwi-document server3:/data/www/hedwi-document/_tmp
+	ssh server3 "cd /data/www/hedwi-document/ && mv _tmp hedwi-document && supervisorctl -c /data/www/hedwi-api_supervisord.conf restart hedwi-document"
