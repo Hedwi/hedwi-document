@@ -1,4 +1,4 @@
-# hedwi-docs
+# hedwi-document
 
 ### 关于
 
