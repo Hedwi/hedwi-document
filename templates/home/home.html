@@ -1,0 +1,47 @@
+{{define "content"}}
+<div v-cloak>
+    <section class="even">
+        <div class="container">
+            <div class="columns home">
+                <div class="column is-half">
+                    <div class="feature send">
+                        <a href="/send" target="_blank">
+                            <div>
+                                <div>
+                                    <i class="material-icons">send</i>
+                                </div>
+                                <div>
+                                    <span class="title">邮件代发文档</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <div class="feature mail">
+                        <a href="/mail" target="_blank">
+                            <div>
+                                <div>
+                                    <img src="https://hedwi.com/mail/en-us/assets/images/mail.png" />
+                                </div>
+                                <div>
+                                    <span class="title">海未邮箱文档</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+</section>
+</div>
+{{ end }}
+{{define "headercss"}}
+{{ end }}
+{{define "headerjs"}}
+{{ end }}
+{{ define "footerjs" }}
+<script src="/static/js/home.js?v={{._timestamp}}"></script>
+{{ end }}

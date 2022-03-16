@@ -1,23 +1,25 @@
 package main
 
 import (
+	"embed"
 	"fmt"
-	"runtime"
 	"strconv"
 
 	//"github.com/gin-contrib/pprof"
-	"github.com/gin-contrib/static"
-	"github.com/gin-gonic/gin"
+	//"github.com/gin-gonic/gin"
 
 	"hedwi-document/config"
+	"hedwi-document/route"
 )
+
+//go:embed static
+//go:embed templates
+var static embed.FS
 
 func init() {
 }
 
 func main() {
-
-	runtime.GOMAXPROCS(runtime.NumCPU())
 
 	if err := config.InitConfigInfo(); err != nil {
 		fmt.Println(err)
@@ -27,7 +29,14 @@ func main() {
 	port := ":" + strconv.Itoa(config.DefaultConfig.Port)
 	print(port)
 
-	r := gin.Default()
-	r.Use(static.Serve("/", static.LocalFile("./build/html", true)))
+	//route.StaticBox = static
+	//r.Use(static.Serve("/", static.LocalFile("./build/html", true)))
+
+	route.StaticBox = static
+	route.TemplateBox = static
+
+	r := route.InitRouter()
+
 	r.Run(port)
+
 }

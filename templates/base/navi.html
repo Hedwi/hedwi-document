@@ -1,0 +1,35 @@
+{{define "navi"}}
+<nav id="naviApp" class="navbar" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item logo" href="/?v={{._timestamp}}">
+        <img class="logo" src="https://hedwi.com/static/image/logo.png" width="50" height="50" />
+      </a>
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarMenu" class="navbar-menu">
+      <div class="navbar-start">
+        <a id="homeMenu" ref="homeMenu" class="navbar-item " href="/?v={{._timestamp}}">
+          <i class="material-icons ">home</i>文档</a>
+        <a id="mailMenu" ref="sendMenu" class="navbar-item" href="https://send.hedwi.com" target="_blank">
+          <i class="material-icons ">send</i>邮件代发</a>
+        <a id="mailMenu" ref="mailMenu" class="navbar-item" href="https://www.hedwi.com" target="_blank">
+          <i class="material-icons ">mail</i>企业邮箱 </a>
+      </div>
+    </div>
+    <div class="navbar-end">
+    </div>
+  </div>
+  </div>
+  </div>
+</nav>
+{{ end }}
