@@ -17,6 +17,7 @@ import (
 	//"hedwi-document/render"
 
 	"hedwi-document/internal/handlers/home"
+	"hedwi-document/middlewares"
 	"hedwi-document/render"
 )
 
@@ -56,7 +57,7 @@ func InitRouter() *gin.Engine {
 	r.Use(sentrygin.New(sentrygin.Options{}))
 	r.Use(ginglog.Logger(10 * time.Second))
 	//r.Use(middlewares.Cors)
-	//r.Use(middlewares.CacheControl)
+	r.Use(middlewares.CacheControl)
 	//r.Use(middlewares.JsonP())
 	r.Use(handler.Gin)
 	//r.Use(sessions.Sessions("mysession", store))
@@ -76,9 +77,11 @@ func InitRouter() *gin.Engine {
 	r.StaticFS("/.well-known", http.FS(wellknownBox))
 
 	mailBox, _ := fs.Sub(StaticBox, "static/hedwi-mail")
+	docsBox, _ := fs.Sub(StaticBox, "static/hedwi-docs")
 	sendBox, _ := fs.Sub(StaticBox, "static/hedwi-api")
 	r.StaticFS("/mail", http.FS(mailBox))
 	r.StaticFS("/send", http.FS(sendBox))
+	r.StaticFS("/docs", http.FS(docsBox))
 	r.StaticFS("/static", http.FS(staticBox))
 
 	//r.StaticFS("/mail", http.Dir("./mail"))

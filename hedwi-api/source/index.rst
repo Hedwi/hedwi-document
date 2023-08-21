@@ -7,7 +7,7 @@ Hedwi API文档
 
 .. raw:: html
 
-        <a target="_blank" href="https://www.hedwi.com" >Hedwi官网 <img border="0" src="https://document.hedwi.com/_static/logo.png" style="width: 30px;" title="hedwi官网"></a>
+        <a target="_blank" href="https://hedwi.com" >Hedwi官网 <img border="0" src="https://hedwi.com/mail/zh-hans/assets/images/mail.svg" style="width: 30px;" title="hedwi官网"></a>
 
 
 目录
@@ -22,6 +22,7 @@ Hedwi API文档
    verify
    email
    smtp
+   http
    mailtester
    inboxrulesconfig
    qq

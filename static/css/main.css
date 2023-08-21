@@ -7,15 +7,16 @@
  * @version 2017/12/02
  */
 
+
 @font-face {
   font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
   font-display: block;
   src: local("Material Icons"), local("MaterialIcons-Regular"),
-    url("https://fonts.gstatic.com/s/materialicons/v121/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2") format('woff2'),
-    url("/static/fonts/MaterialIcons-Regular.woff2") format("woff2");
+    url("/mail/static/fonts/MaterialIcons-Regular.woff") format("woff");
 }
+
 
 .material-icons {
   font-family: 'Material Icons';
@@ -32,6 +33,7 @@
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+
 
 html,body{margin:0; padding:0; }
 
@@ -153,7 +155,7 @@ a[href^="/"]{
 
 /*然后再对自己的域名豁免*/
 a[href^="http://hedwi.com"],
-a[href^="http://www.hedwi.com"]{
+a[href^="http://hedwi.com"]{
     background-image: none;
     padding right: 0;
 }
@@ -601,9 +603,19 @@ pre[class*="language-"] {
     div.code-example {display: none;}
     div.intro {width: 100% !important;}
 }
-.home {
+
+.columns.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     margin-bottom: 0 !important;
     margin-top: 2em !important;
+}
+
+
+.columns.home .column {
+    padding: 0 !important;
 }
 
 .code-example ul {
@@ -859,13 +871,34 @@ a.doc {
 
 div.feature {
     text-align:center;
-    padding: 1.5em;
-    width: 50%;
+    padding: 10px 0 10px 10px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
+
+.feature .doc-item {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.feature .doc-item .doc-logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.feature .doc-item .doc-title {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
 
 .column.is-half {
     display: flex;
@@ -875,7 +908,7 @@ div.feature {
 
 .send i {
     color: #3972dc;
-    font-size: 240px;
+    font-size: 50px;
 }
 
 .mail i {

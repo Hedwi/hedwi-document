@@ -1,21 +1,36 @@
-all: build-hedwiapi hedwiapi
+all: build-main deploy
 
-build-hedwiapi:
+
+saas: build-api build-docs build-mail build-main deploy
+
+build-api:
 	cd ./hedwi-api/ && make html && cd ..
-	GOOS=linux GOARCH=amd64 go build
+	rm -rf static/hedwi-api/*
+	cp -r  ./hedwi-api/build/html/* static/hedwi-api/
 
-build-hedwimail:
+build-mail:
 	cd ./hedwi-mail/ && make html && cd ..
+	rm -rf static/hedwi-mail/*
+	cp -r  ./hedwi-mail/build/html/* static/hedwi-mail/
+
+build-docs:
+	cd ./hedwi-docs/ && make html && cd ..
+	rm -rf static/hedwi-docs/*
+	cp -r  ./hedwi-docs/build/html/* static/hedwi-docs/
+
+
+
+build-main:
 	GOOS=linux GOARCH=amd64 go build
 
-hedwiapi:
+deploy:
 	echo 'hedwi-api'
-	scp -r ./hedwi-api/build server1:/data/www/hedwi-document/
-	scp -r hedwi-document server1:/data/www/hedwi-document/_tmp
-	ssh server1 "cd /data/www/hedwi-document/ && mv _tmp hedwi-document && supervisorctl -c /data/www/hedwi-api_supervisord.conf restart hedwi-document"
-	scp -r ./hedwi-api/build server2:/data/www/hedwi-document/
-	scp -r hedwi-document server2:/data/www/hedwi-document/_tmp
-	ssh server2 "cd /data/www/hedwi-document/ && mv _tmp hedwi-document && supervisorctl -c /data/www/hedwi-api_supervisord.conf restart hedwi-document"
-	scp -r ./hedwi-api/build server3:/data/www/hedwi-document/
-	scp -r hedwi-document server3:/data/www/hedwi-document/_tmp
-	ssh server3 "cd /data/www/hedwi-document/ && mv _tmp hedwi-document && supervisorctl -c /data/www/hedwi-api_supervisord.conf restart hedwi-document"
+	#scp -r ./hedwi-api/build server1:/data/www/hedwi-document/
+	scp -r hedwi-document server1:/data/www/api/hedwi-document/_tmp
+	ssh server1 "cd /data/www/api/hedwi-document/ && mv _tmp hedwi-document && supervisorctl -c /data/www/api/hedwi-api_supervisord.conf restart hedwi-document"
+	#scp -r ./hedwi-api/build server2:/data/www/hedwi-document/
+	scp -r hedwi-document server2:/data/www/api/hedwi-document/_tmp
+	ssh server2 "cd /data/www/api/hedwi-document/ && mv _tmp hedwi-document && supervisorctl -c /data/www/api/hedwi-api_supervisord.conf restart hedwi-document"
+	#scp -r ./hedwi-api/build server3:/data/www/hedwi-document/
+	scp -r hedwi-document server3:/data/www/api/hedwi-document/_tmp
+	ssh server3 "cd /data/www/api/hedwi-document/ && mv _tmp hedwi-document && supervisorctl -c /data/www/api/hedwi-api_supervisord.conf restart hedwi-document"

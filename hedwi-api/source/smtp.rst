@@ -11,3 +11,4 @@ SMTP发信
 
    smtp/swaks
    smtp/python
+   smtp/java

@@ -116,7 +116,7 @@ Authorization生成算法：用冒号拼接字符串api和你的key，然后转�
             curl_setopt($ch, CURLOPT_USERPWD, "api:d5e76748-7b9a-11e9-bb91-f21898b25098");
             $result = curl_exec($ch);
             curl_close($ch);
-            return $result
+            return $result;
         }
     ?>
 

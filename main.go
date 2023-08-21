@@ -3,12 +3,12 @@ package main
 import (
 	"embed"
 	"fmt"
-	"strconv"
 
 	//"github.com/gin-contrib/pprof"
 	//"github.com/gin-gonic/gin"
 
 	"hedwi-document/config"
+	"hedwi-document/middlewares"
 	"hedwi-document/route"
 )
 
@@ -21,22 +21,24 @@ func init() {
 
 func main() {
 
-	if err := config.InitConfigInfo(); err != nil {
+	if err := config.InitWithEnv(); err != nil {
 		fmt.Println(err)
 		panic("init config fail")
 	}
 
-	port := ":" + strconv.Itoa(config.DefaultConfig.Port)
-	print(port)
+	addr := config.DefaultConfig.Addr
 
 	//route.StaticBox = static
 	//r.Use(static.Serve("/", static.LocalFile("./build/html", true)))
+
+	middlewares.StaticBox = static
+	middlewares.Init()
 
 	route.StaticBox = static
 	route.TemplateBox = static
 
 	r := route.InitRouter()
 
-	r.Run(port)
+	r.Run(addr)
 
 }
