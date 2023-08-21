@@ -2,3 +2,4 @@
 build
 hedwi-document
 config.toml
+*.modified
