@@ -3,3 +3,7 @@ build
 hedwi-document
 config.toml
 *.modified
+static/hedwi-api/
+static/hedwi-docs/
+static/hedwi-mail/
+main

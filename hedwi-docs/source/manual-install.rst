@@ -1,14 +1,15 @@
-.. _help-install:
+.. _help-manual-install:
 
-.. _install:
+.. _manual-install:
 
 
-安装 
+手动部署 
 ------------------------
 
 环境要求
 =====================
-最低1G内存 1核CPU  linux 64位系统
+最低2G内存 2核CPU  linux 64位系统
+
 
 SSL证书
 ======================

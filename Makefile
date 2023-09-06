@@ -1,26 +1,30 @@
-all: build-main deploy
+all: main deploy
 
 
-saas: build-api build-docs build-mail build-main deploy
+saas: api docs mail main deploy
 
-build-api:
+api:
 	cd ./hedwi-api/ && make html && cd ..
 	rm -rf static/hedwi-api/*
 	cp -r  ./hedwi-api/build/html/* static/hedwi-api/
+	date -r ./hedwi-api/build/html/index.html "+%Y-%m-%d %H:%M:%S" > date.modified
 
-build-mail:
+mail:
 	cd ./hedwi-mail/ && make html && cd ..
 	rm -rf static/hedwi-mail/*
 	cp -r  ./hedwi-mail/build/html/* static/hedwi-mail/
+	date -r ./hedwi-mail/build/html/index.html "+%Y-%m-%d %H:%M:%S" > mail.modified
 
-build-docs:
+docs:
 	cd ./hedwi-docs/ && make html && cd ..
 	rm -rf static/hedwi-docs/*
 	cp -r  ./hedwi-docs/build/html/* static/hedwi-docs/
+	date -r ./hedwi-docs/build/html/index.html "+%Y-%m-%d %H:%M:%S" > docs.modified
 
 
 
-build-main:
+
+main:
 	GOOS=linux GOARCH=amd64 go build
 
 deploy:

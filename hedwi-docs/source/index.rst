@@ -16,8 +16,8 @@ Hedwi 海未文档 私有部署文档
 .. toctree::
    :maxdepth: 2
 
-   install
-   record
+   how-to-install
+   how-to-upgrade
    releaseNote
 
 * :ref:`search`
