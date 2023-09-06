@@ -3,7 +3,7 @@
 .. _docker-install:
 
 
-使用 docker 部署 
+使用 docker 部署（推荐）
 ------------------------
 
 docker 安装
@@ -11,17 +11,16 @@ docker 安装
 
 .. code-block:: bash
 
-    mkdir hedwi_pkgs
-    wget 'https://hedwi.com/install'
-    chmod +x install && ./install
-
+    curl 'https://hedwi.com/install' |sh
 
 启动
 ============
 
-    docker compose up -d
+.. code-block:: bash
 
-- 防火墙配置
-    对外开放25、465、993、443端口即可 本邮箱服务不需要nginx 如果使用nginx则需要自行修改配置文件中的端口
-- 创建管理员帐号
-    访问https://127.0.0.1:40008 (此处可以是根域名或者任意子域名，只要配置好DNS记录就可以)。注册管理员帐号 第一个帐号就是管理员帐号。使用管理员帐号添加域名，配置DNS记录。
+    cd hedwi_pkgs/compose/docs && docker compose up -d
+
+访问
+============
+
+    访问 http://127.0.0.1:40008 即可
