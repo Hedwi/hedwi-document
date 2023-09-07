@@ -22,13 +22,13 @@ import jieba
 html_search_options = {'dict': jieba.DEFAULT_DICT}
 
 project = u'hedwi-mail'
-copyright = u'2019-2020, solos'
-author = u'solos'
+copyright = u'2019-2023, Hedwi'
+author = u'Hedwi'
 
 # The short X.Y version
 version = u''
 # The full version, including alpha/beta/rc tags
-release = u'1.0'
+release = u''
 
 
 # -- General configuration ---------------------------------------------------
@@ -85,7 +85,7 @@ html_theme = 'bizstyle'
 # documentation.
 #
 #html_theme_options = {}
-#html_logo = 'logo.png'
+html_logo = 'logo.png'
 html_favicon = 'favicon.ico'
     
 # Add any paths that contain custom static files (such as style sheets) here,

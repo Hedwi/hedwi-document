@@ -22,8 +22,8 @@ import jieba
 html_search_options = {'dict': jieba.DEFAULT_DICT}
 
 project = u'hedwi-docs'
-copyright = u'2019-2119, Geci, Inc'
-author = u'solos'
+copyright = u'2019-2023, Hedwi'
+author = u'Hedwi'
 
 # The short X.Y version
 version = u''
@@ -85,7 +85,7 @@ html_theme = 'bizstyle'
 # documentation.
 #
 #html_theme_options = {}
-#html_logo = 'logo.png'
+html_logo = 'logo.png'
 html_favicon = 'favicon.ico'
     
 # Add any paths that contain custom static files (such as style sheets) here,
