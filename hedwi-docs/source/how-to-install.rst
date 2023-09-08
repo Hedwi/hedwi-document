@@ -11,3 +11,4 @@
 
    docker-install
    manual-install
+   config
