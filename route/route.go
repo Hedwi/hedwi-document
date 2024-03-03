@@ -14,6 +14,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/nanmu42/gzip"
 	ginglog "github.com/szuecs/gin-glog"
+
 	//"hedwi-document/render"
 
 	"hedwi-document/internal/handlers/home"
@@ -79,9 +80,11 @@ func InitRouter() *gin.Engine {
 	mailBox, _ := fs.Sub(StaticBox, "static/hedwi-mail")
 	docsBox, _ := fs.Sub(StaticBox, "static/hedwi-docs")
 	sendBox, _ := fs.Sub(StaticBox, "static/hedwi-api")
+	meetBox, _ := fs.Sub(StaticBox, "static/hedwi-meet")
 	r.StaticFS("/mail", http.FS(mailBox))
 	r.StaticFS("/send", http.FS(sendBox))
 	r.StaticFS("/docs", http.FS(docsBox))
+	r.StaticFS("/meet", http.FS(meetBox))
 	r.StaticFS("/static", http.FS(staticBox))
 
 	//r.StaticFS("/mail", http.Dir("./mail"))

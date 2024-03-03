@@ -6,4 +6,5 @@ config.toml
 static/hedwi-api/
 static/hedwi-docs/
 static/hedwi-mail/
+static/hedwi-meet/
 main

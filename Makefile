@@ -21,6 +21,12 @@ docs:
 	cp -r  ./hedwi-docs/build/html/* static/hedwi-docs/
 	date -r ./hedwi-docs/build/html/index.html "+%Y-%m-%d %H:%M:%S" > docs.modified
 
+meet:
+	cd ./hedwi-meet/ && rm -rf build/* && make html && cd ..
+	rm -rf static/hedwi-meet/*
+	cp -r  ./hedwi-meet/build/html/* static/hedwi-meet/
+	date -r ./hedwi-meet/build/html/index.html "+%Y-%m-%d %H:%M:%S" > meet.modified
+
 
 
 main:

@@ -1,0 +1,117 @@
+@import 'bizstyle.css';
+
+
+
+:root {
+  --color: #ccc;
+  --body-color: #000000;
+  --main-color: #FE6352;
+  --bg-color: #000000;
+  --br-color: #313131;
+  --main-btn-bg-color: #db7a4c;
+  --menu-br-color: #ececec;
+  --menu-bar-item-bg-color: #ffffff;
+  --menu-bar-item-text-color: #000000;
+  --menu-bar-item-hover-bg-color: #ececec;
+  --menu-bar-item-hover-text-color: #db7a4c;
+  --menu-item-hover-bg-color: #ececec;
+  --selected-folder-color: #db7a4c;
+  --selected-folder-text-color: #ffffff;
+  --panel-bg-color: #f9f9f9; /* 面板背景色 */
+  --panel-br-color: #80808040;
+  --color-border-color: #ececec;
+  --color-border-hover-color: #000000;
+  --mdc-tab-indicator-active-indicator-color: #db7a4c;
+}	
+
+html {
+	background-color: var(--body-color) !important;
+}
+
+body {
+	background-color: var(--body-color) !important;
+	color: var(--color) !important; 
+	border-right-color: var(--br-color) !important;
+	border-left-color: var(--br-color) !important;
+}
+
+div.bodywrapper {
+	border-left-color: var(--br-color) !important;
+
+}
+
+div {
+	background-color: var(--body-color) !important;
+}
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 {
+	border-color: var(--br-color) !important;
+	background-color: var(--bg-color) !important;
+}
+/*
+	background-color: #FE6352 !important;
+*/
+
+
+div.related ul {
+	border-top-color: var(--br-color) !important;
+	border-bottom-color: var(--br-color) !important;
+	border-color: var(--br-color) !important;
+	background-color: var(--bg-color) !important;
+}
+
+
+h1,h2,h3 {
+	color: var(--color) !important;
+}
+
+
+a {
+	color: var(--main-color) !important;
+}
+
+h1,h2,h3 {
+	border-color: var(--br-color) !important;
+}
+
+
+input {
+	border-color: var(--br-color) !important;
+	background-color: var(--bg-color) !important;
+	color: var(--color) !important;
+	border-color: var(--br-color) !important;
+	border: 1px solid var(--br-color) !important;
+	padding: 0.25em;
+    box-sizing: border-box;
+}
+
+
+
+input:focus-visible {
+	outline: var(--main-color) !important;
+}
+
+
+
+
+div.sphinxsidebar input {
+	border-color: var(--br-color) !important;
+	background-color: var(--bg-color) !important;
+	color: var(--color) !important;
+	border-color: var(--br-color) !important;
+}
+
+div.sphinxsidebar input:focus-visible {
+	outline: var(--main-color) !important;
+}
+
+
+div.footer {
+	color: var(--color) !important;
+	border-color: var(--br-color) !important;
+	border-bottom-color: var(--br-color) !important;
+}
+
+.highlight .s1 {
+	color: var(--main-color) !important;
+}
