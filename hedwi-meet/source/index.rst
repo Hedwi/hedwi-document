@@ -17,7 +17,6 @@ Hedwi 海未会议 私有部署文档
    :maxdepth: 2
 
    how-to-install
-   #how-to-cluster-install
    how-to-upgrade
    #releaseNote
 
