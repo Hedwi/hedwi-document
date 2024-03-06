@@ -9,6 +9,5 @@
 .. toctree::
    :maxdepth: 1
 
-   docker-install
    manual-install
    config

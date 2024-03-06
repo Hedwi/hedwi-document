@@ -11,41 +11,19 @@
 最低2G内存 2核CPU  linux 64位系统
 
 
-SSL证书
-======================
 
-- lego获取免费泛域名证书
+
+
+minio / consul / nats / cockroach
+======================================
+
+- cockroach 数据库
 
     .. code-block:: bash
 
-        wget 'https://github.com/go-acme/lego/releases/download/v4.4.0/lego_v4.4.0_linux_amd64.tar.gz'
-
-        export DNSPOD_API_KEY="ID_xxxx,Token_xxxxxx"
-        export DNSPOD_HTTP_TIMEOUT="300"
-
-        domain example.com
-        lego --email="xxx@xxx.com" --domains="example.com" --domains="*.example.com" --accept-tos --path=/tmp/lego/ --dns="dnspod"  --dns.resolvers="8.8.8.8" run
-
-        lego --email="xxx@xxx.com" --domains="example.com" --domains="*.example.com" --accept-tos --path=/tmp/lego --dns="dnspod" renew --reuse-key
 
 
 
-        如果修改了HEDWI_ROOT需要对应替换掉supervisord.conf中配置的路径/data/www
-        export HEDWI_ROOT=/data/www   
-
-        mkdir -p $HEDWI_ROOT/hedwi-certs;
-        cd $HEDWI_ROOT;
-        mkdir -p hedwi-certs/example.com ; # example.com改为对应域名
-        cp fullchain.cer cert.pem hedwi-certs/example.com/cert.key;
-        cp example.com.key cert.pem hedwi-certs/example.com/cert.key;
-
-mysql
-============
-
-    目前依赖mysql数据库，有计划支持其它SQL数据库
-
-s3 minio / consul / nats
-======================================
 
 - minio
 
@@ -53,7 +31,7 @@ s3 minio / consul / nats
 
 
         # 创建安装目录
-        mkdir -p $HEDWI_ROOT/{consul,nats,hedis,hedwi-smtp,hedwi-imap,hedwi-inbox,hedwi-hub,hedwi-filter,hedwi-task,hedwi-search}/logs ;
+        mkdir -p $HEDWI_ROOT/{consul,nats,hedis,hedwi-inbox,hedwi-task,hedwi-search}/logs ;
 
         cd $HEDWI_ROOT/minio ;
         wget https://dl.min.io/server/minio/release/linux-amd64/minio ;

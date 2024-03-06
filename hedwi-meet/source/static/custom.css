@@ -22,6 +22,7 @@
   --color-border-color: #ececec;
   --color-border-hover-color: #000000;
   --mdc-tab-indicator-active-indicator-color: #db7a4c;
+  --pre-br-color: #272727;
 }	
 
 html {
@@ -114,4 +115,25 @@ div.footer {
 
 .highlight .s1 {
 	color: var(--main-color) !important;
+}
+
+
+
+pre {
+    border-right: 5px solid  var(--pre-br-color) !important;
+    border-left: 5px solid  var(--pre-br-color) !important;
+}
+
+table.docutils {
+	border:1px solid var(--main-color) !important;
+	background-color: #000000 !important;
+}
+
+table th {
+	background-color: var(--main-color) !important;
+}
+
+table.docutils td, table.docutils th {
+	border-right: 1px solid var(--main-color) !important;
+	border-bottom: 1px solid var(--main-color) !important;
 }
