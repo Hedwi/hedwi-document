@@ -1,7 +1,7 @@
 all: main deploy
 
 
-saas: api docs mail main deploy
+saas: api docs mail meet main deploy
 
 api:
 	cd ./hedwi-api/ && rm -rf build/* && make html && cd ..
@@ -26,7 +26,6 @@ meet:
 	rm -rf static/hedwi-meet/*
 	cp -r  ./hedwi-meet/build/html/* static/hedwi-meet/
 	date -r ./hedwi-meet/build/html/index.html "+%Y-%m-%d %H:%M:%S" > meet.modified
-
 
 
 main:
