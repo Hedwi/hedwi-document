@@ -24,7 +24,7 @@ redis:
   address: 127.0.0.1:6379
 keys:
   # your_api_key: <api_secret>
-  key: secret   #需要修改
+  key: 32 secret   #需要修改  secret 格式为32位字符串
 # when enabled, LiveKit will expose prometheus metrics on :6789/metrics
 #prometheus_port: 6789
 turn:
