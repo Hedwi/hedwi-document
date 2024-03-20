@@ -137,3 +137,7 @@ table.docutils td, table.docutils th {
 	border-right: 1px solid var(--main-color) !important;
 	border-bottom: 1px solid var(--main-color) !important;
 }
+
+.highlight .nt {
+    color: #b87210 !important;
+}
