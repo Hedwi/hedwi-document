@@ -18,6 +18,8 @@ Hedwi 海未会议 私有部署文档
 
    how-to-install
    how-to-upgrade
+   vs-tencent-meeting
    #releaseNote
 
 * :ref:`search`
+
