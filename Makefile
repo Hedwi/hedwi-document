@@ -1,7 +1,7 @@
 all: main deploy
 
 
-saas: api docs mail meet main deploy
+saas: api docSuite mailSuite meet main deploy
 
 api:
 	cd ./hedwi-api/ && rm -rf build/* && make html && cd ..
@@ -9,17 +9,17 @@ api:
 	cp -r  ./hedwi-api/build/html/* static/hedwi-api/
 	date -r ./hedwi-api/build/html/index.html "+%Y-%m-%d %H:%M:%S" > date.modified
 
-mail:
-	cd ./hedwi-mail/ && rm -rf build/* && make html && cd ..
-	rm -rf static/hedwi-mail/*
-	cp -r  ./hedwi-mail/build/html/* static/hedwi-mail/
-	date -r ./hedwi-mail/build/html/index.html "+%Y-%m-%d %H:%M:%S" > mail.modified
+mailSuite:
+	cd ./hedwi-mail-suite/ && rm -rf build/* && make html && cd ..
+	rm -rf static/hedwi-mail-suite/*
+	cp -r  ./hedwi-mail-suite/build/html/* static/hedwi-mail-suite/
+	date -r ./hedwi-mail-suite/build/html/index.html "+%Y-%m-%d %H:%M:%S" > mail.modified
 
-docs:
-	cd ./hedwi-docs/ rm -rf build/* && make html && cd ..
-	rm -rf static/hedwi-docs/*
-	cp -r  ./hedwi-docs/build/html/* static/hedwi-docs/
-	date -r ./hedwi-docs/build/html/index.html "+%Y-%m-%d %H:%M:%S" > docs.modified
+docSuite:
+	cd ./hedwi-doc-suite/ rm -rf build/* && make html && cd ..
+	rm -rf static/hedwi-doc-suite/*
+	cp -r  ./hedwi-doc-suite/build/html/* static/hedwi-doc-suite/
+	date -r ./hedwi-doc-suite/build/html/index.html "+%Y-%m-%d %H:%M:%S" > docs.modified
 
 meet:
 	cd ./hedwi-meet/ && rm -rf build/* && make html && cd ..

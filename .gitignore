@@ -5,7 +5,9 @@ config.toml
 *.modified
 static/hedwi-api/
 static/hedwi-docs/
+static/hedwi-doc-suite/
 static/hedwi-mail/
+static/hedwi-mail-suite/
 static/hedwi-meet/
 main
 vendor

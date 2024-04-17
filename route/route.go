@@ -78,9 +78,13 @@ func InitRouter() *gin.Engine {
 	r.StaticFS("/.well-known", http.FS(wellknownBox))
 
 	mailBox, _ := fs.Sub(StaticBox, "static/hedwi-mail")
+	mailSuiteBox, _ := fs.Sub(StaticBox, "static/hedwi-mail-suite")
+	docSuiteBox, _ := fs.Sub(StaticBox, "static/hedwi-doc-suite")
 	docsBox, _ := fs.Sub(StaticBox, "static/hedwi-docs")
 	sendBox, _ := fs.Sub(StaticBox, "static/hedwi-api")
 	meetBox, _ := fs.Sub(StaticBox, "static/hedwi-meet")
+	r.StaticFS("/doc-suite", http.FS(docSuiteBox))
+	r.StaticFS("/mail-suite", http.FS(mailSuiteBox))
 	r.StaticFS("/mail", http.FS(mailBox))
 	r.StaticFS("/send", http.FS(sendBox))
 	r.StaticFS("/docs", http.FS(docsBox))
