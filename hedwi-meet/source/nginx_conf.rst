@@ -7,7 +7,7 @@ nginx 配置内容
 ------------------------
 
 
-.. code-block:: json
+.. code-block:: bash
 
     server {
         listen              443 ssl http2;

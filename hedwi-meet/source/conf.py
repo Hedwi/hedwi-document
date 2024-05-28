@@ -184,6 +184,8 @@ epub_title = project
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
 html_search_language = 'zh'
+html_last_updated_fmt = '%Y-%m-%d %H:%M:%S'
+
 
 
 # -- Extension configuration -------------------------------------------------

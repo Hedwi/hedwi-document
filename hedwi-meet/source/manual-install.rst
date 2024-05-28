@@ -56,7 +56,7 @@
 ===============================================
 
 
-.. code-block:: json
+.. code-block:: bash
 
     mkdir -p $HEDWI_ROOT/ssls/;
     cd $HEDWI_ROOT/ssls;

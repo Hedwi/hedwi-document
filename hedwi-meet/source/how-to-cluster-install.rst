@@ -9,5 +9,3 @@
 .. toctree::
    :maxdepth: 1
 
-   docker-cluster-install
-   manual-cluster-install

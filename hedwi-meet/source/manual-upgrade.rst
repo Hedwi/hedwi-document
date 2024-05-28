@@ -1,6 +1,6 @@
-.. _help-upgrade:
+.. _help-manual-upgrade:
 
-.. _upgrade:
+.. _manual-upgrade:
 
 
 手动升级
@@ -12,4 +12,4 @@
 
 
 重启 hedwi-meetserver
-=====================
+========================

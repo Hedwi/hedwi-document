@@ -3,42 +3,51 @@
 .. _docker-install:
 
 
-使用 docker 部署（推荐）
+docker部署 (推荐)
 ------------------------
 
-安装
+0. 环境要求
 =====================
+最低1G内存 1核CPU  linux 64位系统
+
+1. 配置DNS
+===============================================
 
 .. code-block:: bash
 
-    curl 'https://hedwi.com/install' |sh
+   在域名服务商或者DNS解析服务商配置域名A记录指向服务器公网IP
 
 
+2. 安装docker, git 
+======================================
 
-配置
-============
 
-  如果使用自定义的域名 需要修改docs.dev中的 HEDWI_LICENSE 变量
-  证书在 https://hedwi.com/license 申请
+3. 安装
+===============================================
 
-启动
-============
 
 .. code-block:: bash
 
-    cd hedwi_pkgs/compose/docs && docker compose up -d
+  git clone https://github.com/Hedwi/hedwi-docker.git
+  cd hedwi-docker/meet
+  cp env.example .env
+  #修改.env配置
+  make
 
-访问
-============
-
-    访问 http://127.0.0.1:40008 即可
+`配置文件示例 </meet/meet_env.html>`_
 
 
-注册 & 登录
-============
+4. 自动生成免费ssl证书
+===============================================
 
-    - 访问 http://127.0.0.1:40008/signup 注册管理员帐号
-    - 访问 http://127.0.0.1:40008/domain 添加域名hedwi.com 或者申请的证书中的域名
-    - 访问 http://localhost:40008/member 点击管理成员 添加成员 例如 support
-    - 登录使用的账号格式是邮箱: 名称@域名, 例如support@hedwi.com 
-    - 访问 http://localhost:40008/login  点击普通用户 使用刚才添加的普通用户账号登录
+.. code-block:: bash
+
+  make cert
+
+
+5. 重启nginx  
+===============================================
+
+.. code-block:: bash
+
+  make
