@@ -16,7 +16,7 @@ Hedwi 海未企业邮箱文档
 .. toctree::
    :maxdepth: 2
 
-   install
+   docker-install
    record
    releaseNote
 
