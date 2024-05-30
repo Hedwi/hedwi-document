@@ -1,7 +1,7 @@
 .. hedwi documentation master file, created by
    sphinx-quickstart on Tue Jun  4 14:19:04 2019.
 
-Hedwi 海未企业邮箱文档
+Hedwi 海未办公套件私有部署文档
 ==================================
 
 
@@ -17,7 +17,5 @@ Hedwi 海未企业邮箱文档
    :maxdepth: 2
 
    docker-install
-   record
-   releaseNote
 
 * :ref:`search`

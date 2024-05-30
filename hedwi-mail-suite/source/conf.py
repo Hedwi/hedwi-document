@@ -21,8 +21,8 @@
 import jieba
 html_search_options = {'dict': jieba.DEFAULT_DICT}
 
-project = u'hedwi-mail'
-copyright = u'2019-2023, Hedwi'
+project = u'Hedwi work suite'
+copyright = u'2019-2024, Hedwi'
 author = u'Hedwi'
 
 # The short X.Y version
