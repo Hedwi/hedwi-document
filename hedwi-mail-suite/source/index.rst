@@ -17,5 +17,6 @@ Hedwi 海未办公套件私有部署文档
    :maxdepth: 2
 
    docker-install
+   env-example
 
 * :ref:`search`
