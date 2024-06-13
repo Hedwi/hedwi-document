@@ -20,6 +20,19 @@ docker部署 (推荐)
 2. 安装docker, docker-compose, git
 ======================================
 
+.. code-block:: bash
+
+  mkdir pkgs && cd pkgs
+  wget 'https://download.docker.com/linux/static/stable/x86_64/docker-26.1.4.tgz'
+  tar xf docker-26.1.4.tgz;
+  chmod +x docker/*
+  sudo cp docker/* /usr/local/bin/
+
+  curl -SL https://github.com/docker/compose/releases/download/v2.27.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+
+  yum install git # centos
+  apt install git  # ubuntu/debian
+
 
 3. 安装
 ===============================================
