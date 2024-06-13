@@ -31,20 +31,9 @@ docker部署 (推荐)
   cp env.example .env
   #修改.env配置  修改所有备注『需要修改』的变量
 
-  #修改nginx配置 nginx/conf.d/inbox.conf 中的域名  
-
-  #https 443端口部分
-  listen              443 ssl http2;
-  listen              [::]:443 ssl http2;
-  server_name         work.hedwi.com;  # 可以修改为任意子域名
-
-  #http 80端口部分
-  listen      80;
-  listen      [::]:80;
-  server_name work.hedwi.com;  #可以修改为任意子域名
-
-
   make  #运行起来之后 http 80端口可以访问 应该可以正常访问 http://配置的域名
+
+  # 服务会自动根据配置文件中的邮箱和密码创建管理员账号（用于配置系统、添加用户、添加团队等）和一个普通用户账号admin@你的域名（用于使用系统服务）
 
 
 `配置文件示例 </mail-suite/env-example.html>`_
@@ -65,10 +54,11 @@ docker部署 (推荐)
 
 .. code-block:: bash
 
-  make stop #停掉所有运行的docker容器
+  make down #停掉所有运行的docker容器
   make #启动docker容器
 
 6. 使用https访问 登录
 ===============================================
 
-访问 https://你的域名/hello 页面, 会自动根据配置文件中的邮箱和密码创建管理员账号（用于配置系统、添加用户、添加团队等）和一个普通用户账号admin@你的域名（用于使用系统服务），
+访问 https://work.example.com/login?admin=true (work.example.com为使用的域名), 使用管理员账号登录(配置的邮箱和密码)
+访问 https://work.example.com/hello 页面,  继续添加用户、团队等等。
