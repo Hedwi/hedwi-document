@@ -10,6 +10,7 @@ env 配置内容
 
 .. code-block:: bash
 
+  DOCKER_REGISTRY="registry.cn-shanghai.aliyuncs.com/" #  如果不使用docker镜像，改成空
   DOMAIN="work.example.com"  # 域名 建议使用子域名  需要修改
   ADMIN_EMAIL="xxx@example.com" # 管理员邮箱 需要修改
   ADMIN_PASSWORD="passwordneedchange" # 管理员密码 需要修改

@@ -29,7 +29,21 @@ docker部署 (推荐)
   git clone https://github.com/Hedwi/hedwi-docker.git
   cd hedwi-docker/hedwi
   cp env.example .env
-  #修改.env配置
+  #修改.env配置  修改所有备注『需要修改』的变量
+
+  #修改nginx配置 nginx/conf.d/inbox.conf 中的域名  
+
+  #https 443端口部分
+  listen              443 ssl http2;
+  listen              [::]:443 ssl http2;
+  server_name         work.hedwi.com;  # 可以修改为任意子域名
+
+  #http 80端口部分
+  listen      80;
+  listen      [::]:80;
+  server_name work.hedwi.com;  #可以修改为任意子域名
+
+
   make  #运行起来之后 http 80端口可以访问 应该可以正常访问 http://配置的域名
 
 

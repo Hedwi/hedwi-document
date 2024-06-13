@@ -1,0 +1,26 @@
+@import 'bizstyle.css';
+
+
+
+:root {
+  --color: #ccc;
+  --body-color: #ffffff;
+  --main-color: #3273DC;
+  --bg-color: #ffffff;
+  --br-color: #313131;
+  --main-btn-bg-color: #3273DC;
+  --menu-br-color: #ececec;
+  --menu-bar-item-bg-color: #ffffff;
+  --menu-bar-item-text-color: #ffffff;
+  --menu-bar-item-hover-bg-color: #ececec;
+  --menu-bar-item-hover-text-color: #3273DC;
+  --menu-item-hover-bg-color: #ececec;
+  --selected-folder-color: #3273DC;
+  --selected-folder-text-color: #ffffff;
+  --panel-bg-color: #f9f9f9; /* 面板背景色 */
+  --panel-br-color: #80808040;
+  --color-border-color: #ececec;
+  --color-border-hover-color: #ececec;
+  --mdc-tab-indicator-active-indicator-color: #3273DC;
+  --pre-br-color: #272727;
+}	
