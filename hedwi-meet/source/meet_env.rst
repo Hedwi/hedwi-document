@@ -9,6 +9,7 @@ meetserver 配置
 
 .. code-block:: bash
 
+    DOCKER_REGISTRY="registry.cn-shanghai.aliyuncs.com/" # 如果访问docker hub比较慢，可以改成使用阿里云容器服务 "registry.cn-shanghai.aliyuncs.com/"
     DOMAIN="meet.example.com" # 域名 建议使用子域名  需要修改
     BINDIP="127.0.0.1" # 监听地址
     REDIS_ADDR="127.0.0.1:6379"  # redis 地址

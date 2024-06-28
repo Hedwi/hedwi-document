@@ -32,6 +32,7 @@ docker部署 (推荐)
   cd hedwi-docker/meet
   cp env.example .env
   #修改.env配置
+
   make
 
 `配置文件示例 </meet/meet_env.html>`_
@@ -50,4 +51,5 @@ docker部署 (推荐)
 
 .. code-block:: bash
 
-  make
+  make down && make
+

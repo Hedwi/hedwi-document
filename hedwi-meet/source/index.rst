@@ -16,8 +16,8 @@ Hedwi 海未会议 私有部署文档
 .. toctree::
    :maxdepth: 2
 
-   how-to-install
-   how-to-upgrade
+   docker-install  
+   docker-upgrade  
    vs-tencent-meeting
    #releaseNote
 
