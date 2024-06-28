@@ -3,13 +3,15 @@ all: main deploy
 
 saas: api mailSuite meet main deploy
 
+doc:api mail meet
+
 api:
 	cd ./hedwi-api/ && rm -rf build/* && make html && cd ..
 	rm -rf static/hedwi-api/*
 	cp -r  ./hedwi-api/build/html/* static/hedwi-api/
 	date -r ./hedwi-api/build/html/index.html "+%Y-%m-%d %H:%M:%S" > date.modified
 
-mailSuite:
+mail:
 	cd ./hedwi-mail-suite/ && rm -rf build/* && make html && cd ..
 	rm -rf static/hedwi-mail-suite/*
 	cp -r  ./hedwi-mail-suite/build/html/* static/hedwi-mail-suite/
