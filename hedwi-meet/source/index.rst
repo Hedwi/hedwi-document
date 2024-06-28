@@ -18,6 +18,7 @@ Hedwi 海未会议 私有部署文档
 
    docker-install  
    docker-upgrade  
+   download
    vs-tencent-meeting
    #releaseNote
 
