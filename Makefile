@@ -1,7 +1,7 @@
 all: main deploy
 
 
-saas: api mailSuite meet main deploy
+saas: api mail meet main deploy
 
 doc:api mail meet
 
