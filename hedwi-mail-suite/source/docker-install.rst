@@ -22,6 +22,8 @@ docker部署 (推荐)
 
 .. code-block:: bash
 
+  # 已经安装的话可以跳过
+
   mkdir pkgs && cd pkgs
   wget 'https://download.docker.com/linux/static/stable/x86_64/docker-26.1.4.tgz'
   tar xf docker-26.1.4.tgz;
