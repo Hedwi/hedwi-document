@@ -1,7 +1,7 @@
 .. hedwi documentation master file, created by
    sphinx-quickstart on Tue Jun  4 14:19:04 2019.
 
-Hedwi 海未办公套件私有部署文档
+API
 ==================================
 
 
@@ -10,14 +10,24 @@ Hedwi 海未办公套件私有部署文档
         <a target="_blank" href="https://hedwi.com" >Hedwi官网 </a>
 
 
-目录
+kanban
 -----------
 
 .. toctree::
    :maxdepth: 2
 
-   docker-install
-   upgrade
-   api_index
+   api_kanban
 
 * :ref:`search`
+
+
+calendar
+-----------
+
+.. toctree::
+   :maxdepth: 2
+
+   api_calendar
+
+* :ref:`search`
+
