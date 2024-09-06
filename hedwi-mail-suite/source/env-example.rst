@@ -42,3 +42,6 @@ env 配置内容
   HEDWI_MEET_KEY="changekeyandsecret" # 视频会议创建使用的key 需要修改
   HEDWI_MEET_SECRET="c7056e2x9689f7f3ecx8c6e4055c4bc565dc9c5a" #  视频会议创建使用的secret 需要修改
   HEDWI_MEET_ADDR="127.0.0.1:8888" # 视频会议web监听地址
+  MQTT_ID="1" # mqtt client id  
+  MQTT_IP="127.0.0.1" # mqtt 监听地址
+  MQTT_PORT="1883"   # mqtt 监听端口
