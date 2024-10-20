@@ -1,14 +1,14 @@
-.. _api_calendar:
+.. _api_note:
 
-.. _api-calendar-example:
+.. _api-note-example:
 
 
-.. _calendar.list:
+.. _note.list:
 
-获取日历列表
+列出笔记
 -----------------------
 接口地址：
-    * /api/calendar/collection/list
+    * /api/note/list
 HTTP 请求方式：
     * GET
 请求参数：
@@ -18,7 +18,7 @@ HTTP 请求方式：
 
 示例::
 
-    curl -X GET "$BASE_URL/api/calendar/collection/list"
+    curl -X GET "$BASE_URL/api/note/list"
     
 返回参考：
 
@@ -28,10 +28,14 @@ HTTP 请求方式：
         }
 
 
-创建日历
+
+
+.. _note.create:
+
+创建笔记
 -----------------------
 接口地址：
-    * /api/calendar/collection/create
+    * /api/note/create
 HTTP 请求方式：
     * POST
 请求参数：
@@ -41,7 +45,7 @@ HTTP 请求方式：
 
 示例::
 
-    curl -X GET "$BASE_URL/api/calendar/collection/create"
+    curl -X POST "$BASE_URL/api/note/create"
     
 返回参考：
 
@@ -51,33 +55,12 @@ HTTP 请求方式：
         }
 
 
-更新日历
+.. _note.detail:
+
+获取笔记详情
 -----------------------
 接口地址：
-    * /api/calendar/collection/update
-HTTP 请求方式：
-    * POST
-请求参数：
-    * -
-响应代码：
-    * 共通返回
-
-示例::
-
-    curl -X POST "$BASE_URL/api/calendar/collection/update"
-    
-返回参考：
-
-    * JSON::
-
-        {
-        }
-
-
-获取日历事件列表
------------------------
-接口地址：
-    * /api/calendar/event/list
+    * /api/note/detail/:id
 HTTP 请求方式：
     * GET
 请求参数：
@@ -87,7 +70,7 @@ HTTP 请求方式：
 
 示例::
 
-    curl -X GET "$BASE_URL/api/calendar/event/list"
+    curl -X GET "$BASE_URL/api/note/detail/:id"
     
 返回参考：
 
@@ -96,32 +79,13 @@ HTTP 请求方式：
         {
         }
 
-获取日历事件详情
+
+.. _note.delete:
+
+删除笔记
 -----------------------
 接口地址：
-    * /api/calendar/event/detail/:id
-HTTP 请求方式：
-    * GET
-请求参数：
-    * -
-响应代码：
-    * 共通返回
-
-示例::
-
-    curl -X GET "$BASE_URL/api/calendar/event/detail/:id"
-    
-返回参考：
-
-    * JSON::
-
-        {
-        }
-
-创建日历事件
------------------------
-接口地址：
-    * /api/calendar/event/create
+    	* /api/note/delete
 HTTP 请求方式：
     * POST
 请求参数：
@@ -131,7 +95,7 @@ HTTP 请求方式：
 
 示例::
 
-    curl -X POST "$BASE_URL/api/calendar/event/create"
+    curl -X POST "$BASE_URL/api/note/delete"
     
 返回参考：
 
@@ -140,10 +104,15 @@ HTTP 请求方式：
         {
         }
 
-修改日历事件
+
+
+
+.. _note.archive:
+
+归档笔记
 -----------------------
 接口地址：
-    * /api/calendar/event/update
+    * /api/note/archive
 HTTP 请求方式：
     * POST
 请求参数：
@@ -153,7 +122,7 @@ HTTP 请求方式：
 
 示例::
 
-    curl -X POST "$BASE_URL/api/calendar/event/update"
+    curl -X POST "$BASE_URL/api/note/archive"
     
 返回参考：
 
@@ -162,10 +131,13 @@ HTTP 请求方式：
         {
         }
 
-删除日历事件
+
+.. _note.unarchive:
+
+取消归档笔记
 -----------------------
 接口地址：
-    * /api/calendar/event/delete
+    * /api/note/unarchive
 HTTP 请求方式：
     * POST
 请求参数：
@@ -175,7 +147,7 @@ HTTP 请求方式：
 
 示例::
 
-    curl -X POST "$BASE_URL/api/calendar/event/delete"
+    curl -X POST "$BASE_URL/api/note/unarchive"
     
 返回参考：
 
@@ -184,3 +156,51 @@ HTTP 请求方式：
         {
         }
 
+.. _note.starredstate:
+
+设置笔记星标状态
+-----------------------
+接口地址：
+    * /api/note/starredstate
+HTTP 请求方式：
+    * POST
+请求参数：
+    * -
+响应代码：
+    * 共通返回
+
+示例::
+
+    curl -X POST "$BASE_URL/api/note/starredstate"
+    
+返回参考：
+
+    * JSON::
+
+        {
+        }
+
+
+.. _note.importantstate:
+
+设置笔记重要状态
+-----------------------
+接口地址：
+    * /api/note/importantstate
+HTTP 请求方式：
+    * POST
+请求参数：
+    * -
+响应代码：
+    * 共通返回
+
+示例::
+
+    curl -X POST "$BASE_URL/api/note/importantstate"
+    
+返回参考：
+
+    * JSON::
+
+        {
+        }

@@ -1,14 +1,13 @@
-.. _api_kanban:
+.. _api_mail:
 
-.. _api-kanban-example:
+.. _api-mail-example:
 
+.. _mail.list:
 
-.. _kanban-project.List:
-
-列出看板项目
+获取邮件列表
 -----------------------
 接口地址：
-    * /api/kanban/project/list
+    * /api/mail/list
 HTTP 请求方式：
     * GET
 请求参数：
@@ -18,50 +17,7 @@ HTTP 请求方式：
 
 示例::
 
-    curl -X GET "$BASE_URL/api/kanban/project/list"
-    
-返回参考：
-
-    * JSON::
-
-        {
-            "code": 0,
-            "message": "",
-            "data": {
-                "list": [
-                    {
-                       "name":       "",
-                        "id":         "",
-                        "creator_id": "",
-                        "team_id":    "",
-                        "color":      "",
-                        "icon":       "",
-                        "icon_color": "",
-                        "name_color": "",
-                    },
-                ], 
-                "uid": "1234567890", 
-                "email": "hello@example.com", 
-            }, 
-        }
-
-
-.. _kanban-project.create:
-
-创建看板项目
------------------------
-接口地址：
-    * /api/kanban/project/create
-HTTP 请求方式：
-    * POST
-请求参数：
-    * -
-响应代码：
-    * 共通返回
-
-示例::
-
-    curl -X POST "$BASE_URL/api/kanban/project/create"
+    curl -X GET "$BASE_URL/api/mail/list"
     
 返回参考：
 
@@ -71,184 +27,10 @@ HTTP 请求方式：
         }
 
 
-.. _kanban-project.move:
-
-移动看板项目
+获取邮件详情
 -----------------------
 接口地址：
-    * /api/kanban/project/move
-HTTP 请求方式：
-    * POST
-请求参数：
-    * -
-响应代码：
-    * 共通返回
-
-示例::
-
-    curl -X POST "$BASE_URL/api/kanban/project/move"
-    
-返回参考：
-
-    * JSON::
-
-        {
-        }
-
-
-
-.. _kanban-project.update:
-
-更新看板项目
------------------------
-接口地址：
-    * /api/kanban/project/update
-HTTP 请求方式：
-    * POST
-请求参数：
-    * -
-响应代码：
-    * 共通返回
-
-示例::
-
-    curl -X POST "$BASE_URL/api/kanban/project/update"
-    
-返回参考：
-
-    * JSON::
-
-        {
-        }
-
-
-
-删除看板项目
------------------------
-接口地址：
-    * /api/kanban/project/delete
-HTTP 请求方式：
-    * POST
-请求参数：
-    * -
-响应代码：
-    * 共通返回
-
-示例::
-
-    curl -X POST "$BASE_URL/api/kanban/project/delete"
-    
-返回参考：
-
-    * JSON::
-
-        {
-        }
-
-
-
-.. _kanban-list.create:
-
-创建看板列表
------------------------
-接口地址：
-    * /api/kanban/list/create
-HTTP 请求方式：
-    * POST
-请求参数：
-    * -
-响应代码：
-    * 共通返回
-
-示例::
-
-    curl -X POST "$BASE_URL/api/kanban/list/create"
-    
-返回参考：
-
-    * JSON::
-
-        {
-        }
-
-
-
-移动看板列表
------------------------
-接口地址：
-    * /api/kanban/list/move
-HTTP 请求方式：
-    * POST
-请求参数：
-    * -
-响应代码：
-    * 共通返回
-
-示例::
-
-    curl -X POST "$BASE_URL/api/kanban/list/move"
-    
-返回参考：
-
-    * JSON::
-
-        {
-        }
-
-
-
-更新看板列表
------------------------
-接口地址：
-    * /api/kanban/list/update
-HTTP 请求方式：
-    * POST
-请求参数：
-    * -
-响应代码：
-    * 共通返回
-
-示例::
-
-    curl -X POST "$BASE_URL/api/kanban/project/update"
-    
-返回参考：
-
-    * JSON::
-
-        {
-        }
-
-
-
-删除看板列表
------------------------
-接口地址：
-    * /api/kanban/list/delete
-HTTP 请求方式：
-    * POST
-请求参数：
-    * -
-响应代码：
-    * 共通返回
-
-示例::
-
-    curl -X POST "$BASE_URL/api/kanban/list/delete"
-    
-返回参考：
-
-    * JSON::
-
-        {
-        }
-
-
-
-获取任务列表
------------------------
-接口地址：
-    * /api/kanban/card/list
+    * /api/mail/detail/:id
 HTTP 请求方式：
     * GET
 请求参数：
@@ -258,7 +40,7 @@ HTTP 请求方式：
 
 示例::
 
-    curl -X GET "$BASE_URL/api/kanban/card/list"
+    curl -X GET "$BASE_URL/api/mail/detail"
     
 返回参考：
 
@@ -268,34 +50,10 @@ HTTP 请求方式：
         }
 
 
-
-创建任务
+获取邮件原始内容
 -----------------------
 接口地址：
-    * /api/kanban/card/create
-HTTP 请求方式：
-    * POST
-请求参数：
-    * -
-响应代码：
-    * 共通返回
-
-示例::
-
-    curl -X POST "$BASE_URL/api/kanban/card/create"
-    
-返回参考：
-
-    * JSON::
-
-        {
-        }
-
-
-获取任务详情
------------------------
-接口地址：
-    * /api/kanban/card/detail/:id
+    * /api/mail/original/:id
 HTTP 请求方式：
     * GET
 请求参数：
@@ -305,7 +63,7 @@ HTTP 请求方式：
 
 示例::
 
-    curl -X GET "$BASE_URL/api/kanban/card/detail/:id"
+    curl -X GET "$BASE_URL/api/mail/original/:id"
     
 返回参考：
 
@@ -315,10 +73,10 @@ HTTP 请求方式：
         }
 
 
-移动任务
+搜索邮件
 -----------------------
 接口地址：
-    * /api/kanban/card/move
+    * /api/mail/search
 HTTP 请求方式：
     * POST
 请求参数：
@@ -328,7 +86,162 @@ HTTP 请求方式：
 
 示例::
 
-    curl -X POST "$BASE_URL/api/kanban/card/move"
+    curl -X POST "$BASE_URL/api/mail/search"
+    
+返回参考：
+
+    * JSON::
+
+        {
+        }
+
+修改邮件阅读状态
+-----------------------
+接口地址：
+    * /api/mail/readstate
+HTTP 请求方式：
+    * POST
+请求参数：
+    * -
+响应代码：
+    * 共通返回
+
+示例::
+
+    curl -X POST "$BASE_URL/api/mail/readstate"
+    
+返回参考：
+
+    * JSON::
+
+        {
+        }
+
+修改邮件星标状态
+-----------------------
+接口地址：
+    * /api/mail/starredstate
+HTTP 请求方式：
+    * POST
+请求参数：
+    * -
+响应代码：
+    * 共通返回
+
+示例::
+
+    curl -X POST "$BASE_URL/api/mail/starredstate"
+    
+返回参考：
+
+    * JSON::
+
+        {
+        }
+
+修改邮件是否重要状态
+-----------------------
+接口地址：
+    * /api/mail/importantstate
+HTTP 请求方式：
+    * POST
+请求参数：
+    * -
+响应代码：
+    * 共通返回
+
+示例::
+
+    curl -X POST "$BASE_URL/api/mail/importantstate"
+    
+返回参考：
+
+    * JSON::
+
+        {
+        }
+
+删除邮件
+-----------------------
+接口地址：
+    * /api/mail/delete
+HTTP 请求方式：
+    * POST
+请求参数：
+    * -
+响应代码：
+    * 共通返回
+
+示例::
+
+    curl -X POST "$BASE_URL/api/mail/delete"
+    
+返回参考：
+
+    * JSON::
+
+        {
+        }
+
+
+永久删除邮件
+-----------------------
+接口地址：
+    * /api/mail/foreverdelete
+HTTP 请求方式：
+    * POST
+请求参数：
+    * -
+响应代码：
+    * 共通返回
+
+示例::
+
+    curl -X POST "$BASE_URL/api/mail/foreverdelete"
+    
+返回参考：
+
+    * JSON::
+
+        {
+        }
+
+归档邮件
+-----------------------
+接口地址：
+    * /api/mail/archive
+HTTP 请求方式：
+    * POST
+请求参数：
+    * -
+响应代码：
+    * 共通返回
+
+示例::
+
+    curl -X POST "$BASE_URL/api/mail/archive"
+    
+返回参考：
+
+    * JSON::
+
+        {
+        }
+
+取消归档邮件
+-----------------------
+接口地址：
+    * /api/mail/unarchive
+HTTP 请求方式：
+    * POST
+请求参数：
+    * -
+响应代码：
+    * 共通返回
+
+示例::
+
+    curl -X POST "$BASE_URL/api/mail/unarchive"
     
 返回参考：
 
@@ -339,10 +252,10 @@ HTTP 请求方式：
 
 
 
-更新任务
+移动邮件到标签分组
 -----------------------
 接口地址：
-    * /api/kanban/card/update
+    * /api/mail/movelabel
 HTTP 请求方式：
     * POST
 请求参数：
@@ -352,7 +265,51 @@ HTTP 请求方式：
 
 示例::
 
-    curl -X POST "$BASE_URL/api/kanban/card/update"
+    curl -X POST "$BASE_URL/api/mail/movelabel"
+    
+返回参考：
+
+    * JSON::
+
+        {
+        }
+
+删除邮件标签分组
+-----------------------
+接口地址：
+    * /api/mail/deletelabel
+HTTP 请求方式：
+    * POST
+请求参数：
+    * -
+响应代码：
+    * 共通返回
+
+示例::
+
+    curl -X POST "$BASE_URL/api/mail/deletelabel"
+    
+返回参考：
+
+    * JSON::
+
+        {
+        }
+
+应用邮件标签分组
+-----------------------
+接口地址：
+    * /api/mail/applylabel
+HTTP 请求方式：
+    * POST
+请求参数：
+    * -
+响应代码：
+    * 共通返回
+
+示例::
+
+    curl -X POST "$BASE_URL/api/mail/applylabel"
     
 返回参考：
 
@@ -363,10 +320,10 @@ HTTP 请求方式：
 
 
 
-删除任务
+发送邮件
 -----------------------
 接口地址：
-    * /api/kanban/card/delete
+    * /api/mail/send/:domain
 HTTP 请求方式：
     * POST
 请求参数：
@@ -376,7 +333,7 @@ HTTP 请求方式：
 
 示例::
 
-    curl -X POST "$BASE_URL/api/kanban/card/delete"
+    curl -X POST "$BASE_URL/api/mail/send/:domain"
     
 返回参考：
 
