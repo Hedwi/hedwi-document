@@ -109,7 +109,7 @@ API
 
 
 
-幻灯片 sheets
+表格 sheets
 -----------
 
 .. toctree::
