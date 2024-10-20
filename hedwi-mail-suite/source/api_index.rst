@@ -10,7 +10,7 @@ API
         <a target="_blank" href="https://hedwi.com" >Hedwi官网 </a>
 
 
-mail
+邮箱 mail
 -----------
 
 .. toctree::
@@ -20,8 +20,8 @@ mail
    
    
 
-contacts
------------
+联系人 contacts
+------------------
 
 .. toctree::
    :maxdepth: 2
@@ -31,8 +31,8 @@ contacts
 
 
 
-calendar
------------
+日历 calendar  
+------------------
 
 .. toctree::
    :maxdepth: 2
@@ -42,8 +42,8 @@ calendar
 
 
 
-ai
------------
+人工智能 AI
+-------------
 
 .. toctree::
    :maxdepth: 2
@@ -53,7 +53,7 @@ ai
 
 
 
-chat
+聊天 chat
 -----------
 
 .. toctree::
@@ -64,7 +64,7 @@ chat
 
 
 
-meet
+会议 meet
 -----------
 
 .. toctree::
@@ -75,8 +75,8 @@ meet
 
 
 
-kanban
------------
+看板 kanban
+--------------
 
 .. toctree::
    :maxdepth: 2
@@ -87,7 +87,7 @@ kanban
 
 
 
-drive
+网盘 drive
 -----------
 
 .. toctree::
@@ -98,7 +98,7 @@ drive
 
 
 
-docs
+文档 docs
 -----------
 
 .. toctree::
@@ -109,7 +109,7 @@ docs
 
 
 
-sheets
+幻灯片 sheets
 -----------
 
 .. toctree::
@@ -120,8 +120,8 @@ sheets
 
 
 
-slides
------------
+幻灯片 slides
+--------------
 
 .. toctree::
    :maxdepth: 2
@@ -132,7 +132,7 @@ slides
 
 
 
-note
+笔记 note
 -----------
 
 .. toctree::
