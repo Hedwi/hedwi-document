@@ -45,3 +45,5 @@ env 配置内容
   MQTT_ID="1" # mqtt client id  
   MQTT_IP="127.0.0.1" # mqtt 监听地址
   MQTT_PORT="1883"   # mqtt 监听端口
+  MQTT_PROTOCOL="wss"  # mqtt 协议
+  MQTT_PUBLIC_PORT="41883" # mqtt 公网端口
