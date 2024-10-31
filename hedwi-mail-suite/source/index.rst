@@ -7,7 +7,9 @@ Hedwi 海未办公套件私有部署文档
 
 .. raw:: html
 
-        <a target="_blank" href="https://hedwi.com" >Hedwi官网 </a>
+      <a target="_blank" href="https://hedwi.com" >Hedwi官网</a>
+      <br/>
+      <a target="_blank" href="https://document.hedwi.com" >文档中心</a>
 
 
 目录

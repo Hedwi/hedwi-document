@@ -8,6 +8,8 @@ Hedwi API文档
 .. raw:: html
 
         <a target="_blank" href="https://hedwi.com" >Hedwi官网 <img border="0" src="https://hedwi.com/mail/zh-hans/assets/images/mail.svg" style="width: 30px;" title="hedwi官网"></a>
+        <br/>
+        <a target="_blank" href="https://document.hedwi.com" >文档中心</a>
 
 
 目录
