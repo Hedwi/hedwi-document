@@ -21,6 +21,7 @@ env 配置内容
   MINIO_USESSL="false" # minio 是否使用https
   MINIO_WEB_ADDR="127.0.0.1:9001" # minio web界面监听地址
   HEDWI_LICENSE="" #  hedwi证书  在网站 https://hedwi.com/signup 注册管理员账号 然后在 https://hedwi.com/license 生成  需要修改
+  PUBLIC_DRIVE_PREFIX="" # minio访问前缀 与nginx配置对应 默认不需要填写
   CRDB_ADDR="127.0.0.1:26257" # cockroachdb 监听地址
   CRDB_WEB_ADDR="127.0.0.1:42080" # cockroachdb web 监听地址
   DB_NAME="hedwi_selfhost" #  数据库名称
