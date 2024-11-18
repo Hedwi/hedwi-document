@@ -3,6 +3,7 @@ package route
 import (
 	"embed"
 	"flag"
+	"fmt"
 	"io/fs"
 	"net/http"
 	"time"
@@ -77,16 +78,31 @@ func InitRouter() *gin.Engine {
 	wellknownBox, _ := fs.Sub(StaticBox, "wellknown")
 	r.StaticFS("/.well-known", http.FS(wellknownBox))
 
-	mailBox, _ := fs.Sub(StaticBox, "static/hedwi-mail")
-	mailSuiteBox, _ := fs.Sub(StaticBox, "static/hedwi-mail-suite")
-	sendBox, _ := fs.Sub(StaticBox, "static/hedwi-api")
-	meetBox, _ := fs.Sub(StaticBox, "static/hedwi-meet")
-	r.StaticFS("/mail-suite", http.FS(mailSuiteBox))
-	r.StaticFS("/work-suite", http.FS(mailSuiteBox))
-	r.StaticFS("/mail", http.FS(mailBox))
-	r.StaticFS("/send", http.FS(sendBox))
-	r.StaticFS("/meet", http.FS(meetBox))
+	locales := []string{"zh-hans", "en-us"}
+	for _, locale := range locales {
+		mailBox, _ := fs.Sub(StaticBox, "static/hedwi-mail-suite/"+locale)
+		sendBox, _ := fs.Sub(StaticBox, "static/hedwi-api/"+locale)
+		meetBox, _ := fs.Sub(StaticBox, "static/hedwi-meet/"+locale)
+		fmt.Println(mailBox)
+		r.StaticFS("/mail-suite/"+locale, http.FS(mailBox))
+		r.StaticFS("/api/"+locale, http.FS(sendBox))
+		r.StaticFS("/meet/"+locale, http.FS(meetBox))
+	}
+
 	r.StaticFS("/static", http.FS(staticBox))
+
+	/*
+		mailBox, _ := fs.Sub(StaticBox, "static/hedwi-mail")
+		mailSuiteBox, _ := fs.Sub(StaticBox, "static/hedwi-mail-suite")
+		sendBox, _ := fs.Sub(StaticBox, "static/hedwi-api")
+		meetBox, _ := fs.Sub(StaticBox, "static/hedwi-meet")
+		r.StaticFS("/mail-suite", http.FS(mailSuiteBox))
+		r.StaticFS("/work-suite", http.FS(mailSuiteBox))
+
+		r.StaticFS("/mail", http.FS(mailBox))
+		r.StaticFS("/send", http.FS(sendBox))
+		r.StaticFS("/meet", http.FS(meetBox))
+	*/
 
 	//r.StaticFS("/mail", http.Dir("./mail"))
 	//r.StaticFS("/mail", pkger.Dir("/mail"))
