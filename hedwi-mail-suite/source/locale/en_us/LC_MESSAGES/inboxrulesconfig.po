@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-05 09:54+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/inboxrulesconfig.rst:6
+msgid "收信转发配置"
+msgstr "Email forwarding configuration"
+
+#: ../../source/inboxrulesconfig.rst:8
+msgid "hedwi支持配置邮件转发规则，这样就可以轻松获得一个简单的域名邮箱了。"
+msgstr "hedwi supports configuring email forwarding rules, so you can easily get a simple domain email."
+
+#: ../../source/inboxrulesconfig.rst:10
+msgid "匹配策略支持匹配收件人、发件人和主题。匹配策略配合匹配条件可以将符合条件的邮件转发到自定义的邮件地址。"
+msgstr "Matching strategy supports matching recipients, senders, and subjects. Matching strategy combined with matching conditions can forward emails that meet the conditions to a custom email address."
+
+#: ../../source/inboxrulesconfig.rst:12
+msgid "匹配条件：* 表示匹配任意内容，其它匹配需要填写邮箱地址(匹配收件人地址、发件人地址）或关键词（匹配邮件主题 ）。"
+msgstr "Matching condition: * means matching any content, other matching needs to fill in the email address (matching recipient address, sender address) or keywords (matching email subject)."
+
+#: ../../source/inboxrulesconfig.rst:13
+msgid "最多支持10条匹配规则，按照优先级高低从前往后匹配。"
+msgstr "Up to 10 matching rules are supported, and the matching is performed from top to bottom according to the priority."
+

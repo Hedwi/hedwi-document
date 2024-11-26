@@ -4,7 +4,7 @@
 .. _env-example:
 
 env 配置内容
-------------------------
+----------------------------------------------------------------------------
 
 只需要关注 『* 需要修改』的部分
 
@@ -48,3 +48,6 @@ env 配置内容
   MQTT_PORT="1883"                                        #   mqtt 监听端口
   MQTT_PROTOCOL="wss"                                     #   mqtt 协议
   MQTT_PUBLIC_PORT="41883"                                #   mqtt 公网端口
+  AI_TOKEN=""                                             #  需要修改 AI token
+  AI_MODEL=""                                             #  需要修改 AI模型
+  AI_TYPE="deepseek"                                      #  需要修改 AI类型

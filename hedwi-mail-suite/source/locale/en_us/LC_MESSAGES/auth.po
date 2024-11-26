@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-05 09:54+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/auth.rst:6
+msgid "鉴权"
+msgstr "Authentication"
+
+#: ../../source/auth.rst:8
+msgid "使用BasicAuth，需要在HTTP请求headers中增加Authorization"
+msgstr "Use BasicAuth, add Authorization to the HTTP request headers"
+
+#: ../../source/auth.rst:10
+msgid "Authorization生成算法：用冒号拼接字符串api和你的key，然后转成base64，再拼接\"Basic \"前缀即可。"
+msgstr "Authorization generation algorithm: concatenate the string api and your key with a colon, then convert it to base64, and then concatenate the \"Basic \" prefix."
+
+#: ../../source/auth.rst:12
+msgid "golang示例:"
+msgstr "golang example:"
+
+#: ../../source/auth.rst:45
+msgid "python示例:"
+msgstr "python example:"
+
+#: ../../source/auth.rst:99
+msgid "PHP示例："
+msgstr "PHP example:"
+
+#: ../../source/auth.rst:125
+msgid "C#示例："
+msgstr "C# example:"
+
+#: ../../source/auth.rst:144
+msgid "Ruby示例"
+msgstr "Ruby example:"
+

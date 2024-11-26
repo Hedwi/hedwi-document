@@ -1,0 +1,2325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-26 21:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_hans\n"
+"Language-Team: zh_hans <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/zh_hans/api_ai.rst:9 ../../source/zh_hans/api_ai.rst:55
+#: ../../source/zh_hans/api_chat.rst:9
+msgid "列出对话列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:10 ../../source/zh_hans/api_ai.rst:34
+#: ../../source/zh_hans/api_ai.rst:56 ../../source/zh_hans/api_ai.rst:78
+#: ../../source/zh_hans/api_ai.rst:100 ../../source/zh_hans/api_ai.rst:122
+#: ../../source/zh_hans/api_ai.rst:144 ../../source/zh_hans/api_ai.rst:167
+#: ../../source/zh_hans/api_ai.rst:190 ../../source/zh_hans/api_ai.rst:213
+#: ../../source/zh_hans/api_calendar.rst:10
+#: ../../source/zh_hans/api_calendar.rst:33
+#: ../../source/zh_hans/api_calendar.rst:56
+#: ../../source/zh_hans/api_calendar.rst:79
+#: ../../source/zh_hans/api_calendar.rst:101
+#: ../../source/zh_hans/api_calendar.rst:123
+#: ../../source/zh_hans/api_calendar.rst:145
+#: ../../source/zh_hans/api_calendar.rst:167
+#: ../../source/zh_hans/api_chat.rst:10 ../../source/zh_hans/api_contacts.rst:9
+#: ../../source/zh_hans/api_contacts.rst:32
+#: ../../source/zh_hans/api_contacts.rst:55
+#: ../../source/zh_hans/api_contacts.rst:103
+#: ../../source/zh_hans/api_contacts.rst:127
+#: ../../source/zh_hans/api_contacts.rst:150
+#: ../../source/zh_hans/api_contacts.rst:172
+#: ../../source/zh_hans/api_contacts.rst:194
+#: ../../source/zh_hans/api_contacts.rst:217
+#: ../../source/zh_hans/api_contacts.rst:240
+#: ../../source/zh_hans/api_docs.rst:10 ../../source/zh_hans/api_docs.rst:36
+#: ../../source/zh_hans/api_docs.rst:61 ../../source/zh_hans/api_docs.rst:86
+#: ../../source/zh_hans/api_drive.rst:10 ../../source/zh_hans/api_drive.rst:36
+#: ../../source/zh_hans/api_drive.rst:60 ../../source/zh_hans/api_drive.rst:84
+#: ../../source/zh_hans/api_drive.rst:108
+#: ../../source/zh_hans/api_drive.rst:132
+#: ../../source/zh_hans/api_drive.rst:156
+#: ../../source/zh_hans/api_drive.rst:180
+#: ../../source/zh_hans/api_drive.rst:204
+#: ../../source/zh_hans/api_drive.rst:228
+#: ../../source/zh_hans/api_drive.rst:252
+#: ../../source/zh_hans/api_drive.rst:276
+#: ../../source/zh_hans/api_drive.rst:300
+#: ../../source/zh_hans/api_drive.rst:325
+#: ../../source/zh_hans/api_drive.rst:351
+#: ../../source/zh_hans/api_drive.rst:377
+#: ../../source/zh_hans/api_drive.rst:403
+#: ../../source/zh_hans/api_drive.rst:429
+#: ../../source/zh_hans/api_drive.rst:455
+#: ../../source/zh_hans/api_drive.rst:481
+#: ../../source/zh_hans/api_drive.rst:507
+#: ../../source/zh_hans/api_kanban.rst:10
+#: ../../source/zh_hans/api_kanban.rst:53
+#: ../../source/zh_hans/api_kanban.rst:78
+#: ../../source/zh_hans/api_kanban.rst:104
+#: ../../source/zh_hans/api_kanban.rst:128
+#: ../../source/zh_hans/api_kanban.rst:154
+#: ../../source/zh_hans/api_kanban.rst:178
+#: ../../source/zh_hans/api_kanban.rst:202
+#: ../../source/zh_hans/api_kanban.rst:226
+#: ../../source/zh_hans/api_kanban.rst:250
+#: ../../source/zh_hans/api_kanban.rst:274
+#: ../../source/zh_hans/api_kanban.rst:297
+#: ../../source/zh_hans/api_kanban.rst:320
+#: ../../source/zh_hans/api_kanban.rst:344
+#: ../../source/zh_hans/api_kanban.rst:368 ../../source/zh_hans/api_mail.rst:9
+#: ../../source/zh_hans/api_mail.rst:32 ../../source/zh_hans/api_mail.rst:55
+#: ../../source/zh_hans/api_mail.rst:78 ../../source/zh_hans/api_mail.rst:100
+#: ../../source/zh_hans/api_mail.rst:122 ../../source/zh_hans/api_mail.rst:144
+#: ../../source/zh_hans/api_mail.rst:166 ../../source/zh_hans/api_mail.rst:189
+#: ../../source/zh_hans/api_mail.rst:211 ../../source/zh_hans/api_mail.rst:233
+#: ../../source/zh_hans/api_mail.rst:257 ../../source/zh_hans/api_mail.rst:279
+#: ../../source/zh_hans/api_mail.rst:301 ../../source/zh_hans/api_mail.rst:325
+#: ../../source/zh_hans/api_meet.rst:9 ../../source/zh_hans/api_meet.rst:33
+#: ../../source/zh_hans/api_meet.rst:58 ../../source/zh_hans/api_meet.rst:83
+#: ../../source/zh_hans/api_note.rst:10 ../../source/zh_hans/api_note.rst:37
+#: ../../source/zh_hans/api_note.rst:62 ../../source/zh_hans/api_note.rst:87
+#: ../../source/zh_hans/api_note.rst:114 ../../source/zh_hans/api_note.rst:139
+#: ../../source/zh_hans/api_note.rst:163 ../../source/zh_hans/api_note.rst:188
+#: ../../source/zh_hans/api_sheets.rst:10
+#: ../../source/zh_hans/api_sheets.rst:36
+#: ../../source/zh_hans/api_sheets.rst:61
+#: ../../source/zh_hans/api_sheets.rst:86
+#: ../../source/zh_hans/api_slides.rst:10
+#: ../../source/zh_hans/api_slides.rst:36
+#: ../../source/zh_hans/api_slides.rst:61
+#: ../../source/zh_hans/api_slides.rst:86 ../../source/zh_hans/email.rst:9
+#: ../../source/zh_hans/email.rst:71
+msgid "interface address:"
+msgstr "接口地址："
+
+#: ../../source/zh_hans/api_ai.rst:11 ../../source/zh_hans/api_ai.rst:57
+msgid "/api/aichat/thread/list"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:12 ../../source/zh_hans/api_ai.rst:36
+#: ../../source/zh_hans/api_ai.rst:58 ../../source/zh_hans/api_ai.rst:80
+#: ../../source/zh_hans/api_ai.rst:102 ../../source/zh_hans/api_ai.rst:124
+#: ../../source/zh_hans/api_ai.rst:146 ../../source/zh_hans/api_ai.rst:169
+#: ../../source/zh_hans/api_ai.rst:192 ../../source/zh_hans/api_ai.rst:215
+#: ../../source/zh_hans/api_calendar.rst:12
+#: ../../source/zh_hans/api_calendar.rst:35
+#: ../../source/zh_hans/api_calendar.rst:58
+#: ../../source/zh_hans/api_calendar.rst:81
+#: ../../source/zh_hans/api_calendar.rst:103
+#: ../../source/zh_hans/api_calendar.rst:125
+#: ../../source/zh_hans/api_calendar.rst:147
+#: ../../source/zh_hans/api_calendar.rst:169
+#: ../../source/zh_hans/api_chat.rst:12
+#: ../../source/zh_hans/api_contacts.rst:11
+#: ../../source/zh_hans/api_contacts.rst:34
+#: ../../source/zh_hans/api_contacts.rst:57
+#: ../../source/zh_hans/api_contacts.rst:80
+#: ../../source/zh_hans/api_contacts.rst:105
+#: ../../source/zh_hans/api_contacts.rst:129
+#: ../../source/zh_hans/api_contacts.rst:152
+#: ../../source/zh_hans/api_contacts.rst:174
+#: ../../source/zh_hans/api_contacts.rst:196
+#: ../../source/zh_hans/api_contacts.rst:219
+#: ../../source/zh_hans/api_contacts.rst:242
+#: ../../source/zh_hans/api_docs.rst:12 ../../source/zh_hans/api_docs.rst:38
+#: ../../source/zh_hans/api_docs.rst:63 ../../source/zh_hans/api_docs.rst:88
+#: ../../source/zh_hans/api_drive.rst:12 ../../source/zh_hans/api_drive.rst:38
+#: ../../source/zh_hans/api_drive.rst:62 ../../source/zh_hans/api_drive.rst:86
+#: ../../source/zh_hans/api_drive.rst:110
+#: ../../source/zh_hans/api_drive.rst:134
+#: ../../source/zh_hans/api_drive.rst:158
+#: ../../source/zh_hans/api_drive.rst:182
+#: ../../source/zh_hans/api_drive.rst:206
+#: ../../source/zh_hans/api_drive.rst:230
+#: ../../source/zh_hans/api_drive.rst:254
+#: ../../source/zh_hans/api_drive.rst:278
+#: ../../source/zh_hans/api_drive.rst:302
+#: ../../source/zh_hans/api_drive.rst:327
+#: ../../source/zh_hans/api_drive.rst:353
+#: ../../source/zh_hans/api_drive.rst:379
+#: ../../source/zh_hans/api_drive.rst:405
+#: ../../source/zh_hans/api_drive.rst:431
+#: ../../source/zh_hans/api_drive.rst:457
+#: ../../source/zh_hans/api_drive.rst:483
+#: ../../source/zh_hans/api_drive.rst:509
+#: ../../source/zh_hans/api_kanban.rst:12
+#: ../../source/zh_hans/api_kanban.rst:55
+#: ../../source/zh_hans/api_kanban.rst:80
+#: ../../source/zh_hans/api_kanban.rst:106
+#: ../../source/zh_hans/api_kanban.rst:130
+#: ../../source/zh_hans/api_kanban.rst:156
+#: ../../source/zh_hans/api_kanban.rst:180
+#: ../../source/zh_hans/api_kanban.rst:204
+#: ../../source/zh_hans/api_kanban.rst:228
+#: ../../source/zh_hans/api_kanban.rst:252
+#: ../../source/zh_hans/api_kanban.rst:276
+#: ../../source/zh_hans/api_kanban.rst:299
+#: ../../source/zh_hans/api_kanban.rst:322
+#: ../../source/zh_hans/api_kanban.rst:346
+#: ../../source/zh_hans/api_kanban.rst:370 ../../source/zh_hans/api_mail.rst:11
+#: ../../source/zh_hans/api_mail.rst:34 ../../source/zh_hans/api_mail.rst:57
+#: ../../source/zh_hans/api_mail.rst:80 ../../source/zh_hans/api_mail.rst:102
+#: ../../source/zh_hans/api_mail.rst:124 ../../source/zh_hans/api_mail.rst:146
+#: ../../source/zh_hans/api_mail.rst:168 ../../source/zh_hans/api_mail.rst:191
+#: ../../source/zh_hans/api_mail.rst:213 ../../source/zh_hans/api_mail.rst:235
+#: ../../source/zh_hans/api_mail.rst:259 ../../source/zh_hans/api_mail.rst:281
+#: ../../source/zh_hans/api_mail.rst:303 ../../source/zh_hans/api_mail.rst:327
+#: ../../source/zh_hans/api_meet.rst:11 ../../source/zh_hans/api_meet.rst:35
+#: ../../source/zh_hans/api_meet.rst:60 ../../source/zh_hans/api_meet.rst:85
+#: ../../source/zh_hans/api_note.rst:12 ../../source/zh_hans/api_note.rst:39
+#: ../../source/zh_hans/api_note.rst:64 ../../source/zh_hans/api_note.rst:89
+#: ../../source/zh_hans/api_note.rst:116 ../../source/zh_hans/api_note.rst:141
+#: ../../source/zh_hans/api_note.rst:165 ../../source/zh_hans/api_note.rst:190
+#: ../../source/zh_hans/api_sheets.rst:12
+#: ../../source/zh_hans/api_sheets.rst:38
+#: ../../source/zh_hans/api_sheets.rst:63
+#: ../../source/zh_hans/api_sheets.rst:88
+#: ../../source/zh_hans/api_slides.rst:12
+#: ../../source/zh_hans/api_slides.rst:38
+#: ../../source/zh_hans/api_slides.rst:63
+#: ../../source/zh_hans/api_slides.rst:88
+msgid "HTTP request method:"
+msgstr "HTTP请求方式"
+
+#: ../../source/zh_hans/api_ai.rst:13 ../../source/zh_hans/api_ai.rst:59
+#: ../../source/zh_hans/api_ai.rst:147 ../../source/zh_hans/api_ai.rst:216
+#: ../../source/zh_hans/api_calendar.rst:13
+#: ../../source/zh_hans/api_calendar.rst:82
+#: ../../source/zh_hans/api_calendar.rst:104
+#: ../../source/zh_hans/api_chat.rst:13
+#: ../../source/zh_hans/api_contacts.rst:12
+#: ../../source/zh_hans/api_contacts.rst:106
+#: ../../source/zh_hans/api_contacts.rst:153
+#: ../../source/zh_hans/api_docs.rst:13 ../../source/zh_hans/api_drive.rst:13
+#: ../../source/zh_hans/api_drive.rst:39 ../../source/zh_hans/api_drive.rst:63
+#: ../../source/zh_hans/api_drive.rst:87 ../../source/zh_hans/api_drive.rst:111
+#: ../../source/zh_hans/api_drive.rst:135
+#: ../../source/zh_hans/api_drive.rst:159
+#: ../../source/zh_hans/api_drive.rst:183
+#: ../../source/zh_hans/api_drive.rst:207
+#: ../../source/zh_hans/api_drive.rst:231
+#: ../../source/zh_hans/api_kanban.rst:13
+#: ../../source/zh_hans/api_kanban.rst:253
+#: ../../source/zh_hans/api_kanban.rst:300 ../../source/zh_hans/api_mail.rst:12
+#: ../../source/zh_hans/api_mail.rst:35 ../../source/zh_hans/api_mail.rst:58
+#: ../../source/zh_hans/api_meet.rst:86 ../../source/zh_hans/api_note.rst:13
+#: ../../source/zh_hans/api_note.rst:65 ../../source/zh_hans/api_sheets.rst:13
+#: ../../source/zh_hans/api_slides.rst:13
+msgid "GET"
+msgstr "GET"
+
+#: ../../source/zh_hans/api_ai.rst:14 ../../source/zh_hans/api_ai.rst:38
+#: ../../source/zh_hans/api_ai.rst:60 ../../source/zh_hans/api_ai.rst:82
+#: ../../source/zh_hans/api_ai.rst:104 ../../source/zh_hans/api_ai.rst:126
+#: ../../source/zh_hans/api_ai.rst:148 ../../source/zh_hans/api_ai.rst:171
+#: ../../source/zh_hans/api_ai.rst:194 ../../source/zh_hans/api_ai.rst:217
+#: ../../source/zh_hans/api_calendar.rst:14
+#: ../../source/zh_hans/api_calendar.rst:37
+#: ../../source/zh_hans/api_calendar.rst:60
+#: ../../source/zh_hans/api_calendar.rst:83
+#: ../../source/zh_hans/api_calendar.rst:105
+#: ../../source/zh_hans/api_calendar.rst:127
+#: ../../source/zh_hans/api_calendar.rst:149
+#: ../../source/zh_hans/api_calendar.rst:171
+#: ../../source/zh_hans/api_chat.rst:14
+#: ../../source/zh_hans/api_contacts.rst:13
+#: ../../source/zh_hans/api_contacts.rst:36
+#: ../../source/zh_hans/api_contacts.rst:59
+#: ../../source/zh_hans/api_contacts.rst:82
+#: ../../source/zh_hans/api_contacts.rst:107
+#: ../../source/zh_hans/api_contacts.rst:131
+#: ../../source/zh_hans/api_contacts.rst:154
+#: ../../source/zh_hans/api_contacts.rst:176
+#: ../../source/zh_hans/api_contacts.rst:198
+#: ../../source/zh_hans/api_contacts.rst:221
+#: ../../source/zh_hans/api_contacts.rst:244
+#: ../../source/zh_hans/api_docs.rst:14 ../../source/zh_hans/api_docs.rst:40
+#: ../../source/zh_hans/api_docs.rst:65 ../../source/zh_hans/api_docs.rst:90
+#: ../../source/zh_hans/api_drive.rst:14 ../../source/zh_hans/api_drive.rst:40
+#: ../../source/zh_hans/api_drive.rst:64 ../../source/zh_hans/api_drive.rst:88
+#: ../../source/zh_hans/api_drive.rst:112
+#: ../../source/zh_hans/api_drive.rst:136
+#: ../../source/zh_hans/api_drive.rst:160
+#: ../../source/zh_hans/api_drive.rst:184
+#: ../../source/zh_hans/api_drive.rst:208
+#: ../../source/zh_hans/api_drive.rst:232
+#: ../../source/zh_hans/api_drive.rst:256
+#: ../../source/zh_hans/api_drive.rst:280
+#: ../../source/zh_hans/api_drive.rst:304
+#: ../../source/zh_hans/api_drive.rst:329
+#: ../../source/zh_hans/api_drive.rst:355
+#: ../../source/zh_hans/api_drive.rst:381
+#: ../../source/zh_hans/api_drive.rst:407
+#: ../../source/zh_hans/api_drive.rst:433
+#: ../../source/zh_hans/api_drive.rst:459
+#: ../../source/zh_hans/api_drive.rst:485
+#: ../../source/zh_hans/api_drive.rst:511
+#: ../../source/zh_hans/api_kanban.rst:14
+#: ../../source/zh_hans/api_kanban.rst:57
+#: ../../source/zh_hans/api_kanban.rst:82
+#: ../../source/zh_hans/api_kanban.rst:108
+#: ../../source/zh_hans/api_kanban.rst:132
+#: ../../source/zh_hans/api_kanban.rst:158
+#: ../../source/zh_hans/api_kanban.rst:182
+#: ../../source/zh_hans/api_kanban.rst:206
+#: ../../source/zh_hans/api_kanban.rst:230
+#: ../../source/zh_hans/api_kanban.rst:254
+#: ../../source/zh_hans/api_kanban.rst:278
+#: ../../source/zh_hans/api_kanban.rst:301
+#: ../../source/zh_hans/api_kanban.rst:324
+#: ../../source/zh_hans/api_kanban.rst:348
+#: ../../source/zh_hans/api_kanban.rst:372 ../../source/zh_hans/api_mail.rst:13
+#: ../../source/zh_hans/api_mail.rst:36 ../../source/zh_hans/api_mail.rst:59
+#: ../../source/zh_hans/api_mail.rst:82 ../../source/zh_hans/api_mail.rst:104
+#: ../../source/zh_hans/api_mail.rst:126 ../../source/zh_hans/api_mail.rst:148
+#: ../../source/zh_hans/api_mail.rst:170 ../../source/zh_hans/api_mail.rst:193
+#: ../../source/zh_hans/api_mail.rst:215 ../../source/zh_hans/api_mail.rst:237
+#: ../../source/zh_hans/api_mail.rst:261 ../../source/zh_hans/api_mail.rst:283
+#: ../../source/zh_hans/api_mail.rst:305 ../../source/zh_hans/api_mail.rst:329
+#: ../../source/zh_hans/api_meet.rst:13 ../../source/zh_hans/api_meet.rst:37
+#: ../../source/zh_hans/api_meet.rst:62 ../../source/zh_hans/api_meet.rst:87
+#: ../../source/zh_hans/api_note.rst:14 ../../source/zh_hans/api_note.rst:41
+#: ../../source/zh_hans/api_note.rst:66 ../../source/zh_hans/api_note.rst:91
+#: ../../source/zh_hans/api_note.rst:118 ../../source/zh_hans/api_note.rst:143
+#: ../../source/zh_hans/api_note.rst:167 ../../source/zh_hans/api_note.rst:192
+#: ../../source/zh_hans/api_sheets.rst:14
+#: ../../source/zh_hans/api_sheets.rst:40
+#: ../../source/zh_hans/api_sheets.rst:65
+#: ../../source/zh_hans/api_sheets.rst:90
+#: ../../source/zh_hans/api_slides.rst:14
+#: ../../source/zh_hans/api_slides.rst:40
+#: ../../source/zh_hans/api_slides.rst:65
+#: ../../source/zh_hans/api_slides.rst:90 ../../source/zh_hans/email.rst:21
+#: ../../source/zh_hans/email.rst:83
+msgid "request params:"
+msgstr "请求参数"
+
+#: ../../source/zh_hans/api_ai.rst:16 ../../source/zh_hans/api_ai.rst:40
+#: ../../source/zh_hans/api_ai.rst:62 ../../source/zh_hans/api_ai.rst:84
+#: ../../source/zh_hans/api_ai.rst:106 ../../source/zh_hans/api_ai.rst:128
+#: ../../source/zh_hans/api_ai.rst:150 ../../source/zh_hans/api_ai.rst:173
+#: ../../source/zh_hans/api_ai.rst:196 ../../source/zh_hans/api_ai.rst:219
+#: ../../source/zh_hans/api_calendar.rst:16
+#: ../../source/zh_hans/api_calendar.rst:39
+#: ../../source/zh_hans/api_calendar.rst:62
+#: ../../source/zh_hans/api_calendar.rst:85
+#: ../../source/zh_hans/api_calendar.rst:107
+#: ../../source/zh_hans/api_calendar.rst:129
+#: ../../source/zh_hans/api_calendar.rst:151
+#: ../../source/zh_hans/api_calendar.rst:173
+#: ../../source/zh_hans/api_chat.rst:16
+#: ../../source/zh_hans/api_contacts.rst:15
+#: ../../source/zh_hans/api_contacts.rst:38
+#: ../../source/zh_hans/api_contacts.rst:61
+#: ../../source/zh_hans/api_contacts.rst:84
+#: ../../source/zh_hans/api_contacts.rst:109
+#: ../../source/zh_hans/api_contacts.rst:133
+#: ../../source/zh_hans/api_contacts.rst:156
+#: ../../source/zh_hans/api_contacts.rst:178
+#: ../../source/zh_hans/api_contacts.rst:200
+#: ../../source/zh_hans/api_contacts.rst:223
+#: ../../source/zh_hans/api_contacts.rst:246
+#: ../../source/zh_hans/api_docs.rst:16 ../../source/zh_hans/api_docs.rst:42
+#: ../../source/zh_hans/api_docs.rst:67 ../../source/zh_hans/api_docs.rst:92
+#: ../../source/zh_hans/api_drive.rst:16 ../../source/zh_hans/api_drive.rst:42
+#: ../../source/zh_hans/api_drive.rst:66 ../../source/zh_hans/api_drive.rst:90
+#: ../../source/zh_hans/api_drive.rst:114
+#: ../../source/zh_hans/api_drive.rst:138
+#: ../../source/zh_hans/api_drive.rst:162
+#: ../../source/zh_hans/api_drive.rst:186
+#: ../../source/zh_hans/api_drive.rst:210
+#: ../../source/zh_hans/api_drive.rst:234
+#: ../../source/zh_hans/api_drive.rst:258
+#: ../../source/zh_hans/api_drive.rst:282
+#: ../../source/zh_hans/api_drive.rst:306
+#: ../../source/zh_hans/api_drive.rst:331
+#: ../../source/zh_hans/api_drive.rst:357
+#: ../../source/zh_hans/api_drive.rst:383
+#: ../../source/zh_hans/api_drive.rst:409
+#: ../../source/zh_hans/api_drive.rst:435
+#: ../../source/zh_hans/api_drive.rst:461
+#: ../../source/zh_hans/api_drive.rst:487
+#: ../../source/zh_hans/api_drive.rst:513
+#: ../../source/zh_hans/api_kanban.rst:16
+#: ../../source/zh_hans/api_kanban.rst:59
+#: ../../source/zh_hans/api_kanban.rst:84
+#: ../../source/zh_hans/api_kanban.rst:110
+#: ../../source/zh_hans/api_kanban.rst:134
+#: ../../source/zh_hans/api_kanban.rst:160
+#: ../../source/zh_hans/api_kanban.rst:184
+#: ../../source/zh_hans/api_kanban.rst:208
+#: ../../source/zh_hans/api_kanban.rst:232
+#: ../../source/zh_hans/api_kanban.rst:256
+#: ../../source/zh_hans/api_kanban.rst:280
+#: ../../source/zh_hans/api_kanban.rst:303
+#: ../../source/zh_hans/api_kanban.rst:326
+#: ../../source/zh_hans/api_kanban.rst:350
+#: ../../source/zh_hans/api_kanban.rst:374 ../../source/zh_hans/api_mail.rst:15
+#: ../../source/zh_hans/api_mail.rst:38 ../../source/zh_hans/api_mail.rst:61
+#: ../../source/zh_hans/api_mail.rst:84 ../../source/zh_hans/api_mail.rst:106
+#: ../../source/zh_hans/api_mail.rst:128 ../../source/zh_hans/api_mail.rst:150
+#: ../../source/zh_hans/api_mail.rst:172 ../../source/zh_hans/api_mail.rst:195
+#: ../../source/zh_hans/api_mail.rst:217 ../../source/zh_hans/api_mail.rst:239
+#: ../../source/zh_hans/api_mail.rst:263 ../../source/zh_hans/api_mail.rst:285
+#: ../../source/zh_hans/api_mail.rst:307 ../../source/zh_hans/api_mail.rst:331
+#: ../../source/zh_hans/api_meet.rst:15 ../../source/zh_hans/api_meet.rst:39
+#: ../../source/zh_hans/api_meet.rst:64 ../../source/zh_hans/api_meet.rst:89
+#: ../../source/zh_hans/api_note.rst:16 ../../source/zh_hans/api_note.rst:43
+#: ../../source/zh_hans/api_note.rst:68 ../../source/zh_hans/api_note.rst:93
+#: ../../source/zh_hans/api_note.rst:120 ../../source/zh_hans/api_note.rst:145
+#: ../../source/zh_hans/api_note.rst:169 ../../source/zh_hans/api_note.rst:194
+#: ../../source/zh_hans/api_sheets.rst:16
+#: ../../source/zh_hans/api_sheets.rst:42
+#: ../../source/zh_hans/api_sheets.rst:67
+#: ../../source/zh_hans/api_sheets.rst:92
+#: ../../source/zh_hans/api_slides.rst:16
+#: ../../source/zh_hans/api_slides.rst:42
+#: ../../source/zh_hans/api_slides.rst:67
+#: ../../source/zh_hans/api_slides.rst:92 ../../source/zh_hans/email.rst:44
+#: ../../source/zh_hans/email.rst:105
+msgid "response code:"
+msgstr "响应代码"
+
+#: ../../source/zh_hans/api_ai.rst:17 ../../source/zh_hans/api_ai.rst:41
+#: ../../source/zh_hans/api_ai.rst:63 ../../source/zh_hans/api_ai.rst:85
+#: ../../source/zh_hans/api_ai.rst:107 ../../source/zh_hans/api_ai.rst:129
+#: ../../source/zh_hans/api_ai.rst:151 ../../source/zh_hans/api_ai.rst:174
+#: ../../source/zh_hans/api_ai.rst:197 ../../source/zh_hans/api_ai.rst:220
+#: ../../source/zh_hans/api_calendar.rst:17
+#: ../../source/zh_hans/api_calendar.rst:40
+#: ../../source/zh_hans/api_calendar.rst:63
+#: ../../source/zh_hans/api_calendar.rst:86
+#: ../../source/zh_hans/api_calendar.rst:108
+#: ../../source/zh_hans/api_calendar.rst:130
+#: ../../source/zh_hans/api_calendar.rst:152
+#: ../../source/zh_hans/api_calendar.rst:174
+#: ../../source/zh_hans/api_chat.rst:17
+#: ../../source/zh_hans/api_contacts.rst:16
+#: ../../source/zh_hans/api_contacts.rst:39
+#: ../../source/zh_hans/api_contacts.rst:62
+#: ../../source/zh_hans/api_contacts.rst:85
+#: ../../source/zh_hans/api_contacts.rst:110
+#: ../../source/zh_hans/api_contacts.rst:134
+#: ../../source/zh_hans/api_contacts.rst:157
+#: ../../source/zh_hans/api_contacts.rst:179
+#: ../../source/zh_hans/api_contacts.rst:201
+#: ../../source/zh_hans/api_contacts.rst:224
+#: ../../source/zh_hans/api_contacts.rst:247
+#: ../../source/zh_hans/api_docs.rst:17 ../../source/zh_hans/api_docs.rst:43
+#: ../../source/zh_hans/api_docs.rst:68 ../../source/zh_hans/api_docs.rst:93
+#: ../../source/zh_hans/api_drive.rst:17 ../../source/zh_hans/api_drive.rst:43
+#: ../../source/zh_hans/api_drive.rst:67 ../../source/zh_hans/api_drive.rst:91
+#: ../../source/zh_hans/api_drive.rst:115
+#: ../../source/zh_hans/api_drive.rst:139
+#: ../../source/zh_hans/api_drive.rst:163
+#: ../../source/zh_hans/api_drive.rst:187
+#: ../../source/zh_hans/api_drive.rst:211
+#: ../../source/zh_hans/api_drive.rst:235
+#: ../../source/zh_hans/api_drive.rst:259
+#: ../../source/zh_hans/api_drive.rst:283
+#: ../../source/zh_hans/api_drive.rst:307
+#: ../../source/zh_hans/api_drive.rst:332
+#: ../../source/zh_hans/api_drive.rst:358
+#: ../../source/zh_hans/api_drive.rst:384
+#: ../../source/zh_hans/api_drive.rst:410
+#: ../../source/zh_hans/api_drive.rst:436
+#: ../../source/zh_hans/api_drive.rst:462
+#: ../../source/zh_hans/api_drive.rst:488
+#: ../../source/zh_hans/api_drive.rst:514
+#: ../../source/zh_hans/api_kanban.rst:17
+#: ../../source/zh_hans/api_kanban.rst:60
+#: ../../source/zh_hans/api_kanban.rst:85
+#: ../../source/zh_hans/api_kanban.rst:111
+#: ../../source/zh_hans/api_kanban.rst:135
+#: ../../source/zh_hans/api_kanban.rst:161
+#: ../../source/zh_hans/api_kanban.rst:185
+#: ../../source/zh_hans/api_kanban.rst:209
+#: ../../source/zh_hans/api_kanban.rst:233
+#: ../../source/zh_hans/api_kanban.rst:257
+#: ../../source/zh_hans/api_kanban.rst:281
+#: ../../source/zh_hans/api_kanban.rst:304
+#: ../../source/zh_hans/api_kanban.rst:327
+#: ../../source/zh_hans/api_kanban.rst:351
+#: ../../source/zh_hans/api_kanban.rst:375 ../../source/zh_hans/api_mail.rst:16
+#: ../../source/zh_hans/api_mail.rst:39 ../../source/zh_hans/api_mail.rst:62
+#: ../../source/zh_hans/api_mail.rst:85 ../../source/zh_hans/api_mail.rst:107
+#: ../../source/zh_hans/api_mail.rst:129 ../../source/zh_hans/api_mail.rst:151
+#: ../../source/zh_hans/api_mail.rst:173 ../../source/zh_hans/api_mail.rst:196
+#: ../../source/zh_hans/api_mail.rst:218 ../../source/zh_hans/api_mail.rst:240
+#: ../../source/zh_hans/api_mail.rst:264 ../../source/zh_hans/api_mail.rst:286
+#: ../../source/zh_hans/api_mail.rst:308 ../../source/zh_hans/api_mail.rst:332
+#: ../../source/zh_hans/api_meet.rst:16 ../../source/zh_hans/api_meet.rst:40
+#: ../../source/zh_hans/api_meet.rst:65 ../../source/zh_hans/api_meet.rst:90
+#: ../../source/zh_hans/api_note.rst:17 ../../source/zh_hans/api_note.rst:44
+#: ../../source/zh_hans/api_note.rst:69 ../../source/zh_hans/api_note.rst:94
+#: ../../source/zh_hans/api_note.rst:121 ../../source/zh_hans/api_note.rst:146
+#: ../../source/zh_hans/api_note.rst:170 ../../source/zh_hans/api_note.rst:195
+#: ../../source/zh_hans/api_sheets.rst:17
+#: ../../source/zh_hans/api_sheets.rst:43
+#: ../../source/zh_hans/api_sheets.rst:68
+#: ../../source/zh_hans/api_sheets.rst:93
+#: ../../source/zh_hans/api_slides.rst:17
+#: ../../source/zh_hans/api_slides.rst:43
+#: ../../source/zh_hans/api_slides.rst:68
+#: ../../source/zh_hans/api_slides.rst:93 ../../source/zh_hans/email.rst:46
+#: ../../source/zh_hans/email.rst:107
+msgid "common response"
+msgstr "共通响应"
+
+#: ../../source/zh_hans/api_ai.rst:19 ../../source/zh_hans/api_ai.rst:43
+#: ../../source/zh_hans/api_ai.rst:65 ../../source/zh_hans/api_ai.rst:87
+#: ../../source/zh_hans/api_ai.rst:109 ../../source/zh_hans/api_ai.rst:131
+#: ../../source/zh_hans/api_ai.rst:153 ../../source/zh_hans/api_ai.rst:176
+#: ../../source/zh_hans/api_ai.rst:199 ../../source/zh_hans/api_ai.rst:222
+#: ../../source/zh_hans/api_calendar.rst:19
+#: ../../source/zh_hans/api_calendar.rst:42
+#: ../../source/zh_hans/api_calendar.rst:65
+#: ../../source/zh_hans/api_calendar.rst:88
+#: ../../source/zh_hans/api_calendar.rst:110
+#: ../../source/zh_hans/api_calendar.rst:132
+#: ../../source/zh_hans/api_calendar.rst:154
+#: ../../source/zh_hans/api_calendar.rst:176
+#: ../../source/zh_hans/api_chat.rst:19
+#: ../../source/zh_hans/api_contacts.rst:18
+#: ../../source/zh_hans/api_contacts.rst:41
+#: ../../source/zh_hans/api_contacts.rst:64
+#: ../../source/zh_hans/api_contacts.rst:87
+#: ../../source/zh_hans/api_contacts.rst:112
+#: ../../source/zh_hans/api_contacts.rst:136
+#: ../../source/zh_hans/api_contacts.rst:159
+#: ../../source/zh_hans/api_contacts.rst:181
+#: ../../source/zh_hans/api_contacts.rst:203
+#: ../../source/zh_hans/api_contacts.rst:226
+#: ../../source/zh_hans/api_contacts.rst:249
+#: ../../source/zh_hans/api_docs.rst:19 ../../source/zh_hans/api_docs.rst:45
+#: ../../source/zh_hans/api_docs.rst:70 ../../source/zh_hans/api_docs.rst:95
+#: ../../source/zh_hans/api_drive.rst:19 ../../source/zh_hans/api_drive.rst:45
+#: ../../source/zh_hans/api_drive.rst:69 ../../source/zh_hans/api_drive.rst:93
+#: ../../source/zh_hans/api_drive.rst:117
+#: ../../source/zh_hans/api_drive.rst:141
+#: ../../source/zh_hans/api_drive.rst:165
+#: ../../source/zh_hans/api_drive.rst:189
+#: ../../source/zh_hans/api_drive.rst:213
+#: ../../source/zh_hans/api_drive.rst:237
+#: ../../source/zh_hans/api_drive.rst:261
+#: ../../source/zh_hans/api_drive.rst:285
+#: ../../source/zh_hans/api_drive.rst:309
+#: ../../source/zh_hans/api_drive.rst:334
+#: ../../source/zh_hans/api_drive.rst:360
+#: ../../source/zh_hans/api_drive.rst:386
+#: ../../source/zh_hans/api_drive.rst:412
+#: ../../source/zh_hans/api_drive.rst:438
+#: ../../source/zh_hans/api_drive.rst:464
+#: ../../source/zh_hans/api_drive.rst:490
+#: ../../source/zh_hans/api_drive.rst:516
+#: ../../source/zh_hans/api_kanban.rst:19
+#: ../../source/zh_hans/api_kanban.rst:62
+#: ../../source/zh_hans/api_kanban.rst:87
+#: ../../source/zh_hans/api_kanban.rst:113
+#: ../../source/zh_hans/api_kanban.rst:137
+#: ../../source/zh_hans/api_kanban.rst:163
+#: ../../source/zh_hans/api_kanban.rst:187
+#: ../../source/zh_hans/api_kanban.rst:211
+#: ../../source/zh_hans/api_kanban.rst:235
+#: ../../source/zh_hans/api_kanban.rst:259
+#: ../../source/zh_hans/api_kanban.rst:283
+#: ../../source/zh_hans/api_kanban.rst:306
+#: ../../source/zh_hans/api_kanban.rst:329
+#: ../../source/zh_hans/api_kanban.rst:353
+#: ../../source/zh_hans/api_kanban.rst:377 ../../source/zh_hans/api_mail.rst:18
+#: ../../source/zh_hans/api_mail.rst:41 ../../source/zh_hans/api_mail.rst:64
+#: ../../source/zh_hans/api_mail.rst:87 ../../source/zh_hans/api_mail.rst:109
+#: ../../source/zh_hans/api_mail.rst:131 ../../source/zh_hans/api_mail.rst:153
+#: ../../source/zh_hans/api_mail.rst:175 ../../source/zh_hans/api_mail.rst:198
+#: ../../source/zh_hans/api_mail.rst:220 ../../source/zh_hans/api_mail.rst:242
+#: ../../source/zh_hans/api_mail.rst:266 ../../source/zh_hans/api_mail.rst:288
+#: ../../source/zh_hans/api_mail.rst:310 ../../source/zh_hans/api_mail.rst:334
+#: ../../source/zh_hans/api_meet.rst:18 ../../source/zh_hans/api_meet.rst:42
+#: ../../source/zh_hans/api_meet.rst:67 ../../source/zh_hans/api_meet.rst:92
+#: ../../source/zh_hans/api_note.rst:19 ../../source/zh_hans/api_note.rst:46
+#: ../../source/zh_hans/api_note.rst:71 ../../source/zh_hans/api_note.rst:96
+#: ../../source/zh_hans/api_note.rst:123 ../../source/zh_hans/api_note.rst:148
+#: ../../source/zh_hans/api_note.rst:172 ../../source/zh_hans/api_note.rst:197
+#: ../../source/zh_hans/api_sheets.rst:19
+#: ../../source/zh_hans/api_sheets.rst:45
+#: ../../source/zh_hans/api_sheets.rst:70
+#: ../../source/zh_hans/api_sheets.rst:95
+#: ../../source/zh_hans/api_slides.rst:19
+#: ../../source/zh_hans/api_slides.rst:45
+#: ../../source/zh_hans/api_slides.rst:70
+#: ../../source/zh_hans/api_slides.rst:95 ../../source/zh_hans/email.rst:48
+#: ../../source/zh_hans/email.rst:109
+msgid "example::"
+msgstr "示例::"
+
+#: ../../source/zh_hans/api_ai.rst:23 ../../source/zh_hans/api_ai.rst:47
+#: ../../source/zh_hans/api_ai.rst:69 ../../source/zh_hans/api_ai.rst:91
+#: ../../source/zh_hans/api_ai.rst:113 ../../source/zh_hans/api_ai.rst:135
+#: ../../source/zh_hans/api_ai.rst:157 ../../source/zh_hans/api_ai.rst:180
+#: ../../source/zh_hans/api_ai.rst:203 ../../source/zh_hans/api_ai.rst:226
+#: ../../source/zh_hans/api_calendar.rst:23
+#: ../../source/zh_hans/api_calendar.rst:46
+#: ../../source/zh_hans/api_calendar.rst:69
+#: ../../source/zh_hans/api_calendar.rst:92
+#: ../../source/zh_hans/api_calendar.rst:114
+#: ../../source/zh_hans/api_calendar.rst:136
+#: ../../source/zh_hans/api_calendar.rst:158
+#: ../../source/zh_hans/api_calendar.rst:180
+#: ../../source/zh_hans/api_chat.rst:23
+#: ../../source/zh_hans/api_contacts.rst:22
+#: ../../source/zh_hans/api_contacts.rst:45
+#: ../../source/zh_hans/api_contacts.rst:68
+#: ../../source/zh_hans/api_contacts.rst:91
+#: ../../source/zh_hans/api_contacts.rst:116
+#: ../../source/zh_hans/api_contacts.rst:140
+#: ../../source/zh_hans/api_contacts.rst:163
+#: ../../source/zh_hans/api_contacts.rst:185
+#: ../../source/zh_hans/api_contacts.rst:207
+#: ../../source/zh_hans/api_contacts.rst:230
+#: ../../source/zh_hans/api_contacts.rst:253
+#: ../../source/zh_hans/api_docs.rst:23 ../../source/zh_hans/api_docs.rst:49
+#: ../../source/zh_hans/api_docs.rst:74 ../../source/zh_hans/api_docs.rst:99
+#: ../../source/zh_hans/api_drive.rst:23 ../../source/zh_hans/api_drive.rst:49
+#: ../../source/zh_hans/api_drive.rst:73 ../../source/zh_hans/api_drive.rst:97
+#: ../../source/zh_hans/api_drive.rst:121
+#: ../../source/zh_hans/api_drive.rst:145
+#: ../../source/zh_hans/api_drive.rst:169
+#: ../../source/zh_hans/api_drive.rst:193
+#: ../../source/zh_hans/api_drive.rst:217
+#: ../../source/zh_hans/api_drive.rst:241
+#: ../../source/zh_hans/api_drive.rst:265
+#: ../../source/zh_hans/api_drive.rst:289
+#: ../../source/zh_hans/api_drive.rst:313
+#: ../../source/zh_hans/api_drive.rst:338
+#: ../../source/zh_hans/api_drive.rst:364
+#: ../../source/zh_hans/api_drive.rst:390
+#: ../../source/zh_hans/api_drive.rst:416
+#: ../../source/zh_hans/api_drive.rst:442
+#: ../../source/zh_hans/api_drive.rst:468
+#: ../../source/zh_hans/api_drive.rst:494
+#: ../../source/zh_hans/api_drive.rst:520
+#: ../../source/zh_hans/api_kanban.rst:23
+#: ../../source/zh_hans/api_kanban.rst:66
+#: ../../source/zh_hans/api_kanban.rst:91
+#: ../../source/zh_hans/api_kanban.rst:117
+#: ../../source/zh_hans/api_kanban.rst:141
+#: ../../source/zh_hans/api_kanban.rst:167
+#: ../../source/zh_hans/api_kanban.rst:191
+#: ../../source/zh_hans/api_kanban.rst:215
+#: ../../source/zh_hans/api_kanban.rst:239
+#: ../../source/zh_hans/api_kanban.rst:263
+#: ../../source/zh_hans/api_kanban.rst:287
+#: ../../source/zh_hans/api_kanban.rst:310
+#: ../../source/zh_hans/api_kanban.rst:333
+#: ../../source/zh_hans/api_kanban.rst:357
+#: ../../source/zh_hans/api_kanban.rst:381 ../../source/zh_hans/api_mail.rst:22
+#: ../../source/zh_hans/api_mail.rst:45 ../../source/zh_hans/api_mail.rst:68
+#: ../../source/zh_hans/api_mail.rst:91 ../../source/zh_hans/api_mail.rst:113
+#: ../../source/zh_hans/api_mail.rst:135 ../../source/zh_hans/api_mail.rst:157
+#: ../../source/zh_hans/api_mail.rst:179 ../../source/zh_hans/api_mail.rst:202
+#: ../../source/zh_hans/api_mail.rst:224 ../../source/zh_hans/api_mail.rst:246
+#: ../../source/zh_hans/api_mail.rst:270 ../../source/zh_hans/api_mail.rst:292
+#: ../../source/zh_hans/api_mail.rst:314 ../../source/zh_hans/api_mail.rst:338
+#: ../../source/zh_hans/api_meet.rst:22 ../../source/zh_hans/api_meet.rst:46
+#: ../../source/zh_hans/api_meet.rst:71 ../../source/zh_hans/api_meet.rst:96
+#: ../../source/zh_hans/api_note.rst:23 ../../source/zh_hans/api_note.rst:50
+#: ../../source/zh_hans/api_note.rst:75 ../../source/zh_hans/api_note.rst:100
+#: ../../source/zh_hans/api_note.rst:127 ../../source/zh_hans/api_note.rst:152
+#: ../../source/zh_hans/api_note.rst:176 ../../source/zh_hans/api_note.rst:201
+#: ../../source/zh_hans/api_sheets.rst:23
+#: ../../source/zh_hans/api_sheets.rst:49
+#: ../../source/zh_hans/api_sheets.rst:74
+#: ../../source/zh_hans/api_sheets.rst:99
+#: ../../source/zh_hans/api_slides.rst:23
+#: ../../source/zh_hans/api_slides.rst:49
+#: ../../source/zh_hans/api_slides.rst:74
+#: ../../source/zh_hans/api_slides.rst:99 ../../source/zh_hans/email.rst:57
+#: ../../source/zh_hans/email.rst:119
+msgid "response example："
+msgstr "响应示例："
+
+#: ../../source/zh_hans/api_ai.rst:25 ../../source/zh_hans/api_ai.rst:49
+#: ../../source/zh_hans/api_ai.rst:71 ../../source/zh_hans/api_ai.rst:93
+#: ../../source/zh_hans/api_ai.rst:115 ../../source/zh_hans/api_ai.rst:137
+#: ../../source/zh_hans/api_ai.rst:159 ../../source/zh_hans/api_ai.rst:182
+#: ../../source/zh_hans/api_ai.rst:205 ../../source/zh_hans/api_ai.rst:228
+#: ../../source/zh_hans/api_calendar.rst:25
+#: ../../source/zh_hans/api_calendar.rst:48
+#: ../../source/zh_hans/api_calendar.rst:71
+#: ../../source/zh_hans/api_calendar.rst:94
+#: ../../source/zh_hans/api_calendar.rst:116
+#: ../../source/zh_hans/api_calendar.rst:138
+#: ../../source/zh_hans/api_calendar.rst:160
+#: ../../source/zh_hans/api_calendar.rst:182
+#: ../../source/zh_hans/api_chat.rst:25
+#: ../../source/zh_hans/api_contacts.rst:24
+#: ../../source/zh_hans/api_contacts.rst:47
+#: ../../source/zh_hans/api_contacts.rst:70
+#: ../../source/zh_hans/api_contacts.rst:93
+#: ../../source/zh_hans/api_contacts.rst:118
+#: ../../source/zh_hans/api_contacts.rst:142
+#: ../../source/zh_hans/api_contacts.rst:165
+#: ../../source/zh_hans/api_contacts.rst:187
+#: ../../source/zh_hans/api_contacts.rst:209
+#: ../../source/zh_hans/api_contacts.rst:232
+#: ../../source/zh_hans/api_contacts.rst:255
+#: ../../source/zh_hans/api_docs.rst:25 ../../source/zh_hans/api_docs.rst:51
+#: ../../source/zh_hans/api_docs.rst:76 ../../source/zh_hans/api_docs.rst:101
+#: ../../source/zh_hans/api_drive.rst:25 ../../source/zh_hans/api_drive.rst:51
+#: ../../source/zh_hans/api_drive.rst:75 ../../source/zh_hans/api_drive.rst:99
+#: ../../source/zh_hans/api_drive.rst:123
+#: ../../source/zh_hans/api_drive.rst:147
+#: ../../source/zh_hans/api_drive.rst:171
+#: ../../source/zh_hans/api_drive.rst:195
+#: ../../source/zh_hans/api_drive.rst:219
+#: ../../source/zh_hans/api_drive.rst:243
+#: ../../source/zh_hans/api_drive.rst:267
+#: ../../source/zh_hans/api_drive.rst:291
+#: ../../source/zh_hans/api_drive.rst:315
+#: ../../source/zh_hans/api_drive.rst:340
+#: ../../source/zh_hans/api_drive.rst:366
+#: ../../source/zh_hans/api_drive.rst:392
+#: ../../source/zh_hans/api_drive.rst:418
+#: ../../source/zh_hans/api_drive.rst:444
+#: ../../source/zh_hans/api_drive.rst:470
+#: ../../source/zh_hans/api_drive.rst:496
+#: ../../source/zh_hans/api_drive.rst:522
+#: ../../source/zh_hans/api_kanban.rst:25
+#: ../../source/zh_hans/api_kanban.rst:68
+#: ../../source/zh_hans/api_kanban.rst:93
+#: ../../source/zh_hans/api_kanban.rst:119
+#: ../../source/zh_hans/api_kanban.rst:143
+#: ../../source/zh_hans/api_kanban.rst:169
+#: ../../source/zh_hans/api_kanban.rst:193
+#: ../../source/zh_hans/api_kanban.rst:217
+#: ../../source/zh_hans/api_kanban.rst:241
+#: ../../source/zh_hans/api_kanban.rst:265
+#: ../../source/zh_hans/api_kanban.rst:289
+#: ../../source/zh_hans/api_kanban.rst:312
+#: ../../source/zh_hans/api_kanban.rst:335
+#: ../../source/zh_hans/api_kanban.rst:359
+#: ../../source/zh_hans/api_kanban.rst:383 ../../source/zh_hans/api_mail.rst:24
+#: ../../source/zh_hans/api_mail.rst:47 ../../source/zh_hans/api_mail.rst:70
+#: ../../source/zh_hans/api_mail.rst:93 ../../source/zh_hans/api_mail.rst:115
+#: ../../source/zh_hans/api_mail.rst:137 ../../source/zh_hans/api_mail.rst:159
+#: ../../source/zh_hans/api_mail.rst:181 ../../source/zh_hans/api_mail.rst:204
+#: ../../source/zh_hans/api_mail.rst:226 ../../source/zh_hans/api_mail.rst:248
+#: ../../source/zh_hans/api_mail.rst:272 ../../source/zh_hans/api_mail.rst:294
+#: ../../source/zh_hans/api_mail.rst:316 ../../source/zh_hans/api_mail.rst:340
+#: ../../source/zh_hans/api_meet.rst:24 ../../source/zh_hans/api_meet.rst:48
+#: ../../source/zh_hans/api_meet.rst:73 ../../source/zh_hans/api_meet.rst:98
+#: ../../source/zh_hans/api_note.rst:25 ../../source/zh_hans/api_note.rst:52
+#: ../../source/zh_hans/api_note.rst:77 ../../source/zh_hans/api_note.rst:102
+#: ../../source/zh_hans/api_note.rst:129 ../../source/zh_hans/api_note.rst:154
+#: ../../source/zh_hans/api_note.rst:178 ../../source/zh_hans/api_note.rst:203
+#: ../../source/zh_hans/api_sheets.rst:25
+#: ../../source/zh_hans/api_sheets.rst:51
+#: ../../source/zh_hans/api_sheets.rst:76
+#: ../../source/zh_hans/api_sheets.rst:101
+#: ../../source/zh_hans/api_slides.rst:25
+#: ../../source/zh_hans/api_slides.rst:51
+#: ../../source/zh_hans/api_slides.rst:76
+#: ../../source/zh_hans/api_slides.rst:101
+msgid "JSON::"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:33
+msgid "创建对话"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:35
+msgid "/api/aichat/thread/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:37 ../../source/zh_hans/api_ai.rst:81
+#: ../../source/zh_hans/api_ai.rst:103 ../../source/zh_hans/api_ai.rst:125
+#: ../../source/zh_hans/api_ai.rst:170 ../../source/zh_hans/api_ai.rst:193
+#: ../../source/zh_hans/api_calendar.rst:36
+#: ../../source/zh_hans/api_calendar.rst:59
+#: ../../source/zh_hans/api_calendar.rst:126
+#: ../../source/zh_hans/api_calendar.rst:148
+#: ../../source/zh_hans/api_calendar.rst:170
+#: ../../source/zh_hans/api_contacts.rst:35
+#: ../../source/zh_hans/api_contacts.rst:58
+#: ../../source/zh_hans/api_contacts.rst:81
+#: ../../source/zh_hans/api_contacts.rst:130
+#: ../../source/zh_hans/api_contacts.rst:175
+#: ../../source/zh_hans/api_contacts.rst:197
+#: ../../source/zh_hans/api_contacts.rst:220
+#: ../../source/zh_hans/api_contacts.rst:243
+#: ../../source/zh_hans/api_docs.rst:39 ../../source/zh_hans/api_docs.rst:64
+#: ../../source/zh_hans/api_docs.rst:89 ../../source/zh_hans/api_drive.rst:255
+#: ../../source/zh_hans/api_drive.rst:279
+#: ../../source/zh_hans/api_drive.rst:303
+#: ../../source/zh_hans/api_drive.rst:328
+#: ../../source/zh_hans/api_drive.rst:354
+#: ../../source/zh_hans/api_drive.rst:380
+#: ../../source/zh_hans/api_drive.rst:406
+#: ../../source/zh_hans/api_drive.rst:432
+#: ../../source/zh_hans/api_drive.rst:458
+#: ../../source/zh_hans/api_drive.rst:484
+#: ../../source/zh_hans/api_drive.rst:510
+#: ../../source/zh_hans/api_kanban.rst:56
+#: ../../source/zh_hans/api_kanban.rst:81
+#: ../../source/zh_hans/api_kanban.rst:107
+#: ../../source/zh_hans/api_kanban.rst:131
+#: ../../source/zh_hans/api_kanban.rst:157
+#: ../../source/zh_hans/api_kanban.rst:181
+#: ../../source/zh_hans/api_kanban.rst:205
+#: ../../source/zh_hans/api_kanban.rst:229
+#: ../../source/zh_hans/api_kanban.rst:277
+#: ../../source/zh_hans/api_kanban.rst:323
+#: ../../source/zh_hans/api_kanban.rst:347
+#: ../../source/zh_hans/api_kanban.rst:371 ../../source/zh_hans/api_mail.rst:81
+#: ../../source/zh_hans/api_mail.rst:103 ../../source/zh_hans/api_mail.rst:125
+#: ../../source/zh_hans/api_mail.rst:147 ../../source/zh_hans/api_mail.rst:169
+#: ../../source/zh_hans/api_mail.rst:192 ../../source/zh_hans/api_mail.rst:214
+#: ../../source/zh_hans/api_mail.rst:236 ../../source/zh_hans/api_mail.rst:260
+#: ../../source/zh_hans/api_mail.rst:282 ../../source/zh_hans/api_mail.rst:304
+#: ../../source/zh_hans/api_mail.rst:328 ../../source/zh_hans/api_meet.rst:12
+#: ../../source/zh_hans/api_meet.rst:36 ../../source/zh_hans/api_meet.rst:61
+#: ../../source/zh_hans/api_note.rst:40 ../../source/zh_hans/api_note.rst:90
+#: ../../source/zh_hans/api_note.rst:117 ../../source/zh_hans/api_note.rst:142
+#: ../../source/zh_hans/api_note.rst:166 ../../source/zh_hans/api_note.rst:191
+#: ../../source/zh_hans/api_sheets.rst:39
+#: ../../source/zh_hans/api_sheets.rst:64
+#: ../../source/zh_hans/api_sheets.rst:89
+#: ../../source/zh_hans/api_slides.rst:39
+#: ../../source/zh_hans/api_slides.rst:64
+#: ../../source/zh_hans/api_slides.rst:89 ../../source/zh_hans/email.rst:15
+#: ../../source/zh_hans/email.rst:77
+msgid "POST"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:77
+msgid "移动对话"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:79
+msgid "/api/aichat/thread/move"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:99
+msgid "更新对话"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:101
+msgid "/api/aichat/thread/update"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:121
+msgid "删除对话"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:123
+msgid "/api/aichat/thread/delete"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:143
+msgid "列出对话消息"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:145
+msgid "/api/aichat/content/list/:id"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:166
+msgid "创建对话消息"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:168
+msgid "/api/aichat/content/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:189
+msgid "删除对话消息"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:191
+msgid "/api/aichat/content/delete"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:212
+msgid "对话消息流"
+msgstr ""
+
+#: ../../source/zh_hans/api_ai.rst:214
+msgid "/api/aichat/stream/:id"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:9
+msgid "获取日历列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:11
+msgid "/api/calendar/collection/list"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:32
+msgid "创建日历"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:34
+msgid "/api/calendar/collection/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:55
+msgid "更新日历"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:57
+msgid "/api/calendar/collection/update"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:78
+msgid "获取日历事件列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:80
+msgid "/api/calendar/event/list"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:100
+msgid "获取日历事件详情"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:102
+msgid "/api/calendar/event/detail/:id"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:122
+msgid "创建日历事件"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:124
+msgid "/api/calendar/event/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:144
+msgid "修改日历事件"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:146
+msgid "/api/calendar/event/update"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:166
+msgid "删除日历事件"
+msgstr ""
+
+#: ../../source/zh_hans/api_calendar.rst:168
+msgid "/api/calendar/event/delete"
+msgstr ""
+
+#: ../../source/zh_hans/api_chat.rst:11
+msgid "/api/chat/list"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:8
+msgid "获取联系人列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:10
+msgid "/api/contact/list"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:31
+msgid "创建联系人"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:33
+msgid "/api/contact/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:54
+msgid "搜索联系人"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:56
+msgid "/api/contact/search"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:76
+msgid "更新联系人信息"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:102
+msgid "获取联系人详情"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:104
+msgid "/api/contact/detail/:id"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:126
+msgid "删除联系人"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:128
+msgid "/api/contact/delete"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:149
+msgid "联系人标签列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:151
+msgid "/api/contact/label/list"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:171
+msgid "创建联系人标签"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:173
+msgid "/api/contact/label/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:193
+msgid "删除联系人标签"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:195
+msgid "/api/contact/label/deletelabel"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:216
+msgid "应用联系人标签"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:218
+msgid "/api/contact/label/applylabel"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:239
+msgid "修改联系人星标状态"
+msgstr ""
+
+#: ../../source/zh_hans/api_contacts.rst:241
+msgid "/api/contact/label/starredstate"
+msgstr ""
+
+#: ../../source/zh_hans/api_docs.rst:9 ../../source/zh_hans/api_sheets.rst:9
+#: ../../source/zh_hans/api_slides.rst:9
+msgid "获取文档详情"
+msgstr ""
+
+#: ../../source/zh_hans/api_docs.rst:11
+msgid "/api/docs/detail/:id"
+msgstr ""
+
+#: ../../source/zh_hans/api_docs.rst:35 ../../source/zh_hans/api_sheets.rst:35
+#: ../../source/zh_hans/api_slides.rst:35
+msgid "创建文档"
+msgstr ""
+
+#: ../../source/zh_hans/api_docs.rst:37
+msgid "/api/docs/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_docs.rst:60 ../../source/zh_hans/api_sheets.rst:60
+#: ../../source/zh_hans/api_slides.rst:60
+msgid "重命名文档"
+msgstr ""
+
+#: ../../source/zh_hans/api_docs.rst:62
+msgid "/api/docs/rename"
+msgstr ""
+
+#: ../../source/zh_hans/api_docs.rst:85 ../../source/zh_hans/api_sheets.rst:85
+#: ../../source/zh_hans/api_slides.rst:85
+msgid "创建文档变更"
+msgstr ""
+
+#: ../../source/zh_hans/api_docs.rst:87
+msgid "/api/docs/createchange"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:9
+msgid "获取文件夹列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:11
+msgid "/api/drive/dirs"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:35
+msgid "获取文件列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:37
+msgid "/api/drive/filelist"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:59
+msgid "获取共享文件列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:61
+msgid "/api/drive/sharedlist"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:83
+msgid "获取回收站文件列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:85
+msgid "/api/drive/trash"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:107
+msgid "获取星标文件列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:109
+msgid "/api/drive/starredlist"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:131
+msgid "获取最近访问文件列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:133
+msgid "/api/drive/recentlist"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:155
+msgid "获取最近Office文档列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:157
+msgid "/api/drive/recentdocs"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:179
+msgid "获取星标Office文档列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:181
+msgid "/api/drive/starreddocs"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:203
+msgid "获取共享Office文档列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:205
+msgid "/api/drive/shareddocs"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:227
+msgid "获取Office文件列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:229
+msgid "/api/drive/docslist"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:251
+msgid "访问文件"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:253
+msgid "/api/drive/touch"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:275
+msgid "上传文件"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:277
+msgid "/api/drive/upload"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:299
+msgid "创建文件/文件夹"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:301
+msgid "/api/drive/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:324
+msgid "移动文件/文件夹"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:326
+msgid "/api/drive/move"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:350
+msgid "删除文件/文件夹"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:352
+msgid "/api/drive/delete"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:376
+msgid "重命名文件/文件夹"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:378
+msgid "/api/drive/rename"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:402
+msgid "获取下载链接"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:404
+msgid "/api/drive/downloadlink"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:428
+msgid "克隆文件/文件夹"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:430
+msgid "/api/drive/clone"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:454
+msgid "星标文件/文件夹"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:456
+msgid "/api/drive/starred"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:480
+msgid "恢复文件/文件夹"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:482
+msgid "/api/drive/restore"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:506
+msgid "搜索文件/文件夹"
+msgstr ""
+
+#: ../../source/zh_hans/api_drive.rst:508
+msgid "/api/drive/search"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:5
+msgid "API"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:14
+msgid "邮箱 mail"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:24
+msgid "联系人 contacts"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:35
+msgid "日历 calendar"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:46
+msgid "人工智能 AI"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:57
+msgid "聊天 chat"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:68
+msgid "会议 meet"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:79
+msgid "看板 kanban"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:86 ../../source/zh_hans/api_index.rst:143
+#: ../../source/zh_hans/index.rst:28
+msgid ":ref:`search`"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:91
+msgid "网盘 drive"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:102
+msgid "文档 docs"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:113
+msgid "表格 sheets"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:124
+msgid "幻灯片 slides"
+msgstr ""
+
+#: ../../source/zh_hans/api_index.rst:136
+msgid "笔记 note"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:9
+msgid "列出看板项目"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:11
+msgid "/api/kanban/project/list"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:52
+msgid "创建看板项目"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:54
+msgid "/api/kanban/project/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:77
+msgid "移动看板项目"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:79
+msgid "/api/kanban/project/move"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:103
+msgid "更新看板项目"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:105
+msgid "/api/kanban/project/update"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:127
+msgid "删除看板项目"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:129
+msgid "/api/kanban/project/delete"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:153
+msgid "创建看板列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:155
+msgid "/api/kanban/list/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:177
+msgid "移动看板列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:179
+msgid "/api/kanban/list/move"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:201
+msgid "更新看板列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:203
+msgid "/api/kanban/list/update"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:225
+msgid "删除看板列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:227
+msgid "/api/kanban/list/delete"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:249
+msgid "获取任务列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:251
+msgid "/api/kanban/card/list"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:273
+msgid "创建任务"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:275
+msgid "/api/kanban/card/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:296
+msgid "获取任务详情"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:298
+msgid "/api/kanban/card/detail/:id"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:319
+msgid "移动任务"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:321
+msgid "/api/kanban/card/move"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:343
+msgid "更新任务"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:345
+msgid "/api/kanban/card/update"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:367
+msgid "删除任务"
+msgstr ""
+
+#: ../../source/zh_hans/api_kanban.rst:369
+msgid "/api/kanban/card/delete"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:8
+msgid "获取邮件列表"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:10
+msgid "/api/mail/list"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:31
+msgid "获取邮件详情"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:33
+msgid "/api/mail/detail/:id"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:54
+msgid "获取邮件原始内容"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:56
+msgid "/api/mail/original/:id"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:77
+msgid "搜索邮件"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:79
+msgid "/api/mail/search"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:99
+msgid "修改邮件阅读状态"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:101
+msgid "/api/mail/readstate"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:121
+msgid "修改邮件星标状态"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:123
+msgid "/api/mail/starredstate"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:143
+msgid "修改邮件是否重要状态"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:145
+msgid "/api/mail/importantstate"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:165
+msgid "删除邮件"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:167
+msgid "/api/mail/delete"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:188
+msgid "永久删除邮件"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:190
+msgid "/api/mail/foreverdelete"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:210
+msgid "归档邮件"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:212
+msgid "/api/mail/archive"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:232
+msgid "取消归档邮件"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:234
+msgid "/api/mail/unarchive"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:256
+msgid "移动邮件到标签分组"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:258
+msgid "/api/mail/movelabel"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:278
+msgid "删除邮件标签分组"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:280
+msgid "/api/mail/deletelabel"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:300
+msgid "应用邮件标签分组"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:302
+msgid "/api/mail/applylabel"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:324 ../../source/zh_hans/email.rst:7
+msgid "发送邮件"
+msgstr ""
+
+#: ../../source/zh_hans/api_mail.rst:326
+msgid "/api/mail/send/:domain"
+msgstr ""
+
+#: ../../source/zh_hans/api_meet.rst:8
+msgid "获取加入会议的授权"
+msgstr ""
+
+#: ../../source/zh_hans/api_meet.rst:10
+msgid "/api/meet/gettoken"
+msgstr ""
+
+#: ../../source/zh_hans/api_meet.rst:32
+msgid "创建会议"
+msgstr ""
+
+#: ../../source/zh_hans/api_meet.rst:34
+msgid "/api/meet/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_meet.rst:57
+msgid "进入会议"
+msgstr ""
+
+#: ../../source/zh_hans/api_meet.rst:59
+msgid "/api/meet/enter"
+msgstr ""
+
+#: ../../source/zh_hans/api_meet.rst:82
+msgid "获取会议信息"
+msgstr ""
+
+#: ../../source/zh_hans/api_meet.rst:84
+msgid "/api/meet/info/:id"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:9
+msgid "列出笔记"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:11
+msgid "/api/note/list"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:36
+msgid "创建笔记"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:38
+msgid "/api/note/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:61
+msgid "获取笔记详情"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:63
+msgid "/api/note/detail/:id"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:86
+msgid "删除笔记"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:88
+msgid "/api/note/delete"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:113
+msgid "归档笔记"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:115
+msgid "/api/note/archive"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:138
+msgid "取消归档笔记"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:140
+msgid "/api/note/unarchive"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:162
+msgid "设置笔记星标状态"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:164
+msgid "/api/note/starredstate"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:187
+msgid "设置笔记重要状态"
+msgstr ""
+
+#: ../../source/zh_hans/api_note.rst:189
+msgid "/api/note/importantstate"
+msgstr ""
+
+#: ../../source/zh_hans/api_sheets.rst:11
+msgid "/api/sheets/detail/:id"
+msgstr ""
+
+#: ../../source/zh_hans/api_sheets.rst:37
+msgid "/api/sheets/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_sheets.rst:62
+msgid "/api/sheets/rename"
+msgstr ""
+
+#: ../../source/zh_hans/api_sheets.rst:87
+msgid "/api/sheets/createchange"
+msgstr ""
+
+#: ../../source/zh_hans/api_slides.rst:11
+msgid "/api/slides/detail/:id"
+msgstr ""
+
+#: ../../source/zh_hans/api_slides.rst:37
+msgid "/api/slides/create"
+msgstr ""
+
+#: ../../source/zh_hans/api_slides.rst:62
+msgid "/api/slides/rename"
+msgstr ""
+
+#: ../../source/zh_hans/api_slides.rst:87
+msgid "/api/slides/createchange"
+msgstr ""
+
+#: ../../source/zh_hans/auth.rst:6
+msgid "鉴权"
+msgstr ""
+
+#: ../../source/zh_hans/auth.rst:8 ../../source/zh_hans/python.rst:8
+msgid "使用BasicAuth，需要在HTTP请求headers中增加Authorization"
+msgstr ""
+
+#: ../../source/zh_hans/auth.rst:10 ../../source/zh_hans/python.rst:10
+msgid "Authorization生成算法：用冒号拼接字符串api和你的key，然后转成base64，再拼接\"Basic \"前缀即可。"
+msgstr ""
+
+#: ../../source/zh_hans/auth.rst:12 ../../source/zh_hans/python.rst:12
+msgid "golang示例:"
+msgstr ""
+
+#: ../../source/zh_hans/auth.rst:45 ../../source/zh_hans/python.rst:45
+msgid "python示例:"
+msgstr ""
+
+#: ../../source/zh_hans/auth.rst:99 ../../source/zh_hans/python.rst:99
+msgid "PHP示例："
+msgstr ""
+
+#: ../../source/zh_hans/auth.rst:125 ../../source/zh_hans/python.rst:125
+msgid "C#示例："
+msgstr ""
+
+#: ../../source/zh_hans/auth.rst:144 ../../source/zh_hans/python.rst:144
+msgid "Ruby示例"
+msgstr ""
+
+#: ../../source/zh_hans/code-example.rst:2
+msgid "代码示例：邮件发送"
+msgstr ""
+
+#: ../../source/zh_hans/csv-format.rst:6
+msgid "导入文件格式"
+msgstr ""
+
+#: ../../source/zh_hans/csv-format.rst:8
+msgid "导入文件应为csv格式，以英文逗号分隔,需要以下几列 邮箱、昵称、真实姓名、性别、生日、手机号，邮箱和昵称不能为空，其它字段可以为空"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:7
+msgid "DKIM - 域名密钥识别邮件"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:9
+#, python-format
+msgid ""
+"引用自维基百科 `域名密钥识别邮件 "
+"<https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D%E5%AF%86%E9%92%A5%E8%AF%86%E5%88%AB%E9%82%AE%E4%BB%B6>`_"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:12
+msgid ""
+"域名密钥识别邮件（DomainKeys Identified "
+"Mail，DKIM）是一套电子邮件认证机制，使用公开密钥加密的基础提供了数字签名与身份验证的功能，以检测寄件者、主旨、内文、附件等部分有否被伪冒或窜改。"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:14
+msgid "一般来说，发送方会在电子邮件的标头插入DKIM-Signature及电子签名信息。而接收方则透过DNS查询得到公开密钥后进行验证。"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:18
+msgid "历史"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:20
+msgid ""
+"DKIM是2004年在雅虎的DomainKeys和思科系统的Identified Internet "
+"Mail两套相近的基础上合并并改进而来的协议，大多数的运作方式与DomainKeys相同。在2007年2月时，DKIM被列入互联网工程工作小组（IETF）的标准提案（Proposed"
+" Standard），并于同年5月成为正式标准（Standards "
+"Track）并得到主要的电子邮件服务供应商如雅虎、Gmail、美国在线、FastMail率先支持。"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:23
+msgid "优点"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:26
+msgid "DKIM的主要优点是可以让寄件者有效地表明身份，让收件者可凭借公钥确认寄件者并非伪冒、内文未经窜改，提高电子邮件的可信度。邮件过滤器可使用白名单及黑名单机制更可靠地检测网络钓鱼或垃圾电邮。"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:30
+msgid "hedwi dkim配置"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:32
+msgid "请参考域名详情页DNS配置部分"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:36 ../../source/zh_hans/dmarc.rst:16
+#: ../../source/zh_hans/spf.rst:59
+msgid "外部链接"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:38
+msgid "（英文） `DomainKeys Identified Mail (DKIM) <http://www.dkim.org/>`_  DKIM的信息"
+msgstr ""
+
+#: ../../source/zh_hans/dkim.rst:39
+msgid "（英文） `RFC 4408 <https://tools.ietf.org/html/rfc4408>`_"
+msgstr ""
+
+#: ../../source/zh_hans/dmarc.rst:6
+msgid "DMARC-基于域的消息认证，报告和一致性"
+msgstr ""
+
+#: ../../source/zh_hans/dmarc.rst:8
+#, python-format
+msgid ""
+"引用自维基百科 `DMARC-基于域的消息认证，报告和一致性 "
+"<https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E5%9F%9F%E7%9A%84%E6%B6%88%E6%81%AF%E8%AE%A4%E8%AF%81%EF%BC%8C%E6%8A%A5%E5%91%8A%E5%92%8C%E4%B8%80%E8%87%B4%E6%80%A7>`_"
+msgstr ""
+
+#: ../../source/zh_hans/dmarc.rst:11
+msgid ""
+"基于域的消息认证，报告和一致性（DMARC，Domain-based Message Authentication, Reporting and "
+"Conformance）是一套以SPF及DKIM为基础的电子邮件认证机制，可以检测及防止伪冒身份、对付网络钓鱼或垃圾电邮。"
+msgstr ""
+
+#: ../../source/zh_hans/dmarc.rst:13
+msgid "网域管理员可以在域名系统公布相关政策，让外界得知旗下域名的电子邮件提供何种方式（SPF及/或DKIM）认证身份，以及如果寄件者身份未能百分之百确认时，收件者可以如何处理邮件（放进杂件箱或直接回绝）及回报。回报机制可以让网域管理员了解是否有第三者正在伪冒其网域身份寄出电邮。"
+msgstr ""
+
+#: ../../source/zh_hans/dmarc.rst:18
+msgid "`DMARC项目官方网站 <https://dmarc.org/>`_"
+msgstr ""
+
+#: ../../source/zh_hans/dnsconfig.rst:6
+msgid "DNS配置"
+msgstr ""
+
+#: ../../source/zh_hans/dnsconfig.rst:8
+msgid "使用Hedwi，需要在域名DNS解析商配置SPF、DKIM、DMARC记录，推荐使用子域名作为邮件发送域名，并对不同类型的邮件使用不同的固定的用户名。"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:7
+msgid "docker deploy"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:10
+#: ../../source/zh_hans/upgrade.rst:10
+msgid "0. 环境要求"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:11
+#: ../../source/zh_hans/upgrade.rst:11
+msgid "最低2G内存 2核CPU  linux 64位系统"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:14
+#: ../../source/zh_hans/upgrade.rst:14
+msgid "1. 配置DNS"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:20
+#: ../../source/zh_hans/upgrade.rst:20
+msgid "例如"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:1 ../../source/zh_hans/upgrade.rst:1
+msgid "主机名"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:1 ../../source/zh_hans/upgrade.rst:1
+msgid "记录类型"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:1 ../../source/zh_hans/upgrade.rst:1
+msgid "记录值"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:1 ../../source/zh_hans/upgrade.rst:1
+msgid "work"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:1 ../../source/zh_hans/upgrade.rst:1
+msgid "A"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:1 ../../source/zh_hans/upgrade.rst:1
+msgid "x.x.x.x"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:29
+#: ../../source/zh_hans/upgrade.rst:29
+msgid "主机名可以是任意二级域名前缀，这里使用work"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:30
+#: ../../source/zh_hans/upgrade.rst:30
+msgid "example.com为你的域名"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:31
+#: ../../source/zh_hans/upgrade.rst:31
+msgid "x.x.x.x 为服务器的IP地址"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:32
+#: ../../source/zh_hans/upgrade.rst:32
+msgid "网页访问地址为 https://work.example.com"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:35
+msgid "2. 安装docker, docker-compose, git"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:54
+msgid "3. 安装"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:68
+msgid "`配置文件示例 </mail-suite/env-example.html>`_"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:72
+msgid "4. 自动生成免费ssl证书"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:82
+msgid "5. 重启服务"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:90
+msgid "6. 使用https访问 登录"
+msgstr ""
+
+#: ../../source/zh_hans/docker-install.rst:92
+msgid ""
+"访问 https://work.example.com/login?admin=true (work.example.com为使用的域名), "
+"使用管理员账号登录(配置的邮箱和密码) 访问 https://work.example.com/hello 页面,  继续添加用户、团队等等。"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:11 ../../source/zh_hans/email.rst:73
+msgid "https://api.hedwi.com/mail/:domain"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:13 ../../source/zh_hans/email.rst:75
+msgid "HTTP请求方式："
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:17 ../../source/zh_hans/email.rst:79
+msgid "鉴权："
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:19 ../../source/zh_hans/email.rst:81
+msgid "参考 :ref:`api-auth` 章节"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:23 ../../source/zh_hans/email.rst:85
+msgid "from"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:25 ../../source/zh_hans/email.rst:87
+msgid "发件人"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:27 ../../source/zh_hans/email.rst:89
+msgid "to"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:29 ../../source/zh_hans/email.rst:91
+msgid "收件人"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:31 ../../source/zh_hans/email.rst:93
+msgid "subject"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:33 ../../source/zh_hans/email.rst:95
+msgid "邮件主题"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:35
+msgid "html"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:37
+msgid "邮件html内容"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:39
+msgid "text"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:41
+msgid "邮件纯文本内容"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:69
+msgid "模板发送邮件"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:97
+msgid "template"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:99
+msgid "模板名称"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:101
+msgid "hedwi-variables"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:103
+msgid "模板变量"
+msgstr ""
+
+#: ../../source/zh_hans/email.rst:129
+msgid "模板变量调用示例："
+msgstr ""
+
+#: ../../source/zh_hans/env-example.rst:7
+msgid "env 配置内容"
+msgstr ""
+
+#: ../../source/zh_hans/env-example.rst:9
+msgid "只需要关注 『* 需要修改』的部分"
+msgstr ""
+
+#: ../../source/zh_hans/inboxrulesconfig.rst:6
+msgid "收信转发配置"
+msgstr ""
+
+#: ../../source/zh_hans/inboxrulesconfig.rst:8
+msgid "hedwi支持配置邮件转发规则，这样就可以轻松获得一个简单的域名邮箱了。"
+msgstr ""
+
+#: ../../source/zh_hans/inboxrulesconfig.rst:10
+msgid "匹配策略支持匹配收件人、发件人和主题。匹配策略配合匹配条件可以将符合条件的邮件转发到自定义的邮件地址。"
+msgstr ""
+
+#: ../../source/zh_hans/inboxrulesconfig.rst:12
+msgid "匹配条件：* 表示匹配任意内容，其它匹配需要填写邮箱地址(匹配收件人地址、发件人地址）或关键词（匹配邮件主题 ）。"
+msgstr ""
+
+#: ../../source/zh_hans/inboxrulesconfig.rst:13
+msgid "最多支持10条匹配规则，按照优先级高低从前往后匹配。"
+msgstr ""
+
+#: ../../source/zh_hans/index.rst:5
+msgid "Hedwi 海未办公套件私有部署文档"
+msgstr ""
+
+#: ../../source/zh_hans/index.rst:16
+msgid "目录"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:7
+msgid "安装"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:10
+msgid "环境要求"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:11
+msgid "最低1G内存 1核CPU  linux 64位系统"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:14
+msgid "SSL证书"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:16
+msgid "lego获取免费泛域名证书"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:42
+msgid "mysql"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:44
+msgid "目前依赖mysql数据库，有计划支持其它SQL数据库"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:47
+msgid "s3 minio / consul / nats"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:49
+msgid "minio"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:61
+msgid "consul"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:71
+msgid "nats"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:83 ../../source/zh_hans/install.rst:98
+msgid "hedwi-mail"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:86
+msgid "安装 supervisor & unzip"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:125
+msgid "防火墙配置"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:126
+msgid "对外开放25、465、993、443端口即可 本邮箱服务不需要nginx 如果使用nginx则需要自行修改配置文件中的端口"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:127
+msgid "创建管理员帐号"
+msgstr ""
+
+#: ../../source/zh_hans/install.rst:128
+msgid ""
+"访问https://mail.example.com (此处可以是根域名或者任意子域名，只要配置好DNS记录就可以)。注册管理员帐号 "
+"第一个帐号就是管理员帐号。使用管理员帐号添加域名，配置DNS记录。"
+msgstr ""
+
+#: ../../source/zh_hans/mailtester.rst:6
+msgid "mail-tester邮件测试"
+msgstr ""
+
+#: ../../source/zh_hans/models.rst:7
+msgid "数据库表结构更新"
+msgstr ""
+
+#: ../../source/zh_hans/models.rst:11
+msgid "2024-10-30"
+msgstr ""
+
+#: ../../source/zh_hans/models.rst:15
+msgid "2024-11-18"
+msgstr ""
+
+#: ../../source/zh_hans/models.rst:17
+msgid ""
+"chat_channel_message  增加cmd_type字段 类型 int16 smallint chat_user_message"
+"     增加cmd_type字段 类型 int16 smallint"
+msgstr ""
+
+#: ../../source/zh_hans/models.rst:20
+msgid ""
+"chat_channel  增加kanban字段 类型 int64 bigint chat_channel  增加drive字段 类型 int64"
+" bigint"
+msgstr ""
+
+#: ../../source/zh_hans/models.rst:23
+msgid "chat_channel_rel  增加type字段 类型 int16 smallint"
+msgstr ""
+
+#: ../../source/zh_hans/python.rst:5
+msgid "使用python发送邮件"
+msgstr ""
+
+#: ../../source/zh_hans/record.rst:2
+msgid "扩展阅读：邮件相关域名记录"
+msgstr ""
+
+#: ../../source/zh_hans/releaseNote.rst:2
+msgid "更新日志"
+msgstr ""
+
+#: ../../source/zh_hans/smtp.rst:7
+msgid "SMTP发信"
+msgstr ""
+
+#: ../../source/zh_hans/smtp/go.rst:7
+msgid "Go smtp 发邮件"
+msgstr ""
+
+#: ../../source/zh_hans/smtp/go.rst:33 ../../source/zh_hans/smtp/python.rst:35
+msgid "当然也可以使用标准库发信"
+msgstr ""
+
+#: ../../source/zh_hans/smtp/python.rst:7
+msgid "Python smtp 发邮件"
+msgstr ""
+
+#: ../../source/zh_hans/smtp/python.rst:10
+msgid "Python可以使用yagmail发信，比较方便。"
+msgstr ""
+
+#: ../../source/zh_hans/smtp/swaks.rst:6
+msgid "SMTP发信-swaks测试"
+msgstr ""
+
+#: ../../source/zh_hans/smtp/swaks.rst:8
+msgid "SMTP发信使用任意用户名和默认SMTP密码即可。"
+msgstr ""
+
+#: ../../source/zh_hans/smtp/swaks.rst:10
+msgid "SMTP服务器：smtp.hedwi.net  端口: 25 / 25000/ 465"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:7
+msgid "SPF - 发件人策略框架"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:9
+#, python-format
+msgid ""
+"引用自维基百科 `发件人策略框架 "
+"<https://zh.wikipedia.org/wiki/%E5%8F%91%E4%BB%B6%E4%BA%BA%E7%AD%96%E7%95%A5%E6%A1%86%E6%9E%B6>`_"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:12
+msgid ""
+"发件人策略框架（英语：Sender Policy Framework；简称SPF； RFC "
+"4408）是一套电子邮件认证机制，可以确认电子邮件确实是由网域授权的邮件服务器寄出，防止有人伪冒身份网络钓鱼或寄出垃圾电邮。SPF允许管理员设定一个DNS"
+" "
+"TXT记录或SPF记录设定发送邮件服务器的IP范围，如有任何邮件并非从上述指明授权的IP地址寄出，则很可能该邮件并非确实由真正的寄件者寄出（邮件上声称的“寄件者”为假冒）。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:16
+msgid "用途"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:19
+msgid ""
+"SPF 记录的用途是阻止垃圾邮件发件人发送假冒您的域中的“发件人”地址的电子邮件。收件人可以参考 SPF "
+"记录来确定号称来自您的域的邮件是否来自授权邮件服务器。对于大多主流的邮件服务商，鉴别发送者的SPF记录有助于抵御垃圾邮件给接收者带来的骚扰。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:22
+msgid "原理"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:24
+msgid "SMTP协议本身没有机制鉴别寄件人的真正身份，电子邮件的“寄件者”一栏可以填上任何名字，于是伪冒他人身份来网络钓鱼或寄出垃圾邮件便相当容易，而真正来源却不易追查。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:26
+msgid ""
+"SPF 记录允许域名管理员公布所授权的邮件服务器IP地址，接收服务器会在收到邮件时验证发件人在 SMTP 会话中执行 MAIL FROM "
+"命令时的邮件地址是否与域名 SPF 记录中所指定的源 IP 匹配，以判断是否为发件人域名伪造。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:28
+msgid "邮件接收方的收件服务器在接受到邮件后，首先检查域名的SPF记录，来确定发件人的IP地址是否被包含在SPF记录里面，如果在，就认为是一封来自于被授权服务器的邮件，否则会认为是一封伪造的邮件并根据相关政策退回或放进收件人的杂件箱。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:31
+msgid ""
+"简单来说，SPF 记录其实就是一条有特殊语法的 TXT 记录，它由“匹配机制”和“修饰符”2 部分组成。“修饰符”通常只作为可选项，一般情况下 "
+"Exchange 管理员只会用到并处理包含“匹配机制”的 SPF 记录。 SPF "
+"记录的匹配机制主要用于定义和指定可由该域名发送邮件的主机，其定义方式包括："
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:35
+msgid "all 匹配任何主机，它写在 SPF 记录最后以匹配在其前面所列出的主机。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:36
+msgid "ip4 匹配 IPv4 地址或网络范围。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:37
+msgid "ip6 匹配 IPv6 地址或网络范围。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:38
+msgid "a 匹配主机名或域名。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:39
+msgid "mx 匹配域名的 MX 记录，当出站与入站邮件为同一服务器时通常采用此种机制。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:40
+msgid "ptr 通过 DNS 反向记录来匹配发件人 IP 和域名，由于会增加 DNS 负载，一般不采用此种机制。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:41
+msgid "exists 只检查域是否在 DNS 中存在。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:42
+msgid "include 将发件人 IP 和 SPF 记录指向另一个域，这种匹配机制通常用于云服务，如 Exchange Online Protection。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:44
+msgid "SPF 记录的匹配机制会结合一些限定词来使用，以告诉服务器找到一条匹配记录时该怎么办。常见的限定词有："
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:46
+msgid "\\+ 放行，如果没有明确指定限定词，则为默认值。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:47
+msgid "– 硬拒绝，直接拒绝来自未经授权主机的邮件。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:48
+msgid "~ 软拒绝，邮件可被接受，也可被标记为垃圾邮件。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:49
+msgid "? 中性，不考虑邮件是否被接受。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:51
+msgid ""
+"SPF 记录会结合“匹配机制”和“限定词”使用，例如：在 SPF 记录的末尾处写有 -all "
+"则表明在不匹配前面所列主机时，接收服务器需要将邮件全部拒绝。"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:54
+msgid "hedwi spf配置"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:56
+msgid "TXT记录值为 v=spf1 include:spf.hedwi.net ~all"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:61
+msgid ""
+"`Sender Policy Framework项目网站 "
+"<https://web.archive.org/web/20080513111421/http://www.openspf.org/>`_"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:62
+msgid "`RFC 4408 <https://tools.ietf.org/html/rfc4408>`_"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:66
+msgid "来源"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:68
+msgid ""
+"`http://www.ietf.org/rfc/rfc4408.txt "
+"<http://www.ietf.org/rfc/rfc4408.txt>`_"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:69
+msgid ""
+"`https://support.google.com/a/answer/33786?hl=zh-Hans "
+"<https://support.google.com/a/answer/33786?hl=zh-Hans>`_"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:70
+msgid ""
+"`http://service.exmail.qq.com/cgi-"
+"bin/help?subtype=1&&id=20012&&no=1000580t <http://service.exmail.qq.com"
+"/cgi-bin/help?subtype=1&&id=20012&&no=1000580>`_"
+msgstr ""
+
+#: ../../source/zh_hans/spf.rst:71
+msgid ""
+"`http://www.sysgeek.cn/sender-policy-framework-spf-exchange/ "
+"<http://www.sysgeek.cn/sender-policy-framework-spf-exchange/>`_"
+msgstr ""
+
+#: ../../source/zh_hans/start.rst:6
+msgid "快速上手"
+msgstr ""
+
+#: ../../source/zh_hans/start.rst:8
+msgid "注册帐号并激活之后，添加需要发信的域名，建议使用子域名，之后按照域名详情页面的记录添加DNS记录。检查DNS记录通过之后即可通过API或者smtp方式发信。"
+msgstr ""
+
+#: ../../source/zh_hans/upgrade.rst:7
+msgid "Upgrade"
+msgstr ""
+
+#: ../../source/zh_hans/verify.rst:6
+msgid "认证"
+msgstr ""
+
+#: ../../source/zh_hans/verify.rst:8
+msgid "通过认证可以获得更多的发送额度和更高的发送上限，认证可以通过提交工单的方式。"
+msgstr ""
+

@@ -5,22 +5,22 @@
 
 .. _drive-project.List:
 
-获取文件夹列表
------------------------
-接口地址：
+list folder
+-------------------------------------------------------------
+interface address:
     * /api/drive/dirs
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/drive/dirs"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -31,22 +31,22 @@ HTTP 请求方式：
 
 .. _drive.filelist:
 
-获取文件列表
------------------------
-接口地址：
+list file
+-------------------------------------------------------------
+interface address:
     * /api/drive/filelist
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/drive/filelist"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -55,22 +55,22 @@ HTTP 请求方式：
 
 .. _drive.sharedlist:
 
-获取共享文件列表
------------------------
-接口地址：
+list shared file
+-------------------------------------------------------------
+interface address:
     * /api/drive/sharedlist
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/drive/sharedlist"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -79,22 +79,22 @@ HTTP 请求方式：
 
 .. _drive.trashlist:
 
-获取回收站文件列表
------------------------
-接口地址：
+list trash file
+-------------------------------------------------------------
+interface address:
     * /api/drive/trash
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/drive/trash"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -103,22 +103,22 @@ HTTP 请求方式：
 
 .. _drive.starredlist:
 
-获取星标文件列表
------------------------
-接口地址：
+list starred file
+-------------------------------------------------------------
+interface address:
     * /api/drive/starredlist
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/drive/starredlist"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -127,22 +127,22 @@ HTTP 请求方式：
 
 .. _drive.recentlist:
 
-获取最近访问文件列表
------------------------
-接口地址：
+list recent file
+-------------------------------------------------------------
+interface address:
     * /api/drive/recentlist
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/drive/recentlist"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -151,22 +151,22 @@ HTTP 请求方式：
 
 .. _drive.recentdocs:
 
-获取最近Office文档列表
------------------------
-接口地址：
+list recent office document
+-------------------------------------------------------------
+interface address:
     * /api/drive/recentdocs
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/drive/recentdocs"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -175,22 +175,22 @@ HTTP 请求方式：
 
 .. _drive.starreddocs:
 
-获取星标Office文档列表
------------------------
-接口地址：
+list starred office document
+-------------------------------------------------------------
+interface address:
     * /api/drive/starreddocs
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/drive/starreddocs"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -199,22 +199,22 @@ HTTP 请求方式：
 
 .. _drive.shareddocs:
 
-获取共享Office文档列表
------------------------
-接口地址：
+list shared office document
+-------------------------------------------------------------
+interface address:
     * /api/drive/shareddocs
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/drive/shareddocs"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -223,22 +223,22 @@ HTTP 请求方式：
 
 .. _drive.docslist:
 
-获取Office文件列表
------------------------
-接口地址：
+list office document
+-------------------------------------------------------------
+interface address:
     * /api/drive/docslist
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/drive/docslist"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -247,22 +247,22 @@ HTTP 请求方式：
 
 .. _drive.touchlist:
 
-访问文件
------------------------
-接口地址：
+touch file
+-------------------------------------------------------------
+interface address:
     * /api/drive/touch
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/drive/touch"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -271,22 +271,22 @@ HTTP 请求方式：
 
 .. _drive.upload:
 
-上传文件
------------------------
-接口地址：
+upload file
+-------------------------------------------------------------
+interface address:
     * /api/drive/upload
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/drive/upload"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -295,22 +295,22 @@ HTTP 请求方式：
 
 .. _drive.create:
 
-创建文件/文件夹
------------------------
-接口地址：
+create file/folder
+-------------------------------------------------------------
+interface address:
     * /api/drive/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/drive/create"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -320,22 +320,22 @@ HTTP 请求方式：
 
 .. _drive.move:
 
-移动文件/文件夹
------------------------
-接口地址：
+move file/folder
+-------------------------------------------------------------
+interface address:
     * /api/drive/move
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/drive/move"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -346,22 +346,22 @@ HTTP 请求方式：
 
 .. _drive.delete:
 
-删除文件/文件夹
------------------------
-接口地址：
+delete file/folder
+-------------------------------------------------------------
+interface address:
     * /api/drive/delete
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/drive/delete"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -372,22 +372,22 @@ HTTP 请求方式：
 
 .. _drive.rename:
 
-重命名文件/文件夹
------------------------
-接口地址：
+rename file/folder
+-------------------------------------------------------------
+interface address:
     * /api/drive/rename
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/drive/rename"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -398,22 +398,22 @@ HTTP 请求方式：
 
 .. _drive.downloadlink:
 
-获取下载链接
------------------------
-接口地址：
+get download link
+-------------------------------------------------------------
+interface address:
     * /api/drive/downloadlink
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/drive/downloadlink"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -424,22 +424,22 @@ HTTP 请求方式：
 
 .. _drive.clone:
 
-克隆文件/文件夹
------------------------
-接口地址：
+clone file/folder
+-------------------------------------------------------------
+interface address:
     * /api/drive/clone
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/drive/clone"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -450,22 +450,22 @@ HTTP 请求方式：
 
 .. _drive.starred:
 
-星标文件/文件夹
------------------------
-接口地址：
+star file/folder
+-------------------------------------------------------------
+interface address:
     * /api/drive/starred
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/drive/starred"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -476,22 +476,22 @@ HTTP 请求方式：
 
 .. _drive.restore:
 
-恢复文件/文件夹
------------------------
-接口地址：
+restore file/folder
+-------------------------------------------------------------
+interface address:
     * /api/drive/restore
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/drive/restore"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -502,22 +502,22 @@ HTTP 请求方式：
 
 .. _drive.search:
 
-搜索文件/文件夹
------------------------
-接口地址：
+search file/folder
+-------------------------------------------------------------
+interface address:
     * /api/drive/search
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/drive/search"
     
-返回参考：
+response example：
 
     * JSON::
 

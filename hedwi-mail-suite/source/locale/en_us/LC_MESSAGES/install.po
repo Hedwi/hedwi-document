@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-05 09:54+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/install.rst:7
+msgid "安装"
+msgstr ""
+
+#: ../../source/install.rst:10
+msgid "环境要求"
+msgstr ""
+
+#: ../../source/install.rst:11
+msgid "最低1G内存 1核CPU  linux 64位系统"
+msgstr ""
+
+#: ../../source/install.rst:14
+msgid "SSL证书"
+msgstr ""
+
+#: ../../source/install.rst:16
+msgid "lego获取免费泛域名证书"
+msgstr ""
+
+#: ../../source/install.rst:42
+msgid "mysql"
+msgstr ""
+
+#: ../../source/install.rst:44
+msgid "目前依赖mysql数据库，有计划支持其它SQL数据库"
+msgstr ""
+
+#: ../../source/install.rst:47
+msgid "s3 minio / consul / nats"
+msgstr ""
+
+#: ../../source/install.rst:49
+msgid "minio"
+msgstr ""
+
+#: ../../source/install.rst:61
+msgid "consul"
+msgstr ""
+
+#: ../../source/install.rst:71
+msgid "nats"
+msgstr ""
+
+#: ../../source/install.rst:83 ../../source/install.rst:98
+msgid "hedwi-mail"
+msgstr ""
+
+#: ../../source/install.rst:86
+msgid "安装 supervisor & unzip"
+msgstr ""
+
+#: ../../source/install.rst:125
+msgid "防火墙配置"
+msgstr ""
+
+#: ../../source/install.rst:126
+msgid "对外开放25、465、993、443端口即可 本邮箱服务不需要nginx 如果使用nginx则需要自行修改配置文件中的端口"
+msgstr ""
+
+#: ../../source/install.rst:127
+msgid "创建管理员帐号"
+msgstr ""
+
+#: ../../source/install.rst:128
+msgid ""
+"访问https://mail.example.com (此处可以是根域名或者任意子域名，只要配置好DNS记录就可以)。注册管理员帐号 "
+"第一个帐号就是管理员帐号。使用管理员帐号添加域名，配置DNS记录。"
+msgstr ""
+

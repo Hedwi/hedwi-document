@@ -5,22 +5,22 @@
 
 .. _calendar.list:
 
-获取日历列表
------------------------
-接口地址：
+list calendar
+-------------------------------------------------------------
+interface address:
     * /api/calendar/collection/list
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/calendar/collection/list"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -28,22 +28,22 @@ HTTP 请求方式：
         }
 
 
-创建日历
------------------------
-接口地址：
+create calendar
+-------------------------------------------------------------
+interface address:
     * /api/calendar/collection/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/calendar/collection/create"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -51,22 +51,22 @@ HTTP 请求方式：
         }
 
 
-更新日历
------------------------
-接口地址：
+update calendar
+-------------------------------------------------------------
+interface address:
     * /api/calendar/collection/update
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/calendar/collection/update"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -74,110 +74,110 @@ HTTP 请求方式：
         }
 
 
-获取日历事件列表
------------------------
-接口地址：
+list calendar event
+-------------------------------------------------------------
+interface address:
     * /api/calendar/event/list
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/calendar/event/list"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-获取日历事件详情
------------------------
-接口地址：
+get calendar event detail
+----------------------------------------------------------------------------------------------------------------------------
+interface address:
     * /api/calendar/event/detail/:id
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/calendar/event/detail/:id"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-创建日历事件
------------------------
-接口地址：
+create calendar event
+-------------------------------------------------------------
+interface address:
     * /api/calendar/event/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/calendar/event/create"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-修改日历事件
------------------------
-接口地址：
+update calendar event
+-------------------------------------------------------------
+interface address:
     * /api/calendar/event/update
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/calendar/event/update"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-删除日历事件
------------------------
-接口地址：
+delete calendar event
+-------------------------------------------------------------
+interface address:
     * /api/calendar/event/delete
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/calendar/event/delete"
     
-返回参考：
+response example：
 
     * JSON::
 

@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-26 21:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_us\n"
+"Language-Team: en_us <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/api_note.rst:9
+msgid "list note"
+msgstr ""
+
+#: ../../source/api_note.rst:10 ../../source/api_note.rst:37
+#: ../../source/api_note.rst:62 ../../source/api_note.rst:87
+#: ../../source/api_note.rst:114 ../../source/api_note.rst:139
+#: ../../source/api_note.rst:163 ../../source/api_note.rst:188
+msgid "interface address:"
+msgstr ""
+
+#: ../../source/api_note.rst:11
+msgid "/api/note/list"
+msgstr ""
+
+#: ../../source/api_note.rst:12 ../../source/api_note.rst:39
+#: ../../source/api_note.rst:64 ../../source/api_note.rst:89
+#: ../../source/api_note.rst:116 ../../source/api_note.rst:141
+#: ../../source/api_note.rst:165 ../../source/api_note.rst:190
+msgid "HTTP request method:"
+msgstr ""
+
+#: ../../source/api_note.rst:13 ../../source/api_note.rst:65
+msgid "GET"
+msgstr ""
+
+#: ../../source/api_note.rst:14 ../../source/api_note.rst:41
+#: ../../source/api_note.rst:66 ../../source/api_note.rst:91
+#: ../../source/api_note.rst:118 ../../source/api_note.rst:143
+#: ../../source/api_note.rst:167 ../../source/api_note.rst:192
+msgid "request params:"
+msgstr ""
+
+#: ../../source/api_note.rst:16 ../../source/api_note.rst:43
+#: ../../source/api_note.rst:68 ../../source/api_note.rst:93
+#: ../../source/api_note.rst:120 ../../source/api_note.rst:145
+#: ../../source/api_note.rst:169 ../../source/api_note.rst:194
+msgid "response code:"
+msgstr ""
+
+#: ../../source/api_note.rst:17 ../../source/api_note.rst:44
+#: ../../source/api_note.rst:69 ../../source/api_note.rst:94
+#: ../../source/api_note.rst:121 ../../source/api_note.rst:146
+#: ../../source/api_note.rst:170 ../../source/api_note.rst:195
+msgid "common response"
+msgstr ""
+
+#: ../../source/api_note.rst:19 ../../source/api_note.rst:46
+#: ../../source/api_note.rst:71 ../../source/api_note.rst:96
+#: ../../source/api_note.rst:123 ../../source/api_note.rst:148
+#: ../../source/api_note.rst:172 ../../source/api_note.rst:197
+msgid "example::"
+msgstr ""
+
+#: ../../source/api_note.rst:23 ../../source/api_note.rst:50
+#: ../../source/api_note.rst:75 ../../source/api_note.rst:100
+#: ../../source/api_note.rst:127 ../../source/api_note.rst:152
+#: ../../source/api_note.rst:176 ../../source/api_note.rst:201
+msgid "response example："
+msgstr ""
+
+#: ../../source/api_note.rst:25 ../../source/api_note.rst:52
+#: ../../source/api_note.rst:77 ../../source/api_note.rst:102
+#: ../../source/api_note.rst:129 ../../source/api_note.rst:154
+#: ../../source/api_note.rst:178 ../../source/api_note.rst:203
+msgid "JSON::"
+msgstr ""
+
+#: ../../source/api_note.rst:36
+msgid "create note"
+msgstr ""
+
+#: ../../source/api_note.rst:38
+msgid "/api/note/create"
+msgstr ""
+
+#: ../../source/api_note.rst:40 ../../source/api_note.rst:90
+#: ../../source/api_note.rst:117 ../../source/api_note.rst:142
+#: ../../source/api_note.rst:166 ../../source/api_note.rst:191
+msgid "POST"
+msgstr ""
+
+#: ../../source/api_note.rst:61
+msgid "get note detail"
+msgstr ""
+
+#: ../../source/api_note.rst:63
+msgid "/api/note/detail/:id"
+msgstr ""
+
+#: ../../source/api_note.rst:86
+msgid "delete note"
+msgstr ""
+
+#: ../../source/api_note.rst:88
+msgid "/api/note/delete"
+msgstr ""
+
+#: ../../source/api_note.rst:113
+msgid "archive note"
+msgstr ""
+
+#: ../../source/api_note.rst:115
+msgid "/api/note/archive"
+msgstr ""
+
+#: ../../source/api_note.rst:138
+msgid "unarchive note"
+msgstr ""
+
+#: ../../source/api_note.rst:140
+msgid "/api/note/unarchive"
+msgstr ""
+
+#: ../../source/api_note.rst:162
+msgid "modify note starred state"
+msgstr ""
+
+#: ../../source/api_note.rst:164
+msgid "/api/note/starredstate"
+msgstr ""
+
+#: ../../source/api_note.rst:187
+msgid "modify note important state"
+msgstr ""
+
+#: ../../source/api_note.rst:189
+msgid "/api/note/importantstate"
+msgstr ""
+
+#~ msgid "列出笔记"
+#~ msgstr ""
+
+#~ msgid "共通返回"
+#~ msgstr ""
+
+#~ msgid "创建笔记"
+#~ msgstr ""
+
+#~ msgid "获取笔记详情"
+#~ msgstr ""
+
+#~ msgid "删除笔记"
+#~ msgstr ""
+
+#~ msgid "归档笔记"
+#~ msgstr ""
+
+#~ msgid "取消归档笔记"
+#~ msgstr ""
+
+#~ msgid "设置笔记星标状态"
+#~ msgstr ""
+
+#~ msgid "设置笔记重要状态"
+#~ msgstr ""
+

@@ -5,22 +5,22 @@
 
 .. _kanban-project.List:
 
-列出看板项目
------------------------
-接口地址：
+list kanban project
+-------------------------------------------------------------
+interface address:
     * /api/kanban/project/list
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/kanban/project/list"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -48,22 +48,22 @@ HTTP 请求方式：
 
 .. _kanban-project.create:
 
-创建看板项目
------------------------
-接口地址：
+create kanban project
+-------------------------------------------------------------
+interface address:
     * /api/kanban/project/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/kanban/project/create"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -73,22 +73,22 @@ HTTP 请求方式：
 
 .. _kanban-project.move:
 
-移动看板项目
------------------------
-接口地址：
+move kanban project
+-------------------------------------------------------------
+interface address:
     * /api/kanban/project/move
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/kanban/project/move"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -99,22 +99,22 @@ HTTP 请求方式：
 
 .. _kanban-project.update:
 
-更新看板项目
------------------------
-接口地址：
+update kanban project
+-------------------------------------------------------------
+interface address:
     * /api/kanban/project/update
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/kanban/project/update"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -123,22 +123,22 @@ HTTP 请求方式：
 
 
 
-删除看板项目
------------------------
-接口地址：
+delete kanban project
+-------------------------------------------------------------
+interface address:
     * /api/kanban/project/delete
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/kanban/project/delete"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -149,22 +149,22 @@ HTTP 请求方式：
 
 .. _kanban-list.create:
 
-创建看板列表
------------------------
-接口地址：
+create kanban list
+-------------------------------------------------------------
+interface address:
     * /api/kanban/list/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/kanban/list/create"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -173,22 +173,22 @@ HTTP 请求方式：
 
 
 
-移动看板列表
------------------------
-接口地址：
+move kanban list
+-------------------------------------------------------------
+interface address:
     * /api/kanban/list/move
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/kanban/list/move"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -197,22 +197,22 @@ HTTP 请求方式：
 
 
 
-更新看板列表
------------------------
-接口地址：
+update kanban list
+-------------------------------------------------------------
+interface address:
     * /api/kanban/list/update
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/kanban/project/update"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -221,22 +221,22 @@ HTTP 请求方式：
 
 
 
-删除看板列表
------------------------
-接口地址：
+delete kanban list
+-------------------------------------------------------------
+interface address:
     * /api/kanban/list/delete
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/kanban/list/delete"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -245,22 +245,22 @@ HTTP 请求方式：
 
 
 
-获取任务列表
------------------------
-接口地址：
+get kanban card list
+-------------------------------------------------------------
+interface address:
     * /api/kanban/card/list
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/kanban/card/list"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -269,22 +269,22 @@ HTTP 请求方式：
 
 
 
-创建任务
------------------------
-接口地址：
+create kanban card
+-------------------------------------------------------------
+interface address:
     * /api/kanban/card/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/kanban/card/create"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -292,22 +292,22 @@ HTTP 请求方式：
         }
 
 
-获取任务详情
------------------------
-接口地址：
+get kanban card detail
+-------------------------------------------------------------
+interface address:
     * /api/kanban/card/detail/:id
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/kanban/card/detail/:id"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -315,22 +315,22 @@ HTTP 请求方式：
         }
 
 
-移动任务
------------------------
-接口地址：
+move kanban card
+-------------------------------------------------------------
+interface address:
     * /api/kanban/card/move
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/kanban/card/move"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -339,22 +339,22 @@ HTTP 请求方式：
 
 
 
-更新任务
------------------------
-接口地址：
+update kanban card
+-------------------------------------------------------------
+interface address:
     * /api/kanban/card/update
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/kanban/card/update"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -363,22 +363,22 @@ HTTP 请求方式：
 
 
 
-删除任务
------------------------
-接口地址：
+delete kanban card
+-------------------------------------------------------------
+interface address:
     * /api/kanban/card/delete
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/kanban/card/delete"
     
-返回参考：
+response example：
 
     * JSON::
 

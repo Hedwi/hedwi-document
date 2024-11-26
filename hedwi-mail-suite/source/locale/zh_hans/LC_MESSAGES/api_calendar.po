@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-26 21:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_hans\n"
+"Language-Team: zh_hans <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/api_calendar.rst:9
+msgid "list calendar"
+msgstr "列出日历"
+
+#: ../../source/api_calendar.rst:10 ../../source/api_calendar.rst:33
+#: ../../source/api_calendar.rst:56 ../../source/api_calendar.rst:79
+#: ../../source/api_calendar.rst:101 ../../source/api_calendar.rst:123
+#: ../../source/api_calendar.rst:145 ../../source/api_calendar.rst:167
+msgid "interface address:"
+msgstr "接口地址："
+
+#: ../../source/api_calendar.rst:11
+msgid "/api/calendar/collection/list"
+msgstr ""
+
+#: ../../source/api_calendar.rst:12 ../../source/api_calendar.rst:35
+#: ../../source/api_calendar.rst:58 ../../source/api_calendar.rst:81
+#: ../../source/api_calendar.rst:103 ../../source/api_calendar.rst:125
+#: ../../source/api_calendar.rst:147 ../../source/api_calendar.rst:169
+msgid "HTTP request method:"
+msgstr "HTTP请求方式"
+
+#: ../../source/api_calendar.rst:13 ../../source/api_calendar.rst:82
+#: ../../source/api_calendar.rst:104
+msgid "GET"
+msgstr "GET"
+
+#: ../../source/api_calendar.rst:14 ../../source/api_calendar.rst:37
+#: ../../source/api_calendar.rst:60 ../../source/api_calendar.rst:83
+#: ../../source/api_calendar.rst:105 ../../source/api_calendar.rst:127
+#: ../../source/api_calendar.rst:149 ../../source/api_calendar.rst:171
+msgid "request params:"
+msgstr "请求参数"
+
+#: ../../source/api_calendar.rst:16 ../../source/api_calendar.rst:39
+#: ../../source/api_calendar.rst:62 ../../source/api_calendar.rst:85
+#: ../../source/api_calendar.rst:107 ../../source/api_calendar.rst:129
+#: ../../source/api_calendar.rst:151 ../../source/api_calendar.rst:173
+msgid "response code:"
+msgstr "响应代码"
+
+#: ../../source/api_calendar.rst:17 ../../source/api_calendar.rst:40
+#: ../../source/api_calendar.rst:63 ../../source/api_calendar.rst:86
+#: ../../source/api_calendar.rst:108 ../../source/api_calendar.rst:130
+#: ../../source/api_calendar.rst:152 ../../source/api_calendar.rst:174
+msgid "common response"
+msgstr "共通响应"
+
+#: ../../source/api_calendar.rst:19 ../../source/api_calendar.rst:42
+#: ../../source/api_calendar.rst:65 ../../source/api_calendar.rst:88
+#: ../../source/api_calendar.rst:110 ../../source/api_calendar.rst:132
+#: ../../source/api_calendar.rst:154 ../../source/api_calendar.rst:176
+msgid "example::"
+msgstr "示例::"
+
+#: ../../source/api_calendar.rst:23 ../../source/api_calendar.rst:46
+#: ../../source/api_calendar.rst:69 ../../source/api_calendar.rst:92
+#: ../../source/api_calendar.rst:114 ../../source/api_calendar.rst:136
+#: ../../source/api_calendar.rst:158 ../../source/api_calendar.rst:180
+msgid "response example："
+msgstr "响应示例："
+
+#: ../../source/api_calendar.rst:25 ../../source/api_calendar.rst:48
+#: ../../source/api_calendar.rst:71 ../../source/api_calendar.rst:94
+#: ../../source/api_calendar.rst:116 ../../source/api_calendar.rst:138
+#: ../../source/api_calendar.rst:160 ../../source/api_calendar.rst:182
+msgid "JSON::"
+msgstr ""
+
+#: ../../source/api_calendar.rst:32
+msgid "create calendar"
+msgstr "创建日历集合"
+
+#: ../../source/api_calendar.rst:34
+msgid "/api/calendar/collection/create"
+msgstr ""
+
+#: ../../source/api_calendar.rst:36 ../../source/api_calendar.rst:59
+#: ../../source/api_calendar.rst:126 ../../source/api_calendar.rst:148
+#: ../../source/api_calendar.rst:170
+msgid "POST"
+msgstr ""
+
+#: ../../source/api_calendar.rst:55
+msgid "update calendar"
+msgstr "更新日历集合"
+
+#: ../../source/api_calendar.rst:57
+msgid "/api/calendar/collection/update"
+msgstr ""
+
+#: ../../source/api_calendar.rst:78
+msgid "list calendar event"
+msgstr "列出日历事件"
+
+#: ../../source/api_calendar.rst:80
+msgid "/api/calendar/event/list"
+msgstr ""
+
+#: ../../source/api_calendar.rst:100
+msgid "get calendar event detail"
+msgstr "获取日历事件详情"
+
+#: ../../source/api_calendar.rst:102
+msgid "/api/calendar/event/detail/:id"
+msgstr ""
+
+#: ../../source/api_calendar.rst:122
+msgid "create calendar event"
+msgstr "创建日历事件"
+
+#: ../../source/api_calendar.rst:124
+msgid "/api/calendar/event/create"
+msgstr ""
+
+#: ../../source/api_calendar.rst:144
+msgid "update calendar event"
+msgstr "修改日历事件"
+
+#: ../../source/api_calendar.rst:146
+msgid "/api/calendar/event/update"
+msgstr ""
+
+#: ../../source/api_calendar.rst:166
+msgid "delete calendar event"
+msgstr "删除日历事件"
+
+#: ../../source/api_calendar.rst:168
+msgid "/api/calendar/event/delete"
+msgstr ""
+
+#~ msgid "获取日历列表"
+#~ msgstr ""
+
+#~ msgid "共通返回"
+#~ msgstr ""
+
+#~ msgid "创建日历"
+#~ msgstr ""
+
+#~ msgid "更新日历"
+#~ msgstr ""
+
+#~ msgid "获取日历事件列表"
+#~ msgstr ""
+
+#~ msgid "获取日历事件详情"
+#~ msgstr ""
+
+#~ msgid "创建日历事件"
+#~ msgstr ""
+
+#~ msgid "修改日历事件"
+#~ msgstr ""
+
+#~ msgid "删除日历事件"
+#~ msgstr ""
+

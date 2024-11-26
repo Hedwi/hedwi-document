@@ -5,22 +5,22 @@
 
 .. _sheets.detail:
 
-获取文档详情
------------------------
-接口地址：
+get sheet detail
+-------------------------------------------------------------
+interface address:
     * /api/sheets/detail/:id
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/sheets/detail/:id"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -31,22 +31,22 @@ HTTP 请求方式：
 
 .. _sheets.create:
 
-创建文档
------------------------
-接口地址：
+create sheet
+-------------------------------------------------------------
+interface address:
     * /api/sheets/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/sheets/create"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -56,22 +56,22 @@ HTTP 请求方式：
 
 .. _sheets.rename:
 
-重命名文档
------------------------
-接口地址：
+rename sheet
+-------------------------------------------------------------
+interface address:
     * /api/sheets/rename
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/sheets/rename"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -81,22 +81,22 @@ HTTP 请求方式：
 
 .. _sheets.createchange:
 
-创建文档变更
------------------------
-接口地址：
+create sheet change
+-------------------------------------------------------------
+interface address:
     * /api/sheets/createchange
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/sheets/createchange"
     
-返回参考：
+response example：
 
     * JSON::
 

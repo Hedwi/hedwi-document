@@ -4,22 +4,22 @@
 
 .. _mail.list:
 
-获取邮件列表
------------------------
-接口地址：
+list mail
+-------------------------------------------------------------
+interface address:
     * /api/mail/list
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/mail/list"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -27,22 +27,22 @@ HTTP 请求方式：
         }
 
 
-获取邮件详情
------------------------
-接口地址：
+get mail detail
+-------------------------------------------------------------
+interface address:
     * /api/mail/detail/:id
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/mail/detail"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -50,22 +50,22 @@ HTTP 请求方式：
         }
 
 
-获取邮件原始内容
------------------------
-接口地址：
+get mail original content
+-------------------------------------------------------------
+interface address:
     * /api/mail/original/:id
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/mail/original/:id"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -73,110 +73,110 @@ HTTP 请求方式：
         }
 
 
-搜索邮件
------------------------
-接口地址：
+search mail
+-------------------------------------------------------------
+interface address:
     * /api/mail/search
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/mail/search"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-修改邮件阅读状态
------------------------
-接口地址：
+modify mail read state
+-------------------------------------------------------------
+interface address:
     * /api/mail/readstate
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/mail/readstate"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-修改邮件星标状态
------------------------
-接口地址：
+modify mail starred state
+-------------------------------------------------------------
+interface address:
     * /api/mail/starredstate
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/mail/starredstate"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-修改邮件是否重要状态
------------------------
-接口地址：
+modify mail important state
+-------------------------------------------------------------
+interface address:
     * /api/mail/importantstate
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/mail/importantstate"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-删除邮件
------------------------
-接口地址：
+delete mail
+-------------------------------------------------------------
+interface address:
     * /api/mail/delete
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/mail/delete"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -184,66 +184,66 @@ HTTP 请求方式：
         }
 
 
-永久删除邮件
------------------------
-接口地址：
+permanently delete mail
+-------------------------------------------------------------
+interface address:
     * /api/mail/foreverdelete
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/mail/foreverdelete"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-归档邮件
------------------------
-接口地址：
+archive mail
+-------------------------------------------------------------
+interface address:
     * /api/mail/archive
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/mail/archive"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-取消归档邮件
------------------------
-接口地址：
+unarchive mail
+-------------------------------------------------------------
+interface address:
     * /api/mail/unarchive
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/mail/unarchive"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -252,66 +252,66 @@ HTTP 请求方式：
 
 
 
-移动邮件到标签分组
------------------------
-接口地址：
+move mail to label group
+-------------------------------------------------------------
+interface address:
     * /api/mail/movelabel
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/mail/movelabel"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-删除邮件标签分组
------------------------
-接口地址：
+delete mail label group
+-------------------------------------------------------------
+interface address:
     * /api/mail/deletelabel
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/mail/deletelabel"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-应用邮件标签分组
------------------------
-接口地址：
+apply mail label group
+-------------------------------------------------------------
+interface address:
     * /api/mail/applylabel
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/mail/applylabel"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -320,22 +320,22 @@ HTTP 请求方式：
 
 
 
-发送邮件
------------------------
-接口地址：
+send mail
+-------------------------------------------------------------
+interface address:
     * /api/mail/send/:domain
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/mail/send/:domain"
     
-返回参考：
+response example：
 
     * JSON::
 

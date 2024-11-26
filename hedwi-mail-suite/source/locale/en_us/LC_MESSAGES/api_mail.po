@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-26 21:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_us\n"
+"Language-Team: en_us <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/api_mail.rst:8
+msgid "list mail"
+msgstr ""
+
+#: ../../source/api_mail.rst:9 ../../source/api_mail.rst:32
+#: ../../source/api_mail.rst:55 ../../source/api_mail.rst:78
+#: ../../source/api_mail.rst:100 ../../source/api_mail.rst:122
+#: ../../source/api_mail.rst:144 ../../source/api_mail.rst:166
+#: ../../source/api_mail.rst:189 ../../source/api_mail.rst:211
+#: ../../source/api_mail.rst:233 ../../source/api_mail.rst:257
+#: ../../source/api_mail.rst:279 ../../source/api_mail.rst:301
+#: ../../source/api_mail.rst:325
+msgid "interface address:"
+msgstr ""
+
+#: ../../source/api_mail.rst:10
+msgid "/api/mail/list"
+msgstr ""
+
+#: ../../source/api_mail.rst:11 ../../source/api_mail.rst:34
+#: ../../source/api_mail.rst:57 ../../source/api_mail.rst:80
+#: ../../source/api_mail.rst:102 ../../source/api_mail.rst:124
+#: ../../source/api_mail.rst:146 ../../source/api_mail.rst:168
+#: ../../source/api_mail.rst:191 ../../source/api_mail.rst:213
+#: ../../source/api_mail.rst:235 ../../source/api_mail.rst:259
+#: ../../source/api_mail.rst:281 ../../source/api_mail.rst:303
+#: ../../source/api_mail.rst:327
+msgid "HTTP request method:"
+msgstr ""
+
+#: ../../source/api_mail.rst:12 ../../source/api_mail.rst:35
+#: ../../source/api_mail.rst:58
+msgid "GET"
+msgstr ""
+
+#: ../../source/api_mail.rst:13 ../../source/api_mail.rst:36
+#: ../../source/api_mail.rst:59 ../../source/api_mail.rst:82
+#: ../../source/api_mail.rst:104 ../../source/api_mail.rst:126
+#: ../../source/api_mail.rst:148 ../../source/api_mail.rst:170
+#: ../../source/api_mail.rst:193 ../../source/api_mail.rst:215
+#: ../../source/api_mail.rst:237 ../../source/api_mail.rst:261
+#: ../../source/api_mail.rst:283 ../../source/api_mail.rst:305
+#: ../../source/api_mail.rst:329
+msgid "request params:"
+msgstr ""
+
+#: ../../source/api_mail.rst:15 ../../source/api_mail.rst:38
+#: ../../source/api_mail.rst:61 ../../source/api_mail.rst:84
+#: ../../source/api_mail.rst:106 ../../source/api_mail.rst:128
+#: ../../source/api_mail.rst:150 ../../source/api_mail.rst:172
+#: ../../source/api_mail.rst:195 ../../source/api_mail.rst:217
+#: ../../source/api_mail.rst:239 ../../source/api_mail.rst:263
+#: ../../source/api_mail.rst:285 ../../source/api_mail.rst:307
+#: ../../source/api_mail.rst:331
+msgid "response code:"
+msgstr ""
+
+#: ../../source/api_mail.rst:16 ../../source/api_mail.rst:39
+#: ../../source/api_mail.rst:62 ../../source/api_mail.rst:85
+#: ../../source/api_mail.rst:107 ../../source/api_mail.rst:129
+#: ../../source/api_mail.rst:151 ../../source/api_mail.rst:173
+#: ../../source/api_mail.rst:196 ../../source/api_mail.rst:218
+#: ../../source/api_mail.rst:240 ../../source/api_mail.rst:264
+#: ../../source/api_mail.rst:286 ../../source/api_mail.rst:308
+#: ../../source/api_mail.rst:332
+msgid "common response"
+msgstr ""
+
+#: ../../source/api_mail.rst:18 ../../source/api_mail.rst:41
+#: ../../source/api_mail.rst:64 ../../source/api_mail.rst:87
+#: ../../source/api_mail.rst:109 ../../source/api_mail.rst:131
+#: ../../source/api_mail.rst:153 ../../source/api_mail.rst:175
+#: ../../source/api_mail.rst:198 ../../source/api_mail.rst:220
+#: ../../source/api_mail.rst:242 ../../source/api_mail.rst:266
+#: ../../source/api_mail.rst:288 ../../source/api_mail.rst:310
+#: ../../source/api_mail.rst:334
+msgid "example::"
+msgstr ""
+
+#: ../../source/api_mail.rst:22 ../../source/api_mail.rst:45
+#: ../../source/api_mail.rst:68 ../../source/api_mail.rst:91
+#: ../../source/api_mail.rst:113 ../../source/api_mail.rst:135
+#: ../../source/api_mail.rst:157 ../../source/api_mail.rst:179
+#: ../../source/api_mail.rst:202 ../../source/api_mail.rst:224
+#: ../../source/api_mail.rst:246 ../../source/api_mail.rst:270
+#: ../../source/api_mail.rst:292 ../../source/api_mail.rst:314
+#: ../../source/api_mail.rst:338
+msgid "response example："
+msgstr ""
+
+#: ../../source/api_mail.rst:24 ../../source/api_mail.rst:47
+#: ../../source/api_mail.rst:70 ../../source/api_mail.rst:93
+#: ../../source/api_mail.rst:115 ../../source/api_mail.rst:137
+#: ../../source/api_mail.rst:159 ../../source/api_mail.rst:181
+#: ../../source/api_mail.rst:204 ../../source/api_mail.rst:226
+#: ../../source/api_mail.rst:248 ../../source/api_mail.rst:272
+#: ../../source/api_mail.rst:294 ../../source/api_mail.rst:316
+#: ../../source/api_mail.rst:340
+msgid "JSON::"
+msgstr ""
+
+#: ../../source/api_mail.rst:31
+msgid "get mail detail"
+msgstr ""
+
+#: ../../source/api_mail.rst:33
+msgid "/api/mail/detail/:id"
+msgstr ""
+
+#: ../../source/api_mail.rst:54
+msgid "get mail original content"
+msgstr ""
+
+#: ../../source/api_mail.rst:56
+msgid "/api/mail/original/:id"
+msgstr ""
+
+#: ../../source/api_mail.rst:77
+msgid "search mail"
+msgstr ""
+
+#: ../../source/api_mail.rst:79
+msgid "/api/mail/search"
+msgstr ""
+
+#: ../../source/api_mail.rst:81 ../../source/api_mail.rst:103
+#: ../../source/api_mail.rst:125 ../../source/api_mail.rst:147
+#: ../../source/api_mail.rst:169 ../../source/api_mail.rst:192
+#: ../../source/api_mail.rst:214 ../../source/api_mail.rst:236
+#: ../../source/api_mail.rst:260 ../../source/api_mail.rst:282
+#: ../../source/api_mail.rst:304 ../../source/api_mail.rst:328
+msgid "POST"
+msgstr ""
+
+#: ../../source/api_mail.rst:99
+msgid "modify mail read state"
+msgstr ""
+
+#: ../../source/api_mail.rst:101
+msgid "/api/mail/readstate"
+msgstr ""
+
+#: ../../source/api_mail.rst:121
+msgid "modify mail starred state"
+msgstr ""
+
+#: ../../source/api_mail.rst:123
+msgid "/api/mail/starredstate"
+msgstr ""
+
+#: ../../source/api_mail.rst:143
+msgid "modify mail important state"
+msgstr ""
+
+#: ../../source/api_mail.rst:145
+msgid "/api/mail/importantstate"
+msgstr ""
+
+#: ../../source/api_mail.rst:165
+msgid "delete mail"
+msgstr ""
+
+#: ../../source/api_mail.rst:167
+msgid "/api/mail/delete"
+msgstr ""
+
+#: ../../source/api_mail.rst:188
+msgid "permanently delete mail"
+msgstr ""
+
+#: ../../source/api_mail.rst:190
+msgid "/api/mail/foreverdelete"
+msgstr ""
+
+#: ../../source/api_mail.rst:210
+msgid "archive mail"
+msgstr ""
+
+#: ../../source/api_mail.rst:212
+msgid "/api/mail/archive"
+msgstr ""
+
+#: ../../source/api_mail.rst:232
+msgid "unarchive mail"
+msgstr ""
+
+#: ../../source/api_mail.rst:234
+msgid "/api/mail/unarchive"
+msgstr ""
+
+#: ../../source/api_mail.rst:256
+msgid "move mail to label group"
+msgstr ""
+
+#: ../../source/api_mail.rst:258
+msgid "/api/mail/movelabel"
+msgstr ""
+
+#: ../../source/api_mail.rst:278
+msgid "delete mail label group"
+msgstr ""
+
+#: ../../source/api_mail.rst:280
+msgid "/api/mail/deletelabel"
+msgstr ""
+
+#: ../../source/api_mail.rst:300
+msgid "apply mail label group"
+msgstr ""
+
+#: ../../source/api_mail.rst:302
+msgid "/api/mail/applylabel"
+msgstr ""
+
+#: ../../source/api_mail.rst:324
+msgid "send mail"
+msgstr ""
+
+#: ../../source/api_mail.rst:326
+msgid "/api/mail/send/:domain"
+msgstr ""
+
+#~ msgid "获取邮件列表"
+#~ msgstr ""
+
+#~ msgid "共通返回"
+#~ msgstr ""
+
+#~ msgid "获取邮件详情"
+#~ msgstr ""
+
+#~ msgid "获取邮件原始内容"
+#~ msgstr ""
+
+#~ msgid "搜索邮件"
+#~ msgstr ""
+
+#~ msgid "修改邮件阅读状态"
+#~ msgstr ""
+
+#~ msgid "修改邮件星标状态"
+#~ msgstr ""
+
+#~ msgid "修改邮件是否重要状态"
+#~ msgstr ""
+
+#~ msgid "删除邮件"
+#~ msgstr ""
+
+#~ msgid "永久删除邮件"
+#~ msgstr ""
+
+#~ msgid "归档邮件"
+#~ msgstr ""
+
+#~ msgid "取消归档邮件"
+#~ msgstr ""
+
+#~ msgid "移动邮件到标签分组"
+#~ msgstr ""
+
+#~ msgid "删除邮件标签分组"
+#~ msgstr ""
+
+#~ msgid "应用邮件标签分组"
+#~ msgstr ""
+
+#~ msgid "发送邮件"
+#~ msgstr ""
+

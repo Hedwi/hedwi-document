@@ -5,22 +5,22 @@
 
 .. _ai.List:
 
-列出对话列表
------------------------
-接口地址：
+list chat thread
+-------------------------------------------------------------
+interface address:
     * /api/aichat/thread/list
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/aichat/thread/list"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -29,132 +29,132 @@ HTTP 请求方式：
 
 
 
-创建对话
------------------------
-接口地址：
+create chat thread
+-------------------------------------------------------------
+interface address:
     * /api/aichat/thread/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/aichat/thread/create"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-列出对话列表
------------------------
-接口地址：
+list chat thread
+-------------------------------------------------------------
+interface address:
     * /api/aichat/thread/list
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/aichat/thread/list"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-移动对话
------------------------
-接口地址：
+move chat thread
+-------------------------------------------------------------
+interface address:
     * /api/aichat/thread/move
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/aichat/thread/move"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-更新对话
------------------------
-接口地址：
+update chat thread
+-------------------------------------------------------------
+interface address:
     * /api/aichat/thread/update
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/aichat/thread/update"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-删除对话
------------------------
-接口地址：
+delete chat thread
+-------------------------------------------------------------
+interface address:
     * /api/aichat/thread/delete
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/aichat/thread/delete"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-列出对话消息
------------------------
-接口地址：
+list chat content
+-------------------------------------------------------------
+interface address:
     * /api/aichat/content/list/:id
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/aichat/content/list/:id"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -162,22 +162,22 @@ HTTP 请求方式：
         }
 
 
-创建对话消息
------------------------
-接口地址：
+create chat content
+-------------------------------------------------------------
+interface address:
     * /api/aichat/content/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/aichat/content/create"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -185,22 +185,22 @@ HTTP 请求方式：
         }
 
 
-删除对话消息
------------------------
-接口地址：
+delete chat content
+-------------------------------------------------------------
+interface address:
     * /api/aichat/content/delete
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/aichat/content/delete"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -208,22 +208,22 @@ HTTP 请求方式：
         }
 
 
-对话消息流
------------------------
-接口地址：
+chat content stream
+-------------------------------------------------------------
+interface address:
     * /api/aichat/stream/:id
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/aichat/stream/:id"
     
-返回参考：
+response example：
 
     * JSON::
 

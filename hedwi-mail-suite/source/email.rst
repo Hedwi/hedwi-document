@@ -6,7 +6,7 @@
 发送邮件
 ================
 
-接口地址：
+interface address:
 
 * https://api.hedwi.com/mail/:domain
 
@@ -18,7 +18,7 @@ HTTP请求方式：
 
 * 参考 :ref:`api-auth` 章节
 
-请求参数：
+request params:
 
 * from
 
@@ -41,11 +41,11 @@ HTTP请求方式：
   - 邮件纯文本内容
 
 
-响应代码：
+response code:
 
-* 共通返回
+* common response
 
-示例::
+example::
     
     curl -X POST -s --user 'api:d5e76748-7b9a-11e9-bb91-f21898b25098' \
     'https://api.hedwi.com/mail/example.hedwi.com' \
@@ -54,7 +54,7 @@ HTTP请求方式：
     -F subject='Hello' \
     -F text='Testing email from Hedwi!'
 
-返回参考：
+response example：
 
 .. code-block:: json
 
@@ -68,7 +68,7 @@ HTTP请求方式：
 模板发送邮件
 ======================
 
-接口地址：
+interface address:
 
 * https://api.hedwi.com/mail/:domain
 
@@ -80,7 +80,7 @@ HTTP请求方式：
 
 * 参考 :ref:`api-auth` 章节
 
-请求参数：
+request params:
 
 * from
 
@@ -102,11 +102,11 @@ HTTP请求方式：
 
   - 模板变量  
 
-响应代码：
+response code:
 
-* 共通返回
+* common response
 
-示例::
+example::
     
     curl -X POST -s --user 'api:d5e76748-7b9a-11e9-bb91-f21898b25098' \
     'https://api.hedwi.com/mail/example.hedwi.com' \
@@ -116,7 +116,7 @@ HTTP请求方式：
     -F template='order' \
     -F hedwi-variables='{"name": "hedwi"}'
 
-返回参考：
+response example：
 
 .. code-block:: json
 

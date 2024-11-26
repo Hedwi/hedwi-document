@@ -4,22 +4,22 @@
 
 
 .. _meet.gettoken:
-获取加入会议的授权
------------------------
-接口地址：
+get join meet token
+-------------------------------------------------------------
+interface address:
     * /api/meet/gettoken
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/meet/gettoken"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -28,22 +28,22 @@ HTTP 请求方式：
 
 
 .. _meet.create:
-创建会议
------------------------
-接口地址：
+create meet
+-------------------------------------------------------------
+interface address:
     * /api/meet/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/meet/create"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -53,22 +53,22 @@ HTTP 请求方式：
 
 
 .. _meet.enter:
-进入会议
------------------------
-接口地址：
+enter meet
+-------------------------------------------------------------
+interface address:
     * /api/meet/enter
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/meet/enter"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -78,22 +78,22 @@ HTTP 请求方式：
 
 
 .. _meet.info:
-获取会议信息
------------------------
-接口地址：
+get meet info
+-------------------------------------------------------------
+interface address:
     * /api/meet/info/:id
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/meet/info/:id"
     
-返回参考：
+response example：
 
     * JSON::
 

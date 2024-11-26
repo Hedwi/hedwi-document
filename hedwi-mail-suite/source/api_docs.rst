@@ -5,22 +5,22 @@
 
 .. _docs.detail:
 
-获取文档详情
------------------------
-接口地址：
+get document detail
+-------------------------------------------------------------
+interface address:
     * /api/docs/detail/:id
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/docs/detail/:id"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -31,22 +31,22 @@ HTTP 请求方式：
 
 .. _docs.create:
 
-创建文档
------------------------
-接口地址：
+create document
+-------------------------------------------------------------
+interface address:
     * /api/docs/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/docs/create"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -56,22 +56,22 @@ HTTP 请求方式：
 
 .. _docs.rename:
 
-重命名文档
------------------------
-接口地址：
+rename document
+-------------------------------------------------------------
+interface address:
     * /api/docs/rename
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/docs/rename"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -81,22 +81,22 @@ HTTP 请求方式：
 
 .. _docs.createchange:
 
-创建文档变更
------------------------
-接口地址：
+create document change
+-------------------------------------------------------------
+interface address:
     * /api/docs/createchange
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/docs/createchange"
     
-返回参考：
+response example：
 
     * JSON::
 

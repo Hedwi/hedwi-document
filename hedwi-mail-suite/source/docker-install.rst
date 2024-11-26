@@ -3,40 +3,41 @@
 .. _docker-install:
 
 
-docker部署 (推荐)
-------------------------
+docker deploy
+----------------------------------------------------------------------------
 
-0. 环境要求
+
+0. Requirements
 =====================
-最低2G内存 2核CPU  linux 64位系统
+Minimum 2G memory 2 CPU 64-bit Linux system
 
-1. 配置DNS
+1. configure DNS
 ===============================================
 
 .. code-block:: bash
 
-   在域名服务商或者DNS解析服务商配置域名A记录指向服务器公网IP
+   Configure A record in the domain name service provider or DNS resolution service provider
 
-例如
+For example:
 
 ..  csv-table:: 
-    :header: "主机名", "记录类型", "记录值"
+    :header: "hostname", "record type", "record value"
     :widths: 35, 35, 30
 
     "work","A","x.x.x.x"
 
 
-- 主机名可以是任意二级域名前缀，这里使用work
-- example.com为你的域名
-- x.x.x.x 为服务器的IP地址
-- 网页访问地址为 https://work.example.com
+- The hostname can be any secondary domain name prefix, here use work
+- example.com is your domain name
+- x.x.x.x is the public IP address of the server
+- The web access address is https://work.example.com
 
-2. 安装docker, docker-compose, git
-======================================
+2. Install docker, docker-compose, git
+==========================================
 
 .. code-block:: bash
 
-  # 已经安装的话可以跳过
+  # If already installed, skip
 
   mkdir pkgs && cd pkgs
   wget 'https://download.docker.com/linux/static/stable/x86_64/docker-26.1.4.tgz'
@@ -50,7 +51,7 @@ docker部署 (推荐)
   apt install git  # ubuntu/debian
 
 
-3. 安装
+3. Install
 ===============================================
 
 .. code-block:: bash
@@ -58,36 +59,36 @@ docker部署 (推荐)
   git clone https://github.com/Hedwi/hedwi-docker.git
   cd hedwi-docker/hedwi
   cp env.example .env
-  #修改.env配置  修改所有备注『需要修改』的变量
+  # Modify the .env configuration, modify all variables marked with 'Need modify'
 
-  make  #运行起来之后 http 80端口可以访问 应该可以正常访问 http://配置的域名
+  make  # After running, http 80 port can be accessed, should be able to access http://configured domain name
 
-  # 服务会自动根据配置文件中的邮箱和密码创建管理员账号（用于配置系统、添加用户、添加团队等）和一个普通用户账号admin@你的域名（用于使用系统服务）
-
-
-`配置文件示例 </mail-suite/env-example.html>`_
+  # The service will automatically create an administrator account (for configuring the system, adding users, adding teams, etc.) and a normal user account admin@your domain name (for using the system service)
 
 
-4. 自动生成免费ssl证书
-===============================================
+`Configuration file example </mail-suite/env-example.html>`_
+
+
+4. Automatic generation of free SSL certificates
+==============================================================
 
 .. code-block:: bash
 
-  # 服务内置Let’s Encrypt HTTP-01 验证服务接口，运行此命令会请求/acme/create 接口创建证书
-  # 获取证书成功之后会将证书写入 inbox/certs/cert.key  inbox/certs/cert.crt
-  # 此命令会使用生成的免费证书替换掉 nginx/certs/cert.key nginx/certs/cert.crt
+  # The service has built-in Let’s Encrypt HTTP-01 verification service interface, running this command will request the /acme/create interface to create a certificate
+  # After obtaining the certificate successfully, the certificate will be written to inbox/certs/cert.key inbox/certs/cert.crt
+  # This command will use the generated free certificate to replace nginx/certs/cert.key nginx/certs/cert.crt
   make cert
 
-5. 重启服务
+5. Restart the service
 ===============================================
 
 .. code-block:: bash
 
-  make down #停掉所有运行的docker容器
-  make #启动docker容器
+  make down # Stop all running docker containers
+  make # Start docker containers
 
-6. 使用https访问 登录
+6. Use https to access and login
 ===============================================
 
-访问 https://work.example.com/login?admin=true (work.example.com为使用的域名), 使用管理员账号登录(配置的邮箱和密码)
-访问 https://work.example.com/hello 页面,  继续添加用户、团队等等。
+Access https://work.example.com/login?admin=true (work.example.com is the domain name used), use the administrator account (the email and password configured) to log in
+Access https://work.example.com/hello page, continue to add users, teams, etc.

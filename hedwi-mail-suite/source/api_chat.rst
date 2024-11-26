@@ -5,22 +5,22 @@
 
 .. _chat-project.List:
 
-列出对话列表
------------------------
-接口地址：
+list chat thread
+------------------------------------------------
+interface address:
     * /api/chat/list
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/chat/list"
     
-返回参考：
+response example：
 
     * JSON::
 

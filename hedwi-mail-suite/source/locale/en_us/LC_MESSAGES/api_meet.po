@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-26 21:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_us\n"
+"Language-Team: en_us <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/api_meet.rst:8
+msgid "get join meet token"
+msgstr ""
+
+#: ../../source/api_meet.rst:9 ../../source/api_meet.rst:33
+#: ../../source/api_meet.rst:58 ../../source/api_meet.rst:83
+msgid "interface address:"
+msgstr ""
+
+#: ../../source/api_meet.rst:10
+msgid "/api/meet/gettoken"
+msgstr ""
+
+#: ../../source/api_meet.rst:11 ../../source/api_meet.rst:35
+#: ../../source/api_meet.rst:60 ../../source/api_meet.rst:85
+msgid "HTTP request method:"
+msgstr ""
+
+#: ../../source/api_meet.rst:12 ../../source/api_meet.rst:36
+#: ../../source/api_meet.rst:61
+msgid "POST"
+msgstr ""
+
+#: ../../source/api_meet.rst:13 ../../source/api_meet.rst:37
+#: ../../source/api_meet.rst:62 ../../source/api_meet.rst:87
+msgid "request params:"
+msgstr ""
+
+#: ../../source/api_meet.rst:15 ../../source/api_meet.rst:39
+#: ../../source/api_meet.rst:64 ../../source/api_meet.rst:89
+msgid "response code:"
+msgstr ""
+
+#: ../../source/api_meet.rst:16 ../../source/api_meet.rst:40
+#: ../../source/api_meet.rst:65 ../../source/api_meet.rst:90
+msgid "common response"
+msgstr ""
+
+#: ../../source/api_meet.rst:18 ../../source/api_meet.rst:42
+#: ../../source/api_meet.rst:67 ../../source/api_meet.rst:92
+msgid "example::"
+msgstr ""
+
+#: ../../source/api_meet.rst:22 ../../source/api_meet.rst:46
+#: ../../source/api_meet.rst:71 ../../source/api_meet.rst:96
+msgid "response example："
+msgstr ""
+
+#: ../../source/api_meet.rst:24 ../../source/api_meet.rst:48
+#: ../../source/api_meet.rst:73 ../../source/api_meet.rst:98
+msgid "JSON::"
+msgstr ""
+
+#: ../../source/api_meet.rst:32
+msgid "create meet"
+msgstr ""
+
+#: ../../source/api_meet.rst:34
+msgid "/api/meet/create"
+msgstr ""
+
+#: ../../source/api_meet.rst:57
+msgid "enter meet"
+msgstr ""
+
+#: ../../source/api_meet.rst:59
+msgid "/api/meet/enter"
+msgstr ""
+
+#: ../../source/api_meet.rst:82
+msgid "get meet info"
+msgstr ""
+
+#: ../../source/api_meet.rst:84
+msgid "/api/meet/info/:id"
+msgstr ""
+
+#: ../../source/api_meet.rst:86
+msgid "GET"
+msgstr ""
+
+#~ msgid "获取加入会议的授权"
+#~ msgstr ""
+
+#~ msgid "共通返回"
+#~ msgstr ""
+
+#~ msgid "创建会议"
+#~ msgstr ""
+
+#~ msgid "进入会议"
+#~ msgstr ""
+
+#~ msgid "获取会议信息"
+#~ msgstr ""
+

@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-26 21:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_hans\n"
+"Language-Team: zh_hans <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/api_index.rst:5
+msgid "API"
+msgstr ""
+
+#: ../../source/api_index.rst:14
+msgid "mail"
+msgstr "邮箱"
+
+#: ../../source/api_index.rst:24
+msgid "contacts"
+msgstr "通讯录"
+
+#: ../../source/api_index.rst:35
+msgid "calendar"
+msgstr "日历"
+
+#: ../../source/api_index.rst:46
+msgid "AI"
+msgstr "AI"
+
+#: ../../source/api_index.rst:55
+msgid "chat"
+msgstr "聊天"
+
+#: ../../source/api_index.rst:66
+msgid "meet"
+msgstr "会议"
+
+#: ../../source/api_index.rst:77
+msgid "kanban"
+msgstr "看板"
+
+#: ../../source/api_index.rst:84 ../../source/api_index.rst:139
+msgid ":ref:`search`"
+msgstr ":ref:`search`"
+
+#: ../../source/api_index.rst:89
+msgid "drive"
+msgstr "云盘"
+
+#: ../../source/api_index.rst:100
+msgid "docs"
+msgstr "文档"
+
+#: ../../source/api_index.rst:111
+msgid "sheets"
+msgstr "表格"
+
+#: ../../source/api_index.rst:122
+msgid "slides"
+msgstr "演示"
+
+#: ../../source/api_index.rst:132
+msgid "note"
+msgstr "笔记"
+
+#~ msgid "邮箱 mail"
+#~ msgstr ""
+
+#~ msgid "联系人 contacts"
+#~ msgstr ""
+
+#~ msgid "日历 calendar"
+#~ msgstr ""
+
+#~ msgid "人工智能 AI"
+#~ msgstr ""
+
+#~ msgid "聊天 chat"
+#~ msgstr ""
+
+#~ msgid "会议 meet"
+#~ msgstr ""
+
+#~ msgid "看板 kanban"
+#~ msgstr ""
+
+#~ msgid "网盘 drive"
+#~ msgstr ""
+
+#~ msgid "文档 docs"
+#~ msgstr ""
+
+#~ msgid "表格 sheets"
+#~ msgstr ""
+
+#~ msgid "幻灯片 slides"
+#~ msgstr ""
+
+#~ msgid "笔记 note"
+#~ msgstr ""
+

@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-26 22:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_hans\n"
+"Language-Team: zh_hans <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/api_contacts.rst:8
+msgid "list contact"
+msgstr "列出联系人"
+
+#: ../../source/api_contacts.rst:9 ../../source/api_contacts.rst:32
+#: ../../source/api_contacts.rst:55 ../../source/api_contacts.rst:78
+#: ../../source/api_contacts.rst:103 ../../source/api_contacts.rst:127
+#: ../../source/api_contacts.rst:150 ../../source/api_contacts.rst:172
+#: ../../source/api_contacts.rst:194 ../../source/api_contacts.rst:217
+#: ../../source/api_contacts.rst:240
+msgid "interface address:"
+msgstr "接口地址："
+
+#: ../../source/api_contacts.rst:10
+msgid "/api/contact/list"
+msgstr "/api/contact/list"
+
+#: ../../source/api_contacts.rst:11 ../../source/api_contacts.rst:34
+#: ../../source/api_contacts.rst:57 ../../source/api_contacts.rst:80
+#: ../../source/api_contacts.rst:105 ../../source/api_contacts.rst:129
+#: ../../source/api_contacts.rst:152 ../../source/api_contacts.rst:174
+#: ../../source/api_contacts.rst:196 ../../source/api_contacts.rst:219
+#: ../../source/api_contacts.rst:242
+msgid "HTTP request method:"
+msgstr "HTTP请求方式"
+
+#: ../../source/api_contacts.rst:12 ../../source/api_contacts.rst:106
+#: ../../source/api_contacts.rst:153
+msgid "GET"
+msgstr "GET"
+
+#: ../../source/api_contacts.rst:13 ../../source/api_contacts.rst:36
+#: ../../source/api_contacts.rst:59 ../../source/api_contacts.rst:82
+#: ../../source/api_contacts.rst:107 ../../source/api_contacts.rst:131
+#: ../../source/api_contacts.rst:154 ../../source/api_contacts.rst:176
+#: ../../source/api_contacts.rst:198 ../../source/api_contacts.rst:221
+#: ../../source/api_contacts.rst:244
+msgid "request params:"
+msgstr "请求参数"
+
+#: ../../source/api_contacts.rst:15 ../../source/api_contacts.rst:38
+#: ../../source/api_contacts.rst:61 ../../source/api_contacts.rst:84
+#: ../../source/api_contacts.rst:109 ../../source/api_contacts.rst:133
+#: ../../source/api_contacts.rst:156 ../../source/api_contacts.rst:178
+#: ../../source/api_contacts.rst:200 ../../source/api_contacts.rst:223
+#: ../../source/api_contacts.rst:246
+msgid "response code:"
+msgstr "响应代码"
+
+#: ../../source/api_contacts.rst:16 ../../source/api_contacts.rst:39
+#: ../../source/api_contacts.rst:62 ../../source/api_contacts.rst:85
+#: ../../source/api_contacts.rst:110 ../../source/api_contacts.rst:134
+#: ../../source/api_contacts.rst:157 ../../source/api_contacts.rst:179
+#: ../../source/api_contacts.rst:201 ../../source/api_contacts.rst:224
+#: ../../source/api_contacts.rst:247
+msgid "common response"
+msgstr "共通响应"
+
+#: ../../source/api_contacts.rst:18 ../../source/api_contacts.rst:41
+#: ../../source/api_contacts.rst:64 ../../source/api_contacts.rst:87
+#: ../../source/api_contacts.rst:112 ../../source/api_contacts.rst:136
+#: ../../source/api_contacts.rst:159 ../../source/api_contacts.rst:181
+#: ../../source/api_contacts.rst:203 ../../source/api_contacts.rst:226
+#: ../../source/api_contacts.rst:249
+msgid "example::"
+msgstr "示例::"
+
+#: ../../source/api_contacts.rst:22 ../../source/api_contacts.rst:45
+#: ../../source/api_contacts.rst:68 ../../source/api_contacts.rst:91
+#: ../../source/api_contacts.rst:116 ../../source/api_contacts.rst:140
+#: ../../source/api_contacts.rst:163 ../../source/api_contacts.rst:185
+#: ../../source/api_contacts.rst:207 ../../source/api_contacts.rst:230
+#: ../../source/api_contacts.rst:253
+msgid "response example："
+msgstr "响应示例："
+
+#: ../../source/api_contacts.rst:24 ../../source/api_contacts.rst:47
+#: ../../source/api_contacts.rst:70 ../../source/api_contacts.rst:93
+#: ../../source/api_contacts.rst:118 ../../source/api_contacts.rst:142
+#: ../../source/api_contacts.rst:165 ../../source/api_contacts.rst:187
+#: ../../source/api_contacts.rst:209 ../../source/api_contacts.rst:232
+#: ../../source/api_contacts.rst:255
+msgid "JSON::"
+msgstr "JSON::"
+
+#: ../../source/api_contacts.rst:31
+msgid "create contact"
+msgstr "创建联系人"
+
+#: ../../source/api_contacts.rst:33
+msgid "/api/contact/create"
+msgstr "/api/contact/create"
+
+#: ../../source/api_contacts.rst:35 ../../source/api_contacts.rst:58
+#: ../../source/api_contacts.rst:81 ../../source/api_contacts.rst:130
+#: ../../source/api_contacts.rst:175 ../../source/api_contacts.rst:197
+#: ../../source/api_contacts.rst:220 ../../source/api_contacts.rst:243
+msgid "POST"
+msgstr "POST"
+
+#: ../../source/api_contacts.rst:54
+msgid "search contact"
+msgstr "搜索联系人"
+
+#: ../../source/api_contacts.rst:56
+msgid "/api/contact/search"
+msgstr "/api/contact/search"
+
+#: ../../source/api_contacts.rst:77
+msgid "update contact"
+msgstr "更新联系人"
+
+#: ../../source/api_contacts.rst:79
+msgid "/api/contact/update"
+msgstr "/api/contact/update"
+
+#: ../../source/api_contacts.rst:102
+msgid "get contact detail"
+msgstr "获取联系人详情"
+
+#: ../../source/api_contacts.rst:104
+msgid "/api/contact/detail/:id"
+msgstr "/api/contact/detail/:id"
+
+#: ../../source/api_contacts.rst:126
+msgid "delete contact"
+msgstr "删除联系人"
+
+#: ../../source/api_contacts.rst:128
+msgid "/api/contact/delete"
+msgstr "/api/contact/delete"
+
+#: ../../source/api_contacts.rst:149
+msgid "list contact label"
+msgstr "列出联系人标签"
+
+#: ../../source/api_contacts.rst:151
+msgid "/api/contact/label/list"
+msgstr "/api/contact/label/list"
+
+#: ../../source/api_contacts.rst:171
+msgid "create contact label"
+msgstr "创建联系人标签"
+
+#: ../../source/api_contacts.rst:173
+msgid "/api/contact/label/create"
+msgstr "/api/contact/label/create"
+
+#: ../../source/api_contacts.rst:193
+msgid "delete contact label"
+msgstr "删除联系人标签"
+
+#: ../../source/api_contacts.rst:195
+msgid "/api/contact/label/deletelabel"
+msgstr "/api/contact/label/deletelabel"
+
+#: ../../source/api_contacts.rst:216
+msgid "apply contact label"
+msgstr "应用联系人标签"
+
+#: ../../source/api_contacts.rst:218
+msgid "/api/contact/label/applylabel"
+msgstr "/api/contact/label/applylabel"
+
+#: ../../source/api_contacts.rst:239
+msgid "modify contact starred state"
+msgstr "修改联系人星标状态"
+
+#: ../../source/api_contacts.rst:241
+msgid "/api/contact/label/starredstate"
+msgstr "/api/contact/label/starredstate"
+
+#~ msgid "获取联系人列表"
+#~ msgstr ""
+
+#~ msgid "共通返回"
+#~ msgstr ""
+
+#~ msgid "创建联系人"
+#~ msgstr ""
+
+#~ msgid "搜索联系人"
+#~ msgstr ""
+
+#~ msgid "更新联系人信息"
+#~ msgstr ""
+
+#~ msgid "获取联系人详情"
+#~ msgstr ""
+
+#~ msgid "删除联系人"
+#~ msgstr ""
+
+#~ msgid "联系人标签列表"
+#~ msgstr ""
+
+#~ msgid "创建联系人标签"
+#~ msgstr ""
+
+#~ msgid "删除联系人标签"
+#~ msgstr ""
+
+#~ msgid "应用联系人标签"
+#~ msgstr ""
+
+#~ msgid "修改联系人星标状态"
+#~ msgstr ""
+

@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-26 21:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_hans\n"
+"Language-Team: zh_hans <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/email.rst:7
+msgid "发送邮件"
+msgstr ""
+
+#: ../../source/email.rst:9 ../../source/email.rst:71
+msgid "interface address:"
+msgstr "接口地址："
+
+#: ../../source/email.rst:11 ../../source/email.rst:73
+msgid "https://api.hedwi.com/mail/:domain"
+msgstr ""
+
+#: ../../source/email.rst:13 ../../source/email.rst:75
+msgid "HTTP请求方式："
+msgstr ""
+
+#: ../../source/email.rst:15 ../../source/email.rst:77
+msgid "POST"
+msgstr ""
+
+#: ../../source/email.rst:17 ../../source/email.rst:79
+msgid "鉴权："
+msgstr ""
+
+#: ../../source/email.rst:19 ../../source/email.rst:81
+msgid "参考 :ref:`api-auth` 章节"
+msgstr ""
+
+#: ../../source/email.rst:21 ../../source/email.rst:83
+msgid "request params:"
+msgstr "请求参数"
+
+#: ../../source/email.rst:23 ../../source/email.rst:85
+msgid "from"
+msgstr ""
+
+#: ../../source/email.rst:25 ../../source/email.rst:87
+msgid "发件人"
+msgstr ""
+
+#: ../../source/email.rst:27 ../../source/email.rst:89
+msgid "to"
+msgstr ""
+
+#: ../../source/email.rst:29 ../../source/email.rst:91
+msgid "收件人"
+msgstr ""
+
+#: ../../source/email.rst:31 ../../source/email.rst:93
+msgid "subject"
+msgstr ""
+
+#: ../../source/email.rst:33 ../../source/email.rst:95
+msgid "邮件主题"
+msgstr ""
+
+#: ../../source/email.rst:35
+msgid "html"
+msgstr ""
+
+#: ../../source/email.rst:37
+msgid "邮件html内容"
+msgstr ""
+
+#: ../../source/email.rst:39
+msgid "text"
+msgstr ""
+
+#: ../../source/email.rst:41
+msgid "邮件纯文本内容"
+msgstr ""
+
+#: ../../source/email.rst:44 ../../source/email.rst:105
+msgid "response code:"
+msgstr "响应代码"
+
+#: ../../source/email.rst:46 ../../source/email.rst:107
+msgid "common response"
+msgstr "共通响应"
+
+#: ../../source/email.rst:48 ../../source/email.rst:109
+msgid "example::"
+msgstr "示例::"
+
+#: ../../source/email.rst:57 ../../source/email.rst:119
+msgid "response example："
+msgstr "响应示例："
+
+#: ../../source/email.rst:69
+msgid "模板发送邮件"
+msgstr ""
+
+#: ../../source/email.rst:97
+msgid "template"
+msgstr ""
+
+#: ../../source/email.rst:99
+msgid "模板名称"
+msgstr ""
+
+#: ../../source/email.rst:101
+msgid "hedwi-variables"
+msgstr ""
+
+#: ../../source/email.rst:103
+msgid "模板变量"
+msgstr ""
+
+#: ../../source/email.rst:129
+msgid "模板变量调用示例："
+msgstr ""
+
+#~ msgid "共通返回"
+#~ msgstr ""
+

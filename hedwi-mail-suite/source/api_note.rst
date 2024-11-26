@@ -5,22 +5,22 @@
 
 .. _note.list:
 
-列出笔记
------------------------
-接口地址：
+list note
+-------------------------------------------------------------
+interface address:
     * /api/note/list
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/note/list"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -32,22 +32,22 @@ HTTP 请求方式：
 
 .. _note.create:
 
-创建笔记
------------------------
-接口地址：
+create note
+-------------------------------------------------------------
+interface address:
     * /api/note/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/note/create"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -57,22 +57,22 @@ HTTP 请求方式：
 
 .. _note.detail:
 
-获取笔记详情
------------------------
-接口地址：
+get note detail
+-------------------------------------------------------------
+interface address:
     * /api/note/detail/:id
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/note/detail/:id"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -82,22 +82,22 @@ HTTP 请求方式：
 
 .. _note.delete:
 
-删除笔记
------------------------
-接口地址：
+delete note
+-------------------------------------------------------------
+interface address:
     	* /api/note/delete
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/note/delete"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -109,22 +109,22 @@ HTTP 请求方式：
 
 .. _note.archive:
 
-归档笔记
------------------------
-接口地址：
+archive note
+-------------------------------------------------------------
+interface address:
     * /api/note/archive
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/note/archive"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -134,22 +134,22 @@ HTTP 请求方式：
 
 .. _note.unarchive:
 
-取消归档笔记
------------------------
-接口地址：
+unarchive note
+-------------------------------------------------------------
+interface address:
     * /api/note/unarchive
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/note/unarchive"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -158,22 +158,22 @@ HTTP 请求方式：
 
 .. _note.starredstate:
 
-设置笔记星标状态
------------------------
-接口地址：
+modify note starred state
+-------------------------------------------------------------
+interface address:
     * /api/note/starredstate
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/note/starredstate"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -183,22 +183,22 @@ HTTP 请求方式：
 
 .. _note.importantstate:
 
-设置笔记重要状态
------------------------
-接口地址：
+modify note important state
+-------------------------------------------------------------
+interface address:
     * /api/note/importantstate
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/note/importantstate"
     
-返回参考：
+response example：
 
     * JSON::
 

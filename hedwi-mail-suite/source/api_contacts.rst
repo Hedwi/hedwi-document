@@ -4,22 +4,22 @@
 
 .. _contact.list:
 
-获取联系人列表
------------------------
-接口地址：
+list contact
+-------------------------------------------------------------
+interface address:
     * /api/contact/list
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/contact/list"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -27,22 +27,22 @@ HTTP 请求方式：
         }
 
 
-创建联系人
------------------------
-接口地址：
+create contact
+-------------------------------------------------------------
+interface address:
     * /api/contact/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/contact/create"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -50,22 +50,22 @@ HTTP 请求方式：
         }
 
 
-搜索联系人
------------------------
-接口地址：
+search contact
+-------------------------------------------------------------
+interface address:
     * /api/contact/search
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/contact/search"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -73,22 +73,22 @@ HTTP 请求方式：
         }
 
 
- 更新联系人信息
------------------------
-接口地址：
+update contact
+-------------------------------------------------------------
+interface address:
     * /api/contact/update
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/contact/update"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -98,22 +98,22 @@ HTTP 请求方式：
 
 
 
-获取联系人详情
------------------------
-接口地址：
+get contact detail
+-------------------------------------------------------------
+interface address:
     * /api/contact/detail/:id
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/contact/detail/:id"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -122,22 +122,22 @@ HTTP 请求方式：
 
 
 
-删除联系人
------------------------
-接口地址：
+delete contact
+-------------------------------------------------------------
+interface address:
     * /api/contact/delete
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/contact/delete"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -145,66 +145,66 @@ HTTP 请求方式：
         }
 
 
-联系人标签列表
------------------------
-接口地址：
+list contact label
+-------------------------------------------------------------
+interface address:
     * /api/contact/label/list
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/contact/label/list"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-创建联系人标签
------------------------
-接口地址：
+create contact label
+-------------------------------------------------------------
+interface address:
     * /api/contact/label/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/contact/label/create"
     
-返回参考：
+response example：
 
     * JSON::
 
         {
         }
 
-删除联系人标签
------------------------
-接口地址：
+delete contact label
+-------------------------------------------------------------
+interface address:
     * /api/contact/label/deletelabel
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/contact/label/deletelabel"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -212,22 +212,22 @@ HTTP 请求方式：
         }
 
 
-应用联系人标签
------------------------
-接口地址：
+apply contact label
+-------------------------------------------------------------
+interface address:
     * /api/contact/label/applylabel
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/contact/label/applylabel"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -235,22 +235,22 @@ HTTP 请求方式：
         }
 
 
-修改联系人星标状态
------------------------
-接口地址：
+modify contact starred state
+-------------------------------------------------------------
+interface address:
     * /api/contact/label/starredstate
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/contact/label/starredstate"
     
-返回参考：
+response example：
 
     * JSON::
 

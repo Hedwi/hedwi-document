@@ -9,8 +9,9 @@ Hedwi 海未办公套件私有部署文档
 
       <a target="_blank" href="https://hedwi.com" >Hedwi官网</a>
       <br/>
-      <a target="_blank" href="https://document.hedwi.com" >文档中心</a>
-
+      <a href="/mail-suite/zh-hans/" >中文版</a>
+      <br/>
+      <a href="/mail-suite/en-us/" >English version</a>
 
 目录
 -----------
@@ -24,4 +25,6 @@ Hedwi 海未办公套件私有部署文档
    api_index
 
 
+
 * :ref:`search`
+

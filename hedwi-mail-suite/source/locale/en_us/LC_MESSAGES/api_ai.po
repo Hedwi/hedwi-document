@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-26 21:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_us\n"
+"Language-Team: en_us <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/api_ai.rst:9 ../../source/api_ai.rst:55
+msgid "list chat thread"
+msgstr ""
+
+#: ../../source/api_ai.rst:10 ../../source/api_ai.rst:34
+#: ../../source/api_ai.rst:56 ../../source/api_ai.rst:78
+#: ../../source/api_ai.rst:100 ../../source/api_ai.rst:122
+#: ../../source/api_ai.rst:144 ../../source/api_ai.rst:167
+#: ../../source/api_ai.rst:190 ../../source/api_ai.rst:213
+msgid "interface address:"
+msgstr ""
+
+#: ../../source/api_ai.rst:11 ../../source/api_ai.rst:57
+msgid "/api/aichat/thread/list"
+msgstr ""
+
+#: ../../source/api_ai.rst:12 ../../source/api_ai.rst:36
+#: ../../source/api_ai.rst:58 ../../source/api_ai.rst:80
+#: ../../source/api_ai.rst:102 ../../source/api_ai.rst:124
+#: ../../source/api_ai.rst:146 ../../source/api_ai.rst:169
+#: ../../source/api_ai.rst:192 ../../source/api_ai.rst:215
+msgid "HTTP request method:"
+msgstr ""
+
+#: ../../source/api_ai.rst:13 ../../source/api_ai.rst:59
+#: ../../source/api_ai.rst:147 ../../source/api_ai.rst:216
+msgid "GET"
+msgstr ""
+
+#: ../../source/api_ai.rst:14 ../../source/api_ai.rst:38
+#: ../../source/api_ai.rst:60 ../../source/api_ai.rst:82
+#: ../../source/api_ai.rst:104 ../../source/api_ai.rst:126
+#: ../../source/api_ai.rst:148 ../../source/api_ai.rst:171
+#: ../../source/api_ai.rst:194 ../../source/api_ai.rst:217
+msgid "request params:"
+msgstr ""
+
+#: ../../source/api_ai.rst:16 ../../source/api_ai.rst:40
+#: ../../source/api_ai.rst:62 ../../source/api_ai.rst:84
+#: ../../source/api_ai.rst:106 ../../source/api_ai.rst:128
+#: ../../source/api_ai.rst:150 ../../source/api_ai.rst:173
+#: ../../source/api_ai.rst:196 ../../source/api_ai.rst:219
+msgid "response code:"
+msgstr ""
+
+#: ../../source/api_ai.rst:17 ../../source/api_ai.rst:41
+#: ../../source/api_ai.rst:63 ../../source/api_ai.rst:85
+#: ../../source/api_ai.rst:107 ../../source/api_ai.rst:129
+#: ../../source/api_ai.rst:151 ../../source/api_ai.rst:174
+#: ../../source/api_ai.rst:197 ../../source/api_ai.rst:220
+msgid "common response"
+msgstr ""
+
+#: ../../source/api_ai.rst:19 ../../source/api_ai.rst:43
+#: ../../source/api_ai.rst:65 ../../source/api_ai.rst:87
+#: ../../source/api_ai.rst:109 ../../source/api_ai.rst:131
+#: ../../source/api_ai.rst:153 ../../source/api_ai.rst:176
+#: ../../source/api_ai.rst:199 ../../source/api_ai.rst:222
+msgid "example::"
+msgstr ""
+
+#: ../../source/api_ai.rst:23 ../../source/api_ai.rst:47
+#: ../../source/api_ai.rst:69 ../../source/api_ai.rst:91
+#: ../../source/api_ai.rst:113 ../../source/api_ai.rst:135
+#: ../../source/api_ai.rst:157 ../../source/api_ai.rst:180
+#: ../../source/api_ai.rst:203 ../../source/api_ai.rst:226
+msgid "response example："
+msgstr ""
+
+#: ../../source/api_ai.rst:25 ../../source/api_ai.rst:49
+#: ../../source/api_ai.rst:71 ../../source/api_ai.rst:93
+#: ../../source/api_ai.rst:115 ../../source/api_ai.rst:137
+#: ../../source/api_ai.rst:159 ../../source/api_ai.rst:182
+#: ../../source/api_ai.rst:205 ../../source/api_ai.rst:228
+msgid "JSON::"
+msgstr ""
+
+#: ../../source/api_ai.rst:33
+msgid "create chat thread"
+msgstr ""
+
+#: ../../source/api_ai.rst:35
+msgid "/api/aichat/thread/create"
+msgstr ""
+
+#: ../../source/api_ai.rst:37 ../../source/api_ai.rst:81
+#: ../../source/api_ai.rst:103 ../../source/api_ai.rst:125
+#: ../../source/api_ai.rst:170 ../../source/api_ai.rst:193
+msgid "POST"
+msgstr ""
+
+#: ../../source/api_ai.rst:77
+msgid "move chat thread"
+msgstr ""
+
+#: ../../source/api_ai.rst:79
+msgid "/api/aichat/thread/move"
+msgstr ""
+
+#: ../../source/api_ai.rst:99
+msgid "update chat thread"
+msgstr ""
+
+#: ../../source/api_ai.rst:101
+msgid "/api/aichat/thread/update"
+msgstr ""
+
+#: ../../source/api_ai.rst:121
+msgid "delete chat thread"
+msgstr ""
+
+#: ../../source/api_ai.rst:123
+msgid "/api/aichat/thread/delete"
+msgstr ""
+
+#: ../../source/api_ai.rst:143
+msgid "list chat content"
+msgstr ""
+
+#: ../../source/api_ai.rst:145
+msgid "/api/aichat/content/list/:id"
+msgstr ""
+
+#: ../../source/api_ai.rst:166
+msgid "create chat content"
+msgstr ""
+
+#: ../../source/api_ai.rst:168
+msgid "/api/aichat/content/create"
+msgstr ""
+
+#: ../../source/api_ai.rst:189
+msgid "delete chat content"
+msgstr ""
+
+#: ../../source/api_ai.rst:191
+msgid "/api/aichat/content/delete"
+msgstr ""
+
+#: ../../source/api_ai.rst:212
+msgid "chat content stream"
+msgstr ""
+
+#: ../../source/api_ai.rst:214
+msgid "/api/aichat/stream/:id"
+msgstr ""
+
+#~ msgid "列出对话列表"
+#~ msgstr ""
+
+#~ msgid "共通返回"
+#~ msgstr ""
+
+#~ msgid "创建对话"
+#~ msgstr ""
+
+#~ msgid "移动对话"
+#~ msgstr ""
+
+#~ msgid "更新对话"
+#~ msgstr ""
+
+#~ msgid "删除对话"
+#~ msgstr ""
+
+#~ msgid "列出对话消息"
+#~ msgstr ""
+
+#~ msgid "创建对话消息"
+#~ msgstr ""
+
+#~ msgid "删除对话消息"
+#~ msgstr ""
+
+#~ msgid "对话消息流"
+#~ msgstr ""
+

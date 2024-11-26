@@ -5,22 +5,22 @@
 
 .. _slides.detail:
 
-获取文档详情
------------------------
-接口地址：
+get slides detail
+-------------------------------------------------------------
+interface address:
     * /api/slides/detail/:id
-HTTP 请求方式：
+HTTP request method:
     * GET
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X GET "$BASE_URL/api/slides/detail/:id"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -31,22 +31,22 @@ HTTP 请求方式：
 
 .. _slides.create:
 
-创建文档
------------------------
-接口地址：
+create slides
+-------------------------------------------------------------
+interface address:
     * /api/slides/create
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/slides/create"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -56,22 +56,22 @@ HTTP 请求方式：
 
 .. _slides.rename:
 
-重命名文档
------------------------
-接口地址：
+rename slides
+-------------------------------------------------------------
+interface address:
     * /api/slides/rename
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/slides/rename"
     
-返回参考：
+response example：
 
     * JSON::
 
@@ -81,22 +81,22 @@ HTTP 请求方式：
 
 .. _slides.createchange:
 
-创建文档变更
------------------------
-接口地址：
+create slides change
+-------------------------------------------------------------
+interface address:
     * /api/slides/createchange
-HTTP 请求方式：
+HTTP request method:
     * POST
-请求参数：
+request params:
     * -
-响应代码：
-    * 共通返回
+response code:
+    * common response
 
-示例::
+example::
 
     curl -X POST "$BASE_URL/api/slides/createchange"
     
-返回参考：
+response example：
 
     * JSON::
 

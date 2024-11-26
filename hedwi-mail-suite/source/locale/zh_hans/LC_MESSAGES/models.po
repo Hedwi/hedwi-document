@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-26 22:53+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_hans\n"
+"Language-Team: zh_hans <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/models.rst:7
+msgid "database table structure update"
+msgstr "数据库表结构更新"
+
+#: ../../source/models.rst:11
+msgid "2024-10-30"
+msgstr ""
+
+#: ../../source/models.rst:15
+msgid "2024-11-18"
+msgstr ""
+
+#: ../../source/models.rst:17
+#, fuzzy
+msgid ""
+"chat_channel_message  add `cmd_type` field type int16 smallint "
+"chat_user_message     add `cmd_type` field type int16 smallint"
+msgstr ""
+"chat_channel_message  增加cmd_type字段 类型 int16 smallint chat_user_message "
+"增加cmd_type字段 类型 int16 smallint"
+
+#: ../../source/models.rst:20
+#, fuzzy
+msgid ""
+"chat_channel   add `kanban` field type int64 bigint chat_channel   add "
+"`drive` field type int64 bigint"
+msgstr ""
+"chat_channel  增加kanban字段 类型 int64 bigint chat_channel  增加drive字段 类型 int64"
+" bigint"
+
+#: ../../source/models.rst:23
+#, fuzzy
+msgid "chat_channel_rel   add `type` field type int16 smallint"
+msgstr "chat_channel_rel  增加type字段 类型 int16 smallint"
+
+#~ msgid "数据库表结构更新"
+#~ msgstr ""
+

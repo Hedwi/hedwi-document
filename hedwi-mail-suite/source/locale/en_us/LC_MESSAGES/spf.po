@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-05 09:54+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/spf.rst:7
+msgid "SPF - 发件人策略框架"
+msgstr ""
+
+#: ../../source/spf.rst:9
+#, python-format
+msgid ""
+"引用自维基百科 `发件人策略框架 "
+"<https://zh.wikipedia.org/wiki/%E5%8F%91%E4%BB%B6%E4%BA%BA%E7%AD%96%E7%95%A5%E6%A1%86%E6%9E%B6>`_"
+msgstr ""
+
+#: ../../source/spf.rst:12
+msgid ""
+"发件人策略框架（英语：Sender Policy Framework；简称SPF； RFC "
+"4408）是一套电子邮件认证机制，可以确认电子邮件确实是由网域授权的邮件服务器寄出，防止有人伪冒身份网络钓鱼或寄出垃圾电邮。SPF允许管理员设定一个DNS"
+" "
+"TXT记录或SPF记录设定发送邮件服务器的IP范围，如有任何邮件并非从上述指明授权的IP地址寄出，则很可能该邮件并非确实由真正的寄件者寄出（邮件上声称的“寄件者”为假冒）。"
+msgstr ""
+
+#: ../../source/spf.rst:16
+msgid "用途"
+msgstr ""
+
+#: ../../source/spf.rst:19
+msgid ""
+"SPF 记录的用途是阻止垃圾邮件发件人发送假冒您的域中的“发件人”地址的电子邮件。收件人可以参考 SPF "
+"记录来确定号称来自您的域的邮件是否来自授权邮件服务器。对于大多主流的邮件服务商，鉴别发送者的SPF记录有助于抵御垃圾邮件给接收者带来的骚扰。"
+msgstr ""
+
+#: ../../source/spf.rst:22
+msgid "原理"
+msgstr ""
+
+#: ../../source/spf.rst:24
+msgid "SMTP协议本身没有机制鉴别寄件人的真正身份，电子邮件的“寄件者”一栏可以填上任何名字，于是伪冒他人身份来网络钓鱼或寄出垃圾邮件便相当容易，而真正来源却不易追查。"
+msgstr ""
+
+#: ../../source/spf.rst:26
+msgid ""
+"SPF 记录允许域名管理员公布所授权的邮件服务器IP地址，接收服务器会在收到邮件时验证发件人在 SMTP 会话中执行 MAIL FROM "
+"命令时的邮件地址是否与域名 SPF 记录中所指定的源 IP 匹配，以判断是否为发件人域名伪造。"
+msgstr ""
+
+#: ../../source/spf.rst:28
+msgid "邮件接收方的收件服务器在接受到邮件后，首先检查域名的SPF记录，来确定发件人的IP地址是否被包含在SPF记录里面，如果在，就认为是一封来自于被授权服务器的邮件，否则会认为是一封伪造的邮件并根据相关政策退回或放进收件人的杂件箱。"
+msgstr ""
+
+#: ../../source/spf.rst:31
+msgid ""
+"简单来说，SPF 记录其实就是一条有特殊语法的 TXT 记录，它由“匹配机制”和“修饰符”2 部分组成。“修饰符”通常只作为可选项，一般情况下 "
+"Exchange 管理员只会用到并处理包含“匹配机制”的 SPF 记录。 SPF "
+"记录的匹配机制主要用于定义和指定可由该域名发送邮件的主机，其定义方式包括："
+msgstr ""
+
+#: ../../source/spf.rst:35
+msgid "all 匹配任何主机，它写在 SPF 记录最后以匹配在其前面所列出的主机。"
+msgstr ""
+
+#: ../../source/spf.rst:36
+msgid "ip4 匹配 IPv4 地址或网络范围。"
+msgstr ""
+
+#: ../../source/spf.rst:37
+msgid "ip6 匹配 IPv6 地址或网络范围。"
+msgstr ""
+
+#: ../../source/spf.rst:38
+msgid "a 匹配主机名或域名。"
+msgstr ""
+
+#: ../../source/spf.rst:39
+msgid "mx 匹配域名的 MX 记录，当出站与入站邮件为同一服务器时通常采用此种机制。"
+msgstr ""
+
+#: ../../source/spf.rst:40
+msgid "ptr 通过 DNS 反向记录来匹配发件人 IP 和域名，由于会增加 DNS 负载，一般不采用此种机制。"
+msgstr ""
+
+#: ../../source/spf.rst:41
+msgid "exists 只检查域是否在 DNS 中存在。"
+msgstr ""
+
+#: ../../source/spf.rst:42
+msgid "include 将发件人 IP 和 SPF 记录指向另一个域，这种匹配机制通常用于云服务，如 Exchange Online Protection。"
+msgstr ""
+
+#: ../../source/spf.rst:44
+msgid "SPF 记录的匹配机制会结合一些限定词来使用，以告诉服务器找到一条匹配记录时该怎么办。常见的限定词有："
+msgstr ""
+
+#: ../../source/spf.rst:46
+msgid "\\+ 放行，如果没有明确指定限定词，则为默认值。"
+msgstr ""
+
+#: ../../source/spf.rst:47
+msgid "– 硬拒绝，直接拒绝来自未经授权主机的邮件。"
+msgstr ""
+
+#: ../../source/spf.rst:48
+msgid "~ 软拒绝，邮件可被接受，也可被标记为垃圾邮件。"
+msgstr ""
+
+#: ../../source/spf.rst:49
+msgid "? 中性，不考虑邮件是否被接受。"
+msgstr ""
+
+#: ../../source/spf.rst:51
+msgid ""
+"SPF 记录会结合“匹配机制”和“限定词”使用，例如：在 SPF 记录的末尾处写有 -all "
+"则表明在不匹配前面所列主机时，接收服务器需要将邮件全部拒绝。"
+msgstr ""
+
+#: ../../source/spf.rst:54
+msgid "hedwi spf配置"
+msgstr ""
+
+#: ../../source/spf.rst:56
+msgid "TXT记录值为 v=spf1 include:spf.hedwi.net ~all"
+msgstr ""
+
+#: ../../source/spf.rst:59
+msgid "外部链接"
+msgstr ""
+
+#: ../../source/spf.rst:61
+msgid ""
+"`Sender Policy Framework项目网站 "
+"<https://web.archive.org/web/20080513111421/http://www.openspf.org/>`_"
+msgstr ""
+
+#: ../../source/spf.rst:62
+msgid "`RFC 4408 <https://tools.ietf.org/html/rfc4408>`_"
+msgstr ""
+
+#: ../../source/spf.rst:66
+msgid "来源"
+msgstr ""
+
+#: ../../source/spf.rst:68
+msgid ""
+"`http://www.ietf.org/rfc/rfc4408.txt "
+"<http://www.ietf.org/rfc/rfc4408.txt>`_"
+msgstr ""
+
+#: ../../source/spf.rst:69
+msgid ""
+"`https://support.google.com/a/answer/33786?hl=zh-Hans "
+"<https://support.google.com/a/answer/33786?hl=zh-Hans>`_"
+msgstr ""
+
+#: ../../source/spf.rst:70
+msgid ""
+"`http://service.exmail.qq.com/cgi-"
+"bin/help?subtype=1&&id=20012&&no=1000580t <http://service.exmail.qq.com"
+"/cgi-bin/help?subtype=1&&id=20012&&no=1000580>`_"
+msgstr ""
+
+#: ../../source/spf.rst:71
+msgid ""
+"`http://www.sysgeek.cn/sender-policy-framework-spf-exchange/ "
+"<http://www.sysgeek.cn/sender-policy-framework-spf-exchange/>`_"
+msgstr ""
+

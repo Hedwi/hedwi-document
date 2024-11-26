@@ -3,8 +3,8 @@
 .. _models:
 
 
-数据库表结构更新 
-------------------------
+database table structure update
+----------------------------------------------------------------------------
 
 
 2024-10-30
@@ -14,6 +14,11 @@
 2024-11-18
 ======================
 
-    chat_channel_message  增加cmd_type字段 类型 int16 smallint
-    chat_user_message     增加cmd_type字段 类型 int16 smallint
+    chat_channel_message  add `cmd_type` field type int16 smallint
+    chat_user_message     add `cmd_type` field type int16 smallint
+
+    chat_channel   add `kanban` field type int64 bigint
+    chat_channel   add `drive` field type int64 bigint
+
+    chat_channel_rel   add `type` field type int16 smallint
 

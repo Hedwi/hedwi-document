@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-26 21:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_hans\n"
+"Language-Team: zh_hans <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/api_drive.rst:9
+msgid "list folder"
+msgstr "列出文件夹"
+
+#: ../../source/api_drive.rst:10 ../../source/api_drive.rst:36
+#: ../../source/api_drive.rst:60 ../../source/api_drive.rst:84
+#: ../../source/api_drive.rst:108 ../../source/api_drive.rst:132
+#: ../../source/api_drive.rst:156 ../../source/api_drive.rst:180
+#: ../../source/api_drive.rst:204 ../../source/api_drive.rst:228
+#: ../../source/api_drive.rst:252 ../../source/api_drive.rst:276
+#: ../../source/api_drive.rst:300 ../../source/api_drive.rst:325
+#: ../../source/api_drive.rst:351 ../../source/api_drive.rst:377
+#: ../../source/api_drive.rst:403 ../../source/api_drive.rst:429
+#: ../../source/api_drive.rst:455 ../../source/api_drive.rst:481
+#: ../../source/api_drive.rst:507
+msgid "interface address:"
+msgstr "接口地址："
+
+#: ../../source/api_drive.rst:11
+msgid "/api/drive/dirs"
+msgstr "/api/drive/dirs"
+
+#: ../../source/api_drive.rst:12 ../../source/api_drive.rst:38
+#: ../../source/api_drive.rst:62 ../../source/api_drive.rst:86
+#: ../../source/api_drive.rst:110 ../../source/api_drive.rst:134
+#: ../../source/api_drive.rst:158 ../../source/api_drive.rst:182
+#: ../../source/api_drive.rst:206 ../../source/api_drive.rst:230
+#: ../../source/api_drive.rst:254 ../../source/api_drive.rst:278
+#: ../../source/api_drive.rst:302 ../../source/api_drive.rst:327
+#: ../../source/api_drive.rst:353 ../../source/api_drive.rst:379
+#: ../../source/api_drive.rst:405 ../../source/api_drive.rst:431
+#: ../../source/api_drive.rst:457 ../../source/api_drive.rst:483
+#: ../../source/api_drive.rst:509
+msgid "HTTP request method:"
+msgstr "HTTP请求方式"
+
+#: ../../source/api_drive.rst:13 ../../source/api_drive.rst:39
+#: ../../source/api_drive.rst:63 ../../source/api_drive.rst:87
+#: ../../source/api_drive.rst:111 ../../source/api_drive.rst:135
+#: ../../source/api_drive.rst:159 ../../source/api_drive.rst:183
+#: ../../source/api_drive.rst:207 ../../source/api_drive.rst:231
+msgid "GET"
+msgstr "GET"
+
+#: ../../source/api_drive.rst:14 ../../source/api_drive.rst:40
+#: ../../source/api_drive.rst:64 ../../source/api_drive.rst:88
+#: ../../source/api_drive.rst:112 ../../source/api_drive.rst:136
+#: ../../source/api_drive.rst:160 ../../source/api_drive.rst:184
+#: ../../source/api_drive.rst:208 ../../source/api_drive.rst:232
+#: ../../source/api_drive.rst:256 ../../source/api_drive.rst:280
+#: ../../source/api_drive.rst:304 ../../source/api_drive.rst:329
+#: ../../source/api_drive.rst:355 ../../source/api_drive.rst:381
+#: ../../source/api_drive.rst:407 ../../source/api_drive.rst:433
+#: ../../source/api_drive.rst:459 ../../source/api_drive.rst:485
+#: ../../source/api_drive.rst:511
+msgid "request params:"
+msgstr "请求参数"
+
+#: ../../source/api_drive.rst:16 ../../source/api_drive.rst:42
+#: ../../source/api_drive.rst:66 ../../source/api_drive.rst:90
+#: ../../source/api_drive.rst:114 ../../source/api_drive.rst:138
+#: ../../source/api_drive.rst:162 ../../source/api_drive.rst:186
+#: ../../source/api_drive.rst:210 ../../source/api_drive.rst:234
+#: ../../source/api_drive.rst:258 ../../source/api_drive.rst:282
+#: ../../source/api_drive.rst:306 ../../source/api_drive.rst:331
+#: ../../source/api_drive.rst:357 ../../source/api_drive.rst:383
+#: ../../source/api_drive.rst:409 ../../source/api_drive.rst:435
+#: ../../source/api_drive.rst:461 ../../source/api_drive.rst:487
+#: ../../source/api_drive.rst:513
+msgid "response code:"
+msgstr "响应代码"
+
+#: ../../source/api_drive.rst:17 ../../source/api_drive.rst:43
+#: ../../source/api_drive.rst:67 ../../source/api_drive.rst:91
+#: ../../source/api_drive.rst:115 ../../source/api_drive.rst:139
+#: ../../source/api_drive.rst:163 ../../source/api_drive.rst:187
+#: ../../source/api_drive.rst:211 ../../source/api_drive.rst:235
+#: ../../source/api_drive.rst:259 ../../source/api_drive.rst:283
+#: ../../source/api_drive.rst:307 ../../source/api_drive.rst:332
+#: ../../source/api_drive.rst:358 ../../source/api_drive.rst:384
+#: ../../source/api_drive.rst:410 ../../source/api_drive.rst:436
+#: ../../source/api_drive.rst:462 ../../source/api_drive.rst:488
+#: ../../source/api_drive.rst:514
+msgid "common response"
+msgstr "共通响应"
+
+#: ../../source/api_drive.rst:19 ../../source/api_drive.rst:45
+#: ../../source/api_drive.rst:69 ../../source/api_drive.rst:93
+#: ../../source/api_drive.rst:117 ../../source/api_drive.rst:141
+#: ../../source/api_drive.rst:165 ../../source/api_drive.rst:189
+#: ../../source/api_drive.rst:213 ../../source/api_drive.rst:237
+#: ../../source/api_drive.rst:261 ../../source/api_drive.rst:285
+#: ../../source/api_drive.rst:309 ../../source/api_drive.rst:334
+#: ../../source/api_drive.rst:360 ../../source/api_drive.rst:386
+#: ../../source/api_drive.rst:412 ../../source/api_drive.rst:438
+#: ../../source/api_drive.rst:464 ../../source/api_drive.rst:490
+#: ../../source/api_drive.rst:516
+msgid "example::"
+msgstr "示例::"
+
+#: ../../source/api_drive.rst:23 ../../source/api_drive.rst:49
+#: ../../source/api_drive.rst:73 ../../source/api_drive.rst:97
+#: ../../source/api_drive.rst:121 ../../source/api_drive.rst:145
+#: ../../source/api_drive.rst:169 ../../source/api_drive.rst:193
+#: ../../source/api_drive.rst:217 ../../source/api_drive.rst:241
+#: ../../source/api_drive.rst:265 ../../source/api_drive.rst:289
+#: ../../source/api_drive.rst:313 ../../source/api_drive.rst:338
+#: ../../source/api_drive.rst:364 ../../source/api_drive.rst:390
+#: ../../source/api_drive.rst:416 ../../source/api_drive.rst:442
+#: ../../source/api_drive.rst:468 ../../source/api_drive.rst:494
+#: ../../source/api_drive.rst:520
+msgid "response example："
+msgstr "响应示例："
+
+#: ../../source/api_drive.rst:25 ../../source/api_drive.rst:51
+#: ../../source/api_drive.rst:75 ../../source/api_drive.rst:99
+#: ../../source/api_drive.rst:123 ../../source/api_drive.rst:147
+#: ../../source/api_drive.rst:171 ../../source/api_drive.rst:195
+#: ../../source/api_drive.rst:219 ../../source/api_drive.rst:243
+#: ../../source/api_drive.rst:267 ../../source/api_drive.rst:291
+#: ../../source/api_drive.rst:315 ../../source/api_drive.rst:340
+#: ../../source/api_drive.rst:366 ../../source/api_drive.rst:392
+#: ../../source/api_drive.rst:418 ../../source/api_drive.rst:444
+#: ../../source/api_drive.rst:470 ../../source/api_drive.rst:496
+#: ../../source/api_drive.rst:522
+msgid "JSON::"
+msgstr ""
+
+#: ../../source/api_drive.rst:35
+msgid "list file"
+msgstr "列出文件"
+
+#: ../../source/api_drive.rst:37
+msgid "/api/drive/filelist"
+msgstr "/api/drive/filelist"
+
+#: ../../source/api_drive.rst:59
+msgid "list shared file"
+msgstr "列出共享文件"
+
+#: ../../source/api_drive.rst:61
+msgid "/api/drive/sharedlist"
+msgstr "/api/drive/sharedlist"
+
+#: ../../source/api_drive.rst:83
+msgid "list trash file"
+msgstr "列出回收站文件"
+
+#: ../../source/api_drive.rst:85
+msgid "/api/drive/trash"
+msgstr "/api/drive/trash"
+
+#: ../../source/api_drive.rst:107
+msgid "list starred file"
+msgstr "列出星标文件"
+
+#: ../../source/api_drive.rst:109
+msgid "/api/drive/starredlist"
+msgstr "/api/drive/starredlist"
+
+#: ../../source/api_drive.rst:131
+msgid "list recent file"
+msgstr "列出最近访问文件"
+
+#: ../../source/api_drive.rst:133
+msgid "/api/drive/recentlist"
+msgstr "/api/drive/recentlist"
+
+#: ../../source/api_drive.rst:155
+msgid "list recent office document"
+msgstr "列出最近访问Office文档"
+
+#: ../../source/api_drive.rst:157
+msgid "/api/drive/recentdocs"
+msgstr "/api/drive/recentdocs"
+
+#: ../../source/api_drive.rst:179
+msgid "list starred office document"
+msgstr "列出星标Office文档"
+
+#: ../../source/api_drive.rst:181
+msgid "/api/drive/starreddocs"
+msgstr "/api/drive/starreddocs"
+
+#: ../../source/api_drive.rst:203
+msgid "list shared office document"
+msgstr "列出共享Office文档"
+
+#: ../../source/api_drive.rst:205
+msgid "/api/drive/shareddocs"
+msgstr "/api/drive/shareddocs"
+
+#: ../../source/api_drive.rst:227
+msgid "list office document"
+msgstr "列出Office文档"
+
+#: ../../source/api_drive.rst:229
+msgid "/api/drive/docslist"
+msgstr "/api/drive/docslist"
+
+#: ../../source/api_drive.rst:251
+msgid "touch file"
+msgstr "访问文件"
+
+#: ../../source/api_drive.rst:253
+msgid "/api/drive/touch"
+msgstr "/api/drive/touch"
+
+#: ../../source/api_drive.rst:255 ../../source/api_drive.rst:279
+#: ../../source/api_drive.rst:303 ../../source/api_drive.rst:328
+#: ../../source/api_drive.rst:354 ../../source/api_drive.rst:380
+#: ../../source/api_drive.rst:406 ../../source/api_drive.rst:432
+#: ../../source/api_drive.rst:458 ../../source/api_drive.rst:484
+#: ../../source/api_drive.rst:510
+msgid "POST"
+msgstr "POST"
+
+#: ../../source/api_drive.rst:275
+msgid "upload file"
+msgstr "上传文件"
+
+#: ../../source/api_drive.rst:277
+msgid "/api/drive/upload"
+msgstr "/api/drive/upload"
+
+#: ../../source/api_drive.rst:299
+msgid "create file/folder"
+msgstr "创建文件/文件夹"
+
+#: ../../source/api_drive.rst:301
+msgid "/api/drive/create"
+msgstr "/api/drive/create"
+
+#: ../../source/api_drive.rst:324
+msgid "move file/folder"
+msgstr "移动文件/文件夹"
+
+#: ../../source/api_drive.rst:326
+msgid "/api/drive/move"
+msgstr "/api/drive/move"
+
+#: ../../source/api_drive.rst:350
+msgid "delete file/folder"
+msgstr "删除文件/文件夹"
+
+#: ../../source/api_drive.rst:352
+msgid "/api/drive/delete"
+msgstr "/api/drive/delete"
+
+#: ../../source/api_drive.rst:376
+msgid "rename file/folder"
+msgstr "重命名文件/文件夹"
+
+#: ../../source/api_drive.rst:378
+msgid "/api/drive/rename"
+msgstr "/api/drive/rename"
+
+#: ../../source/api_drive.rst:402
+msgid "get download link"
+msgstr "获取下载链接"
+
+#: ../../source/api_drive.rst:404
+msgid "/api/drive/downloadlink"
+msgstr "/api/drive/downloadlink"
+
+#: ../../source/api_drive.rst:428
+msgid "clone file/folder"
+msgstr "克隆文件/文件夹"
+
+#: ../../source/api_drive.rst:430
+msgid "/api/drive/clone"
+msgstr "/api/drive/clone"
+
+#: ../../source/api_drive.rst:454
+msgid "star file/folder"
+msgstr "星标文件/文件夹"
+
+#: ../../source/api_drive.rst:456
+msgid "/api/drive/starred"
+msgstr "/api/drive/starred"
+
+#: ../../source/api_drive.rst:480
+msgid "restore file/folder"
+msgstr "恢复文件/文件夹"
+
+#: ../../source/api_drive.rst:482
+msgid "/api/drive/restore"
+msgstr "/api/drive/restore"
+
+#: ../../source/api_drive.rst:506
+msgid "search file/folder"
+msgstr "搜索文件/文件夹"
+
+#: ../../source/api_drive.rst:508
+msgid "/api/drive/search"
+msgstr "/api/drive/search"
+
+#~ msgid "获取文件夹列表"
+#~ msgstr ""
+
+#~ msgid "共通返回"
+#~ msgstr ""
+
+#~ msgid "获取文件列表"
+#~ msgstr ""
+
+#~ msgid "获取共享文件列表"
+#~ msgstr ""
+
+#~ msgid "获取回收站文件列表"
+#~ msgstr ""
+
+#~ msgid "获取星标文件列表"
+#~ msgstr ""
+
+#~ msgid "获取最近访问文件列表"
+#~ msgstr ""
+
+#~ msgid "获取最近Office文档列表"
+#~ msgstr ""
+
+#~ msgid "获取星标Office文档列表"
+#~ msgstr ""
+
+#~ msgid "获取共享Office文档列表"
+#~ msgstr ""
+
+#~ msgid "获取Office文件列表"
+#~ msgstr ""
+
+#~ msgid "访问文件"
+#~ msgstr ""
+
+#~ msgid "上传文件"
+#~ msgstr ""
+
+#~ msgid "创建文件/文件夹"
+#~ msgstr ""
+
+#~ msgid "移动文件/文件夹"
+#~ msgstr ""
+
+#~ msgid "删除文件/文件夹"
+#~ msgstr ""
+
+#~ msgid "重命名文件/文件夹"
+#~ msgstr ""
+
+#~ msgid "获取下载链接"
+#~ msgstr ""
+
+#~ msgid "克隆文件/文件夹"
+#~ msgstr ""
+
+#~ msgid "星标文件/文件夹"
+#~ msgstr ""
+
+#~ msgid "恢复文件/文件夹"
+#~ msgstr ""
+
+#~ msgid "搜索文件/文件夹"
+#~ msgstr ""
+
