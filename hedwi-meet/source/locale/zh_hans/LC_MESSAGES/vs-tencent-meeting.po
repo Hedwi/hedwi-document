@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Hedwi
+# This file is distributed under the same license as the hedwi-meet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hedwi-meet \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-27 11:10+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_hans\n"
+"Language-Team: zh_hans <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/vs-tencent-meeting.rst:7
+msgid "Comparison with Tencent Meeting and Google Meet"
+msgstr "与腾讯会议和Google会议的对比"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Tencent Meeting"
+msgstr "腾讯会议"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Google Meet"
+msgstr "Google 会议"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Hedwi Meet"
+msgstr "海未会议"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Deployment method"
+msgstr "部署方式"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "SaaS"
+msgstr "SaaS"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Self-built"
+msgstr "自建"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Core technology"
+msgstr "核心技术"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Private audio and video technology"
+msgstr "私有音频视频技术"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "WebRTC technology"
+msgstr "WebRTC 技术"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Open source WebRTC technology"
+msgstr "开源 WebRTC 技术"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Whether there are client applications for each platform"
+msgstr "是否每个平台都有客户端"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Yes"
+msgstr "是"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Whether to download the client"
+msgstr "是否需要下载客户端"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Need to download"
+msgstr "需要下载"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "No need to download, just open the browser directly"
+msgstr "不需要下载，直接打开浏览器即可"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Whether to login"
+msgstr "是否需要登录"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Need to login"
+msgstr "需要登录"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "No need to login, just know the meeting room number"
+msgstr "不需要登录，只需知道会议室号码"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Multi-language support"
+msgstr "多语言支持"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Support Chinese"
+msgstr "支持中文"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Support multiple languages"
+msgstr "支持多种语言"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Currently supports Chinese and English"
+msgstr "目前支持中文和英文"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Billing method"
+msgstr "计费方式"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Subscription system, with free version"
+msgstr "订阅系统，有免费版本"
+
+#: ../../source/vs-tencent-meeting.rst:1
+msgid "Free"
+msgstr "免费"
+

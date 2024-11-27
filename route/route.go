@@ -19,6 +19,8 @@ import (
 	//"hedwi-document/render"
 
 	"hedwi-document/internal/handlers/home"
+	"hedwi-document/internal/handlers/mail"
+	"hedwi-document/internal/handlers/meet"
 	"hedwi-document/middlewares"
 	"hedwi-document/render"
 )
@@ -74,6 +76,10 @@ func InitRouter() *gin.Engine {
 	r.HTMLRender = &render.Render
 
 	r.GET("/", home.Home)
+	r.GET("/mail-suite", mail.Locale)
+	r.GET("/mail-suite/", mail.Locale)
+	r.GET("/meet", meet.Locale)
+	r.GET("/meet/", meet.Locale)
 
 	wellknownBox, _ := fs.Sub(StaticBox, "wellknown")
 	r.StaticFS("/.well-known", http.FS(wellknownBox))

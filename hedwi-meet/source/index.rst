@@ -1,20 +1,21 @@
 .. hedwi documentation master file, created by
    sphinx-quickstart on Tue Jun  4 14:19:04 2019.
 
-Hedwi 海未会议 私有部署文档 
-==================================
+Hedwi meet deployment document
+======================================
 
 
 .. raw:: html
 
       <a target="_blank" href="https://hedwi.com" >Hedwi官网</a>
       <br/>
-      <a target="_blank" href="https://document.hedwi.com" >文档中心</a>
+      <a  href="/meet/zh-hans/" >中文版</a>
+      <br/>
+      <a  href="/meet/en-us/" >English version</a>
 
 
-
-目录
------------
+Contents
+--------------------
 
 .. toctree::
    :maxdepth: 2

@@ -3,7 +3,7 @@
 .. _cluster-install:
 
 
-如何部署 集群版
+How to deploy cluster version
 ====================================
 
 .. toctree::

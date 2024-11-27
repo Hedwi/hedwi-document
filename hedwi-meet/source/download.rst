@@ -3,10 +3,10 @@
 .. _download:
 
 
-客户端下载
-------------------------
+Client download
+----------------------------------------------------------------------------
 
-访问 https://meet.example.com/meet/zh-hans/#/download
-扫码即可下载
+Access https://meet.example.com/meet/zh-hans/#/download
+Scan the QR code to download
 
-- meet.example.com 为配置的域名
+- meet.example.com is the configured domain name

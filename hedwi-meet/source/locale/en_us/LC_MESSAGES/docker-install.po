@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Hedwi
+# This file is distributed under the same license as the hedwi-meet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hedwi-meet \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-27 11:10+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_us\n"
+"Language-Team: en_us <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/docker-install.rst:7
+msgid "docker install"
+msgstr ""
+
+#: ../../source/docker-install.rst:10
+msgid "0. Requirements"
+msgstr ""
+
+#: ../../source/docker-install.rst:11
+msgid "Minimum 1G memory 1 core CPU linux 64-bit system"
+msgstr ""
+
+#: ../../source/docker-install.rst:14
+msgid "1. Configure DNS"
+msgstr ""
+
+#: ../../source/docker-install.rst:21
+msgid "For example"
+msgstr ""
+
+#: ../../source/docker-install.rst:1
+msgid "Host name"
+msgstr ""
+
+#: ../../source/docker-install.rst:1
+msgid "Record type"
+msgstr ""
+
+#: ../../source/docker-install.rst:1
+msgid "Record value"
+msgstr ""
+
+#: ../../source/docker-install.rst:1
+msgid "meet"
+msgstr ""
+
+#: ../../source/docker-install.rst:1
+msgid "A"
+msgstr ""
+
+#: ../../source/docker-install.rst:1
+msgid "x.x.x.x"
+msgstr ""
+
+#: ../../source/docker-install.rst:30
+msgid "The host name can be any secondary domain name prefix, here we use meet"
+msgstr ""
+
+#: ../../source/docker-install.rst:31
+msgid "example.com is your domain name"
+msgstr ""
+
+#: ../../source/docker-install.rst:32
+msgid "x.x.x.x is the public IP address of the server"
+msgstr ""
+
+#: ../../source/docker-install.rst:33
+msgid "The web access address is https://meet.example.com/meet"
+msgstr ""
+
+#: ../../source/docker-install.rst:37
+msgid "2. Install docker, git"
+msgstr ""
+
+#: ../../source/docker-install.rst:56
+msgid "3. Install"
+msgstr ""
+
+#: ../../source/docker-install.rst:68
+msgid "`Configuration file example </meet/meet_env.html>`_"
+msgstr ""
+
+#: ../../source/docker-install.rst:72
+msgid "4. Automatically generate free SSL certificates"
+msgstr ""
+
+#: ../../source/docker-install.rst:80
+msgid "5. Restart nginx"
+msgstr ""
+

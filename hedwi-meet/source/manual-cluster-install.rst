@@ -3,24 +3,24 @@
 .. _manual-cluster-install:
 
 
-手动集群部署
-------------------------
+Manual cluster deployment
+----------------------------------------------------------------------------
 
-docker 安装
+Docker installation
 =====================
 
 .. code-block:: bash
 
     curl -O 'https://hedwi.com/cluster' | sh
 
-启动
+Start
 ============
 
 .. code-block:: bash
 
     docker compose up -d
 
-- 防火墙配置
-    对外开放25、465、993、443端口即可 本邮箱服务不需要nginx 如果使用nginx则需要自行修改配置文件中的端口
-- 创建管理员帐号
-    访问https://127.0.0.1:40008 (此处可以是根域名或者任意子域名，只要配置好DNS记录就可以)。注册管理员帐号 第一个帐号就是管理员帐号。使用管理员帐号添加域名，配置DNS记录。
+- Firewall configuration
+     Open ports 25, 465, 993, 443 for external access. The email service does not require nginx. If using nginx, you need to modify the port in the configuration file.
+- Create an administrator account
+     Access https://127.0.0.1:40008 (This can be the root domain name or any subdomain, as long as the DNS record is configured). Register an administrator account. The first account is the administrator account. Use the administrator account to add a domain name and configure the DNS record.

@@ -5,8 +5,8 @@
 .. _meet_conf:
 
 
-meetserver 配置内容
-------------------------
+meetserver configuration
+----------------------------------------------------------------------------
 
 
 .. code-block:: yaml
@@ -28,14 +28,14 @@ meetserver 配置内容
       address: 127.0.0.1:6379
     keys:
       # your_api_key: <api_secret>
-      key: 32 secret   #需要修改  secret 格式为32位字符串
+      key: 32 secret   #Need modify secret format is 32-bit string
     # when enabled, LiveKit will expose prometheus metrics on :6789/metrics
     #prometheus_port: 6789
     turn:
       enabled: true
       # domain must match tls certificate
-      domain: example.com #需要修改域名
+      domain: example.com #Need modify domain name
       # defaults to 3478. If not using a load balancer, must be set to 443.
       tls_port: 3479
-      cert_file: /data/www/ssls/example.com/cert.crt  #需要修改
-      key_file: /data/www/ssls/example.com/cert.key   #需要修改
+      cert_file: /data/www/ssls/example.com/cert.crt  #Need modify
+      key_file: /data/www/ssls/example.com/cert.key   #Need modify

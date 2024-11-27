@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Hedwi
+# This file is distributed under the same license as the hedwi-meet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hedwi-meet \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-27 11:10+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_us\n"
+"Language-Team: en_us <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../source/manual-cluster-install.rst:7
+msgid "Manual cluster deployment"
+msgstr ""
+
+#: ../../source/manual-cluster-install.rst:10
+msgid "Docker installation"
+msgstr ""
+
+#: ../../source/manual-cluster-install.rst:17
+msgid "Start"
+msgstr ""
+
+#: ../../source/manual-cluster-install.rst:23
+msgid "Firewall configuration"
+msgstr ""
+
+#: ../../source/manual-cluster-install.rst:24
+msgid ""
+"Open ports 25, 465, 993, 443 for external access. The email service does "
+"not require nginx. If using nginx, you need to modify the port in the "
+"configuration file."
+msgstr ""
+
+#: ../../source/manual-cluster-install.rst:25
+msgid "Create an administrator account"
+msgstr ""
+
+#: ../../source/manual-cluster-install.rst:26
+msgid ""
+"Access https://127.0.0.1:40008 (This can be the root domain name or any "
+"subdomain, as long as the DNS record is configured). Register an "
+"administrator account. The first account is the administrator account. "
+"Use the administrator account to add a domain name and configure the DNS "
+"record."
+msgstr ""
+

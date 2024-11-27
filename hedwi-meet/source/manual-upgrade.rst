@@ -3,13 +3,13 @@
 .. _manual-upgrade:
 
 
-手动升级
-------------------------
+Manual upgrade
+----------------------------------------------------------------------------
 
-替换二进制文件hedwi-meetserver
-==============================
+Replace the binary file hedwi-meetserver
+=================================================
 
 
 
-重启 hedwi-meetserver
+Restart hedwi-meetserver
 ========================

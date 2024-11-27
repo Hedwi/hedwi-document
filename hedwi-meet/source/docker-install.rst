@@ -3,42 +3,42 @@
 .. _docker-install:
 
 
-docker部署
-------------------------
+docker install
+----------------------------------------------------------------------------
 
-0. 环境要求
+0. Requirements 
 =====================
-最低1G内存 1核CPU  linux 64位系统
+Minimum 1G memory 1 core CPU linux 64-bit system
 
-1. 配置DNS
-===============================================
+1. Configure DNS
+=====================
 
 .. code-block:: bash
 
-   在域名服务商或者DNS解析服务商配置域名A记录指向服务器公网IP
+   Configure the A record of the domain name to the public IP address of the server in the domain name service provider or DNS resolution service provider
 
 
-例如
+For example
 
 ..  csv-table:: 
-    :header: "主机名", "记录类型", "记录值"
+    :header: "Host name", "Record type", "Record value"
     :widths: 35, 35, 30
 
     "meet","A","x.x.x.x"
 
 
-- 主机名可以是任意二级域名前缀，这里使用meet
-- example.com为你的域名
-- x.x.x.x 为服务器的IP地址
-- 网页访问地址为 https://meet.example.com/meet  
+- The host name can be any secondary domain name prefix, here we use meet
+- example.com is your domain name
+- x.x.x.x is the public IP address of the server
+- The web access address is https://meet.example.com/meet  
 
 
-2. 安装docker, git 
+2. Install docker, git 
 ======================================
 
 .. code-block:: bash
 
-  # 已经安装的话可以跳过
+  # If already installed, skip
 
   mkdir pkgs && cd pkgs
   wget 'https://download.docker.com/linux/static/stable/x86_64/docker-26.1.4.tgz'
@@ -52,8 +52,8 @@ docker部署
   apt install git  # ubuntu/debian
 
 
-3. 安装
-===============================================
+3. Install
+=====================
 
 
 .. code-block:: bash
@@ -61,22 +61,22 @@ docker部署
   git clone https://github.com/Hedwi/hedwi-docker.git
   cd hedwi-docker/meet
   cp env.example .env
-  #修改.env配置
+  # Modify the .env configuration
 
   make
 
-`配置文件示例 </meet/meet_env.html>`_
+`Configuration file example </meet/meet_env.html>`_
 
 
-4. 自动生成免费ssl证书
-===============================================
+4. Automatically generate free SSL certificates
+==========================================================
 
 .. code-block:: bash
 
   make cert
 
 
-5. 重启nginx  
+5. Restart nginx  
 ===============================================
 
 .. code-block:: bash

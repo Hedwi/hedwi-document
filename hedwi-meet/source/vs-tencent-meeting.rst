@@ -3,18 +3,18 @@
 .. _vs-tencent-meeting:
 
 
-与腾讯会议、google meet的对比
------------------------------
+Comparison with Tencent Meeting and Google Meet
+---------------------------------------------------------------------------------
 
 
 ..  csv-table:: 
-    :header: "", 腾讯会议, google meet,海未会议
+    :header: "", Tencent Meeting, Google Meet, Hedwi Meet
     :widths: 20, 25, 25, 30
 
-	"部署方式", " SaaS ", " SaaS ", " 自建 "
-	"核心技术", " 私有音视频技术 ", " WebRTC技术 ", " 开源WebRTC技术 "
-	"是否有各平台客户端", " 有 ", " 有 ", " 有 "
-	"是否需要下载客户端", " 需要下载 ", " 不需要下载 打开浏览器直接使用 ", " 不需要下载 打开浏览器直接使用 "
-	"是否需要登录", " 需要登录 ", " 需要登录 ", " 不需要登录 知道会议室编号即可加入 "
-	"多语言支持", " 支持中文 ", " 支持多语言 ", " 目前支持中文、英文 "
-	"收费方式", " 订阅制 有免费版 ", " 订阅制 有免费版 ", " 免费 "
+	"Deployment method", " SaaS ", " SaaS ", " Self-built "
+	"Core technology", " Private audio and video technology ", " WebRTC technology ", " Open source WebRTC technology "
+	"Whether there are client applications for each platform", " Yes ", " Yes ", " Yes "
+	"Whether to download the client", " Need to download ", " No need to download, just open the browser directly ", " No need to download, just open the browser directly "
+	"Whether to login", " Need to login ", " Need to login ", " No need to login, just know the meeting room number "
+	"Multi-language support", " Support Chinese ", " Support multiple languages ", " Currently supports Chinese and English "
+	"Billing method", " Subscription system, with free version ", " Subscription system, with free version ", " Free "

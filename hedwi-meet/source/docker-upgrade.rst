@@ -3,10 +3,10 @@
 .. _docker-upgrade:
 
 
-升级
-------------------------
+Upgrade
+----------------------------------------------------------------------------
 
-升级操作会删除旧的docker镜像，重新拉取最新的docker镜像
+Upgrade operation will delete the old docker image and pull the latest docker image
 
 .. code-block:: bash
 

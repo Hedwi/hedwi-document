@@ -63,7 +63,7 @@ master_doc = 'index'
 # Usually you set "language" from the command line for these cases.
 language = 'zh_CN'
 locale_dirs = ['locale/']
-gettext_compoact = True
+gettext_compoact = False
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.

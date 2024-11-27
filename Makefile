@@ -5,6 +5,12 @@ saas: api mail meet main deploy
 
 doc:api mail meet
 
+
+i18n:
+	cd hedwi-mail-suite && cd source && sphinx-build -b gettext ./ ../build/gettext && cd .. && sphinx-intl update -p build/gettext -l zh_hans -l en_us
+	cd hedwi-meet && cd source && sphinx-build -b gettext ./ ../build/gettext && cd .. && sphinx-intl update -p build/gettext -l zh_hans -l en_us
+
+
 api:
 	cd ./hedwi-api/ && rm -rf build/* && make html && cd ..
 	rm -rf static/hedwi-api/*
@@ -12,17 +18,23 @@ api:
 	date -r ./hedwi-api/build/html/index.html "+%Y-%m-%d %H:%M:%S" > date.modified
 
 mail:
-	cd ./hedwi-mail-suite/ && rm -rf build/* && make html && cd ..
-	rm -rf static/hedwi-mail-suite/*
-	cp -r  ./hedwi-mail-suite/build/html/* static/hedwi-mail-suite/
+	cd ./hedwi-mail-suite/ && rm -rf build/* && make -e SPHINXOPTS="-D language='zh_hans'" html && cd ..
+	rm -rf static/hedwi-mail-suite/zh-hans/*
+	cp -r  ./hedwi-mail-suite/build/html/* static/hedwi-mail-suite/zh-hans/
+	cd ./hedwi-mail-suite/ && rm -rf build/* && make -e SPHINXOPTS="-D language='en_us'" html && cd ..
+	rm -rf static/hedwi-mail-suite/en-us/*
+	cp -r  ./hedwi-mail-suite/build/html/* static/hedwi-mail-suite/en-us/
 	date -r ./hedwi-mail-suite/build/html/index.html "+%Y-%m-%d %H:%M:%S" > mail.modified
 
-
 meet:
-	cd ./hedwi-meet/ && rm -rf build/* && make html && cd ..
-	rm -rf static/hedwi-meet/*
-	cp -r  ./hedwi-meet/build/html/* static/hedwi-meet/
-	date -r ./hedwi-meet/build/html/index.html "+%Y-%m-%d %H:%M:%S" > meet.modified
+	cd ./hedwi-meet/ && rm -rf build/* && make -e SPHINXOPTS="-D language='zh_hans'" html && cd ..
+	rm -rf static/hedwi-meet/zh-hans/*
+	cp -r  ./hedwi-meet/build/html/* static/hedwi-meet/zh-hans/
+	cd ./hedwi-meet/ && rm -rf build/* && make -e SPHINXOPTS="-D language='en_us'" html && cd ..
+	rm -rf static/hedwi-meet/en-us/*
+	cp -r  ./hedwi-meet/build/html/* static/hedwi-meet/en-us/
+	date -r ./hedwi-meet/build/html/index.html "+%Y-%m-%d %H:%M:%S" > mail.modified
+
 
 
 main:

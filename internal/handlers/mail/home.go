@@ -16,7 +16,7 @@ func Locale(c *gin.Context) {
 	v := c.Query("v")
 
 	localeInCookie := utils.GetLocaleFromCookie(c)
-	tag := utils.GetTag(localeInCookie, s.Locale)
+	tag := utils.GetTag(localeInCookie, "")
 
 	path := utils.GetLocalePath("mail-suite", tag, v)
 

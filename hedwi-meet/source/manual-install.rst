@@ -3,16 +3,16 @@
 .. _manual-install:
 
 
-手动部署 
-------------------------
+Manual deployment
+----------------------------------------------------------------------------
 
-0. 环境要求
+0. Requirements
 =====================
-最低1G内存 1核CPU  linux 64位系统
+Minimum 1G memory 1 core CPU linux 64-bit system
 
 
-1. 安装依赖  
-======================================
+1. Install dependencies
+================================
 
 .. code-block:: bash
 
@@ -25,7 +25,7 @@
         apt install -y nginx supervisor redis
 
 
-2. 安装 meet server
+2. Install meet server
 ===============================================
 
 
@@ -43,16 +43,16 @@
     tar xf hedwi-meetserver-conf.tar.gz;
     cp hedwi-meetserver-conf/hedwi-meetserver.conf .;
     cp hedwi-meetserver-conf/config.yaml.example hedwi-meetserver/config.yaml;
-    按照示例修改配置文件中的域名
+    # Modify the domain name in the configuration file.
 
     supervisord -c /data/www/hedwi-meetserver.conf;
 
 
-`配置文件示例 </meet/meet_conf.html>`_
+`Configuration file example </meet/meet_conf.html>`_
 
 
 
-3. nginx和ssl证书配置
+3. nginx and ssl certificate configuration
 ===============================================
 
 
@@ -60,72 +60,72 @@
 
     mkdir -p $HEDWI_ROOT/ssls/;
     cd $HEDWI_ROOT/ssls;
-    mkdir example.com; //域名证书文件夹 此处为对应域名
+    mkdir example.com; //Domain certificate folder, here is the corresponding domain name
     cd !$; 
-    touch cert.crt; //补充证书
-    touch cert.key; //补充证书私钥
+    touch cert.crt; //Add certificate
+    touch cert.key; //Add certificate private key
 
-    打开 /etc/nginx/conf.d/meet.conf 按照示例文件填充内容(需要替换域名和端口) 。
+    Open /etc/nginx/conf.d/meet.conf and fill in the content according to the example file (replace the domain name and port).
 
-`Nginx配置文件示例 </meet/nginx_conf.html>`_
+`Nginx configuration file example </meet/nginx_conf.html>`_
 
 
-4. 重启nginx  
+4. Restart nginx  
 ===============================================
 
 
 .. code-block:: bash
 
-    测试nginx配置是否正确
+    # Test nginx configuration
     nginx -t
 
-    重启nginx 
+    # Restart nginx 
     nginx -s reload
 
-    如果nginx未启动 启动nginx
+    #If nginx is not started, start nginx
     nginx
 
 
-5. 防火墙配置
+5. Firewall configuration
 ===============================================
 
-.. list-table:: 防火墙配置
+.. list-table:: Firewall configuration
    :widths: 25 25 25 25
    :header-rows: 1
 
    * - IP
-     - 协议
-     - 端口范围
-     - 策略
+     - Protocol
+     - Port range
+     - Policy
    * - 0.0.0.0/0
      - UDP
      - 50000-60000
-     - 允许
+     - Allow
    * - 0.0.0.0/0
      - UDP
      - 3478-3500
-     - 允许
+     - Allow
    * - 0.0.0.0/0
      - UDP
      - 50000-60000
-     - 允许
+     - Allow
    * - 0.0.0.0/0
      - TCP
      - 7880-7890
-     - 允许
+     - Allow
    * - 0.0.0.0/0
      - TCP
      - 443
-     - 允许
+     - Allow
    * - 0.0.0.0/0
      - TCP
      - 80
-     - 允许
+     - Allow
 
-6. 配置DNS
+6. Configure DNS
 ===============================================
 
 .. code-block:: bash
 
-    在域名服务商或者DNS解析服务商配置域名A记录指向服务器公网IP
+    # Configure the A record of the domain name in the domain name service or DNS resolution service to point to the public network IP of the server
 
