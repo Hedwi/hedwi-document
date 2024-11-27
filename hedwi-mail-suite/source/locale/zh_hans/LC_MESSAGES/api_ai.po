@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/api_ai.rst:9 ../../source/api_ai.rst:55
 msgid "list chat thread"
-msgstr ""
+msgstr "列出对话列表"
 
 #: ../../source/api_ai.rst:10 ../../source/api_ai.rst:34
 #: ../../source/api_ai.rst:56 ../../source/api_ai.rst:78
@@ -34,7 +34,7 @@ msgstr "接口地址："
 
 #: ../../source/api_ai.rst:11 ../../source/api_ai.rst:57
 msgid "/api/aichat/thread/list"
-msgstr ""
+msgstr "列出对话列表"
 
 #: ../../source/api_ai.rst:12 ../../source/api_ai.rst:36
 #: ../../source/api_ai.rst:58 ../../source/api_ai.rst:80
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../source/api_ai.rst:33
 msgid "create chat thread"
-msgstr ""
+msgstr "创建对话"
 
 #: ../../source/api_ai.rst:35
 msgid "/api/aichat/thread/create"
@@ -113,7 +113,7 @@ msgstr ""
 
 #: ../../source/api_ai.rst:77
 msgid "move chat thread"
-msgstr ""
+msgstr "移动对话"
 
 #: ../../source/api_ai.rst:79
 msgid "/api/aichat/thread/move"
@@ -121,7 +121,7 @@ msgstr ""
 
 #: ../../source/api_ai.rst:99
 msgid "update chat thread"
-msgstr ""
+msgstr "更新对话"
 
 #: ../../source/api_ai.rst:101
 msgid "/api/aichat/thread/update"
@@ -129,7 +129,7 @@ msgstr ""
 
 #: ../../source/api_ai.rst:121
 msgid "delete chat thread"
-msgstr ""
+msgstr "删除对话"
 
 #: ../../source/api_ai.rst:123
 msgid "/api/aichat/thread/delete"
@@ -137,7 +137,7 @@ msgstr ""
 
 #: ../../source/api_ai.rst:143
 msgid "list chat content"
-msgstr ""
+msgstr "列出对话消息"
 
 #: ../../source/api_ai.rst:145
 msgid "/api/aichat/content/list/:id"
@@ -145,7 +145,7 @@ msgstr ""
 
 #: ../../source/api_ai.rst:166
 msgid "create chat content"
-msgstr ""
+msgstr "创建对话消息"
 
 #: ../../source/api_ai.rst:168
 msgid "/api/aichat/content/create"
@@ -153,7 +153,7 @@ msgstr ""
 
 #: ../../source/api_ai.rst:189
 msgid "delete chat content"
-msgstr ""
+msgstr "删除对话消息"
 
 #: ../../source/api_ai.rst:191
 msgid "/api/aichat/content/delete"
@@ -161,7 +161,7 @@ msgstr ""
 
 #: ../../source/api_ai.rst:212
 msgid "chat content stream"
-msgstr ""
+msgstr "对话消息流"
 
 #: ../../source/api_ai.rst:214
 msgid "/api/aichat/stream/:id"

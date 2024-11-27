@@ -66,7 +66,7 @@ For example:
   # The service will automatically create an administrator account (for configuring the system, adding users, adding teams, etc.) and a normal user account admin@your domain name (for using the system service)
 
 
-`Configuration file example </mail-suite/env-example.html>`_
+`Configuration file example <./env-example.html>`_
 
 
 4. Automatic generation of free SSL certificates

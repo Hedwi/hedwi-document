@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/api_kanban.rst:9
 msgid "list kanban project"
-msgstr ""
+msgstr "列出看板项目"
 
 #: ../../source/api_kanban.rst:10 ../../source/api_kanban.rst:53
 #: ../../source/api_kanban.rst:78 ../../source/api_kanban.rst:104

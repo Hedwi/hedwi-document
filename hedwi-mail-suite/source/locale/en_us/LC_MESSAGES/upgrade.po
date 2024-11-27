@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hedwi work suite \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 21:24+0800\n"
+"POT-Creation-Date: 2024-11-27 13:22+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en_us\n"
@@ -24,60 +24,52 @@ msgstr ""
 msgid "Upgrade"
 msgstr ""
 
-#: ../../source/upgrade.rst:10
-msgid "0. requirements"
+#: ../../source/upgrade.rst:12
+msgid "1. Read update release notes"
 msgstr ""
 
-#: ../../source/upgrade.rst:11
-msgid "minimum 2G memory 2 CPU 64-bit linux system"
+#: ../../source/upgrade.rst:16
+msgid "2. Backup"
 msgstr ""
 
-#: ../../source/upgrade.rst:14
-msgid "1. configure DNS"
+#: ../../source/upgrade.rst:17
+msgid "Backup your data, such as database, files, etc."
 msgstr ""
 
-#: ../../source/upgrade.rst:20
-msgid "For example:"
+#: ../../source/upgrade.rst:21
+msgid "3. Update database tables"
 msgstr ""
 
-#: ../../source/upgrade.rst:1
-msgid "hostname"
+#: ../../source/upgrade.rst:23
+msgid "if need update database tables, update them before upgrade"
 msgstr ""
 
-#: ../../source/upgrade.rst:1
-msgid "record type"
+#: ../../source/upgrade.rst:27
+msgid "4. Upgrade"
 msgstr ""
 
-#: ../../source/upgrade.rst:1
-msgid "record value"
+#: ../../source/upgrade.rst
+msgid "# update docker image"
 msgstr ""
 
-#: ../../source/upgrade.rst:1
-msgid "work"
+#: ../../source/upgrade.rst
+msgid "make update"
 msgstr ""
 
-#: ../../source/upgrade.rst:1
-msgid "A"
+#: ../../source/upgrade.rst
+msgid "# stop docker container"
 msgstr ""
 
-#: ../../source/upgrade.rst:1
-msgid "x.x.x.x"
+#: ../../source/upgrade.rst
+msgid "make down"
 msgstr ""
 
-#: ../../source/upgrade.rst:29
-msgid "hostname can be any subdomain prefix, here use work"
+#: ../../source/upgrade.rst
+msgid "# start docker container"
 msgstr ""
 
-#: ../../source/upgrade.rst:30
-msgid "example.com is your domain name"
-msgstr ""
-
-#: ../../source/upgrade.rst:31
-msgid "x.x.x.x is the server's IP address"
-msgstr ""
-
-#: ../../source/upgrade.rst:32
-msgid "web access address is https://work.example.com"
+#: ../../source/upgrade.rst
+msgid "make up"
 msgstr ""
 
 #~ msgid "0. 环境要求"
@@ -111,5 +103,67 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "网页访问地址为 https://work.example.com"
+#~ msgstr ""
+
+#~ msgid "0. requirements"
+#~ msgstr ""
+
+#~ msgid "minimum 2G memory 2 CPU 64-bit linux system"
+#~ msgstr ""
+
+#~ msgid "1. configure DNS"
+#~ msgstr ""
+
+#~ msgid "For example:"
+#~ msgstr ""
+
+#~ msgid "hostname"
+#~ msgstr ""
+
+#~ msgid "record type"
+#~ msgstr ""
+
+#~ msgid "record value"
+#~ msgstr ""
+
+#~ msgid "work"
+#~ msgstr ""
+
+#~ msgid "A"
+#~ msgstr ""
+
+#~ msgid "x.x.x.x"
+#~ msgstr ""
+
+#~ msgid "hostname can be any subdomain prefix, here use work"
+#~ msgstr ""
+
+#~ msgid "example.com is your domain name"
+#~ msgstr ""
+
+#~ msgid "x.x.x.x is the server's IP address"
+#~ msgstr ""
+
+#~ msgid "web access address is https://work.example.com"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "make update   # update docker image "
+#~ "make down     # stop docker container"
+#~ " make up       # start docker "
+#~ "container"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "# update docker image make update "
+#~ "# stop docker container make down "
+#~ "# start docker container make up"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "# update docker image | make "
+#~ "update   | # stop docker container "
+#~ "| make down    | # start docker"
+#~ " container | make up       |"
 #~ msgstr ""
 

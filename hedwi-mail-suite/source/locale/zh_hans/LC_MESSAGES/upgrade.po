@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hedwi work suite \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 21:24+0800\n"
+"POT-Creation-Date: 2024-11-27 13:22+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_hans\n"
@@ -22,63 +22,55 @@ msgstr ""
 
 #: ../../source/upgrade.rst:7
 msgid "Upgrade"
-msgstr ""
+msgstr "升级"
 
-#: ../../source/upgrade.rst:10
-msgid "0. requirements"
-msgstr ""
+#: ../../source/upgrade.rst:12
+msgid "1. Read update release notes"
+msgstr "1. 阅读更新发布说明"
 
-#: ../../source/upgrade.rst:11
-msgid "minimum 2G memory 2 CPU 64-bit linux system"
-msgstr ""
+#: ../../source/upgrade.rst:16
+msgid "2. Backup"
+msgstr "2. 备份"
 
-#: ../../source/upgrade.rst:14
-msgid "1. configure DNS"
-msgstr ""
+#: ../../source/upgrade.rst:17
+msgid "Backup your data, such as database, files, etc."
+msgstr "备份你的数据，例如数据库、文件等。"
 
-#: ../../source/upgrade.rst:20
-msgid "For example:"
-msgstr ""
+#: ../../source/upgrade.rst:21
+msgid "3. Update database tables"
+msgstr "3. 更新数据库表"
 
-#: ../../source/upgrade.rst:1
-msgid "hostname"
-msgstr ""
+#: ../../source/upgrade.rst:23
+msgid "if need update database tables, update them before upgrade"
+msgstr "如果需要更新数据库表，请在升级前更新它们。"
 
-#: ../../source/upgrade.rst:1
-msgid "record type"
-msgstr ""
+#: ../../source/upgrade.rst:27
+msgid "4. Upgrade"
+msgstr "4. 升级"
 
-#: ../../source/upgrade.rst:1
-msgid "record value"
-msgstr ""
+#: ../../source/upgrade.rst
+msgid "# update docker image"
+msgstr "# 更新docker镜像"
 
-#: ../../source/upgrade.rst:1
-msgid "work"
-msgstr ""
+#: ../../source/upgrade.rst
+msgid "make update"
+msgstr "make update"
 
-#: ../../source/upgrade.rst:1
-msgid "A"
-msgstr ""
+#: ../../source/upgrade.rst
+msgid "# stop docker container"
+msgstr "# 停止docker容器"
 
-#: ../../source/upgrade.rst:1
-msgid "x.x.x.x"
-msgstr ""
+#: ../../source/upgrade.rst
+msgid "make down"
+msgstr "make down"
 
-#: ../../source/upgrade.rst:29
-msgid "hostname can be any subdomain prefix, here use work"
-msgstr ""
+#: ../../source/upgrade.rst
+msgid "# start docker container"
+msgstr "# 启动docker容器"
 
-#: ../../source/upgrade.rst:30
-msgid "example.com is your domain name"
-msgstr ""
-
-#: ../../source/upgrade.rst:31
-msgid "x.x.x.x is the server's IP address"
-msgstr ""
-
-#: ../../source/upgrade.rst:32
-msgid "web access address is https://work.example.com"
-msgstr ""
+#: ../../source/upgrade.rst
+msgid "make up"
+msgstr "make up"
 
 #~ msgid "0. 环境要求"
 #~ msgstr ""
@@ -112,4 +104,56 @@ msgstr ""
 
 #~ msgid "网页访问地址为 https://work.example.com"
 #~ msgstr ""
+
+#~ msgid "0. requirements"
+#~ msgstr "0. 环境要求 "
+
+#~ msgid "minimum 2G memory 2 CPU 64-bit linux system"
+#~ msgstr "最低2G内存 2核CPU  linux 64位系统"
+
+#~ msgid "1. configure DNS"
+#~ msgstr "1. 配置DNS"
+
+#~ msgid "For example:"
+#~ msgstr "例如"
+
+#~ msgid "hostname"
+#~ msgstr "主机名"
+
+#~ msgid "record type"
+#~ msgstr "记录类型"
+
+#~ msgid "record value"
+#~ msgstr "记录值"
+
+#~ msgid "work"
+#~ msgstr "主机名"
+
+#~ msgid "A"
+#~ msgstr "A"
+
+#~ msgid "x.x.x.x"
+#~ msgstr "IP地址"
+
+#~ msgid "hostname can be any subdomain prefix, here use work"
+#~ msgstr "主机名可以是任意二级域名前缀，这里使用work"
+
+#~ msgid "example.com is your domain name"
+#~ msgstr "example.com为你的域名"
+
+#~ msgid "x.x.x.x is the server's IP address"
+#~ msgstr "x.x.x.x 为服务器的IP地址"
+
+#~ msgid "web access address is https://work.example.com"
+#~ msgstr "网页访问地址为 https://work.example.com"
+
+#~ msgid ""
+#~ "# update docker image | make "
+#~ "update   | # stop docker container "
+#~ "| make down    | # start docker"
+#~ " container | make up       |"
+#~ msgstr ""
+#~ "make update   # 更新docker镜像\n"
+#~ "make down     # 停止docker容器\n"
+#~ "make up       # 启动docker容器"
 

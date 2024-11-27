@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/api_docs.rst:9
 msgid "get document detail"
-msgstr ""
+msgstr "获取文档详情"
 
 #: ../../source/api_docs.rst:10 ../../source/api_docs.rst:36
 #: ../../source/api_docs.rst:61 ../../source/api_docs.rst:86

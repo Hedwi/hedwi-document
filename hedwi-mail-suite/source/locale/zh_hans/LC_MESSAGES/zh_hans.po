@@ -1861,7 +1861,7 @@ msgid "3. 安装"
 msgstr ""
 
 #: ../../source/zh_hans/docker-install.rst:68
-msgid "`配置文件示例 </mail-suite/env-example.html>`_"
+msgid "`配置文件示例 <./env-example.html>`_"
 msgstr ""
 
 #: ../../source/zh_hans/docker-install.rst:72

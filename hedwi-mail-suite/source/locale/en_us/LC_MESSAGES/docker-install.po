@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hedwi work suite \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 22:33+0800\n"
+"POT-Creation-Date: 2024-11-27 13:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en_us\n"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "docker deploy"
 msgstr ""
 
-#: ../../source/docker-install.rst:10
+#: ../../source/docker-install.rst:11
 msgid "0. Requirements"
 msgstr ""
 
-#: ../../source/docker-install.rst:11
+#: ../../source/docker-install.rst:12
 msgid "Minimum 2G memory 2 CPU 64-bit Linux system"
 msgstr ""
 
-#: ../../source/docker-install.rst:14
+#: ../../source/docker-install.rst:15
 msgid "1. configure DNS"
 msgstr ""
 
-#: ../../source/docker-install.rst:20
+#: ../../source/docker-install.rst:21
 msgid "For example:"
 msgstr ""
 
@@ -64,49 +64,48 @@ msgstr "A"
 msgid "x.x.x.x"
 msgstr "x.x.x.x"
 
-#: ../../source/docker-install.rst:29
+#: ../../source/docker-install.rst:30
 msgid "The hostname can be any secondary domain name prefix, here use work"
 msgstr ""
 
-#: ../../source/docker-install.rst:30
+#: ../../source/docker-install.rst:31
 msgid "example.com is your domain name"
 msgstr ""
 
-#: ../../source/docker-install.rst:31
+#: ../../source/docker-install.rst:32
 msgid "x.x.x.x is the public IP address of the server"
 msgstr ""
 
-#: ../../source/docker-install.rst:32
+#: ../../source/docker-install.rst:33
 msgid "The web access address is https://work.example.com"
 msgstr ""
 
-#: ../../source/docker-install.rst:35
+#: ../../source/docker-install.rst:36
 #, fuzzy
 msgid "2. Install docker, docker-compose, git"
 msgstr "2. Install docker, docker-compose, git"
 
-#: ../../source/docker-install.rst:54
+#: ../../source/docker-install.rst:55
 msgid "3. Install"
 msgstr ""
 
-#: ../../source/docker-install.rst:68
-#, fuzzy
-msgid "`Configuration file example </mail-suite/env-example.html>`_"
-msgstr "config example </mail-suite/env-example.html>`_"
+#: ../../source/docker-install.rst:69
+msgid "`Configuration file example <./env-example.html>`_"
+msgstr "config example <./env-example.html>`_"
 
-#: ../../source/docker-install.rst:72
+#: ../../source/docker-install.rst:73
 msgid "4. Automatic generation of free SSL certificates"
 msgstr ""
 
-#: ../../source/docker-install.rst:82
+#: ../../source/docker-install.rst:83
 msgid "5. Restart the service"
 msgstr ""
 
-#: ../../source/docker-install.rst:90
+#: ../../source/docker-install.rst:91
 msgid "6. Use https to access and login"
 msgstr ""
 
-#: ../../source/docker-install.rst:92
+#: ../../source/docker-install.rst:93
 msgid ""
 "Access https://work.example.com/login?admin=true (work.example.com is the"
 " domain name used), use the administrator account (the email and password"

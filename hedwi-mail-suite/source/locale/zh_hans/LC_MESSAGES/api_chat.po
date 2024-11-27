@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/api_chat.rst:9
 msgid "list chat thread"
-msgstr ""
+msgstr "列出对话列表"
 
 #: ../../source/api_chat.rst:10
 msgid "interface address:"
