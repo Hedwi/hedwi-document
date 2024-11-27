@@ -76,10 +76,10 @@ func InitRouter() *gin.Engine {
 	r.HTMLRender = &render.Render
 
 	r.GET("/", home.Home)
-	r.GET("/mail-suite", mail.Locale)
-	r.GET("/mail-suite/", mail.Locale)
-	r.GET("/meet", meet.Locale)
-	r.GET("/meet/", meet.Locale)
+	r.GET("/document/mail-suite", mail.Locale)
+	r.GET("/document/mail-suite/", mail.Locale)
+	r.GET("/document/meet", meet.Locale)
+	r.GET("/document/meet/", meet.Locale)
 
 	wellknownBox, _ := fs.Sub(StaticBox, "wellknown")
 	r.StaticFS("/.well-known", http.FS(wellknownBox))
@@ -90,28 +90,13 @@ func InitRouter() *gin.Engine {
 		sendBox, _ := fs.Sub(StaticBox, "static/hedwi-api/"+locale)
 		meetBox, _ := fs.Sub(StaticBox, "static/hedwi-meet/"+locale)
 		fmt.Println(mailBox)
-		r.StaticFS("/mail-suite/"+locale, http.FS(mailBox))
+		r.StaticFS("/document/mail-suite/"+locale, http.FS(mailBox))
+		r.StaticFS("/document/meet/"+locale, http.FS(meetBox))
+		r.StaticFS("/document/api/"+locale, http.FS(sendBox))
 		r.StaticFS("/api/"+locale, http.FS(sendBox))
-		r.StaticFS("/meet/"+locale, http.FS(meetBox))
 	}
 
 	r.StaticFS("/static", http.FS(staticBox))
 
-	/*
-		mailBox, _ := fs.Sub(StaticBox, "static/hedwi-mail")
-		mailSuiteBox, _ := fs.Sub(StaticBox, "static/hedwi-mail-suite")
-		sendBox, _ := fs.Sub(StaticBox, "static/hedwi-api")
-		meetBox, _ := fs.Sub(StaticBox, "static/hedwi-meet")
-		r.StaticFS("/mail-suite", http.FS(mailSuiteBox))
-		r.StaticFS("/work-suite", http.FS(mailSuiteBox))
-
-		r.StaticFS("/mail", http.FS(mailBox))
-		r.StaticFS("/send", http.FS(sendBox))
-		r.StaticFS("/meet", http.FS(meetBox))
-	*/
-
-	//r.StaticFS("/mail", http.Dir("./mail"))
-	//r.StaticFS("/mail", pkger.Dir("/mail"))
-	//r.StaticFS("/mail", http.Dir("../frontend/dist/hedwi-inbox/"))
 	return r
 }

@@ -1,4 +1,4 @@
-package meet
+package mail
 
 import (
 	"net/http"
@@ -18,7 +18,7 @@ func Locale(c *gin.Context) {
 	localeInCookie := utils.GetLocaleFromCookie(c)
 	tag := utils.GetTag(localeInCookie, "")
 
-	path := utils.GetLocalePath("meet", tag, v)
+	path := utils.GetLocalePath("document/mail-suite", tag, v)
 
 	c.Redirect(http.StatusTemporaryRedirect, path)
 	return

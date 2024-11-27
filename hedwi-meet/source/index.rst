@@ -9,9 +9,9 @@ Hedwi meet deployment document
 
       <a target="_blank" href="https://hedwi.com" >Hedwi官网</a>
       <br/>
-      <a  href="/meet/zh-hans/" >中文版</a>
+      <a  href="/document/meet/zh-hans/" >中文版</a>
       <br/>
-      <a  href="/meet/en-us/" >English version</a>
+      <a  href="/document/meet/en-us/" >English version</a>
 
 
 Contents
