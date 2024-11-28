@@ -19,7 +19,7 @@ help:
 	rm -rf build/*
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 	echo "Move _static"
-	grep -RiIl '_static' build | xargs sed -i '' 's/_static/static/g'
+	#grep -RiIl '_static' build | xargs sed -i '' 's/_static/static/g'
 	rm -rf build/html/static
 	mv build/html/_static build/html/static
 	rm -rf _build/html/_sources
