@@ -14,6 +14,7 @@ import (
 
 //go:embed static
 //go:embed templates
+//go:embed document
 var static embed.FS
 
 func init() {

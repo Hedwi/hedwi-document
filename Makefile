@@ -19,26 +19,26 @@ api:
 
 mail:
 	cd ./hedwi-mail-suite/ && rm -rf build/* && make -e SPHINXOPTS="-D language='zh_hans'" html && cd ..
-	rm -rf static/hedwi-mail-suite/zh-hans/*
-	cp -r  ./hedwi-mail-suite/build/html/* static/hedwi-mail-suite/zh-hans/
+	rm -rf document/hedwi-mail-suite/zh-hans/*
+	cp -r  ./hedwi-mail-suite/build/html/* document/hedwi-mail-suite/zh-hans/
 	rm -rf ../hedwi-inbox/document/hedwi-mail-suite/zh-hans/*
 	cp -r  ./hedwi-mail-suite/build/html/* ../hedwi-inbox/document/hedwi-mail-suite/zh-hans
 	cd ./hedwi-mail-suite/ && rm -rf build/* && make -e SPHINXOPTS="-D language='en_us'" html && cd ..
-	rm -rf static/hedwi-mail-suite/en-us/*
-	cp -r  ./hedwi-mail-suite/build/html/* static/hedwi-mail-suite/en-us/
+	rm -rf document/hedwi-mail-suite/en-us/*
+	cp -r  ./hedwi-mail-suite/build/html/* document/hedwi-mail-suite/en-us/
 	rm -rf ../hedwi-inbox/document/hedwi-mail-suite/en-us/*
 	cp -r  ./hedwi-mail-suite/build/html/* ../hedwi-inbox/document/hedwi-mail-suite/en-us
 	date -r ./hedwi-mail-suite/build/html/index.html "+%Y-%m-%d %H:%M:%S" > mail.modified
 
 meet:
 	cd ./hedwi-meet/ && rm -rf build/* && make -e SPHINXOPTS="-D language='zh_hans'" html && cd ..
-	rm -rf static/hedwi-meet/zh-hans/*
-	cp -r  ./hedwi-meet/build/html/* static/hedwi-meet/zh-hans/
+	rm -rf document/hedwi-meet/zh-hans/*
+	cp -r  ./hedwi-meet/build/html/* document/hedwi-meet/zh-hans/
 	rm -rf ../hedwi-inbox/document/hedwi-meet/zh-hans/*
 	cp -r  ./hedwi-meet/build/html/* ../hedwi-inbox/document/hedwi-meet/zh-hans
 	cd ./hedwi-meet/ && rm -rf build/* && make -e SPHINXOPTS="-D language='en_us'" html && cd ..
-	rm -rf static/hedwi-meet/en-us/*
-	cp -r  ./hedwi-meet/build/html/* static/hedwi-meet/en-us/
+	rm -rf document/hedwi-meet/en-us/*
+	cp -r  ./hedwi-meet/build/html/* document/hedwi-meet/en-us/
 	rm -rf ../hedwi-inbox/document/hedwi-meet/en-us/*
 	cp -r  ./hedwi-meet/build/html/* ../hedwi-inbox/document/hedwi-meet/en-us
 	date -r ./hedwi-meet/build/html/index.html "+%Y-%m-%d %H:%M:%S" > mail.modified

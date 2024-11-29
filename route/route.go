@@ -3,9 +3,9 @@ package route
 import (
 	"embed"
 	"flag"
-	"fmt"
 	"io/fs"
 	"net/http"
+	"strings"
 	"time"
 
 	//"github.com/gin-contrib/sessions"
@@ -21,6 +21,7 @@ import (
 	"hedwi-document/internal/handlers/home"
 	"hedwi-document/internal/handlers/mail"
 	"hedwi-document/internal/handlers/meet"
+	"hedwi-document/internal/handlers/staticHandler"
 	"hedwi-document/middlewares"
 	"hedwi-document/render"
 )
@@ -86,14 +87,37 @@ func InitRouter() *gin.Engine {
 
 	locales := []string{"zh-hans", "en-us"}
 	for _, locale := range locales {
-		mailBox, _ := fs.Sub(StaticBox, "static/hedwi-mail-suite/"+locale)
 		sendBox, _ := fs.Sub(StaticBox, "static/hedwi-api/"+locale)
-		meetBox, _ := fs.Sub(StaticBox, "static/hedwi-meet/"+locale)
-		fmt.Println(mailBox)
-		r.StaticFS("/document/mail-suite/"+locale, http.FS(mailBox))
-		r.StaticFS("/document/meet/"+locale, http.FS(meetBox))
 		r.StaticFS("/document/api/"+locale, http.FS(sendBox))
 		r.StaticFS("/api/"+locale, http.FS(sendBox))
+	}
+
+	docLocales := []string{"zh-hans", "en-us"}
+	for _, locale := range docLocales {
+
+		mailSuiteBox, _ := fs.Sub(StaticBox, "document/hedwi-mail-suite/"+locale)
+		meetBox, _ := fs.Sub(StaticBox, "document/hedwi-meet/"+locale)
+
+		r.GET("/document/mail-suite/"+locale+"/*path", func(c *gin.Context) {
+			realPath := c.Param("path")
+			realPath = strings.TrimPrefix(realPath, "/")
+			realPath = strings.Replace(realPath, "_static", "static", 1)
+			if realPath == "" {
+				realPath = "index.html"
+			}
+			staticHandler.HandleStatics(c, realPath, mailSuiteBox)
+		})
+
+		r.GET("/document/meet/"+locale+"/*path", func(c *gin.Context) {
+			realPath := c.Param("path")
+			realPath = strings.TrimPrefix(realPath, "/")
+			realPath = strings.Replace(realPath, "_static", "static", 1)
+			if realPath == "" {
+				realPath = "index.html"
+			}
+			staticHandler.HandleStatics(c, realPath, meetBox)
+		})
+
 	}
 
 	r.StaticFS("/static", http.FS(staticBox))
