@@ -13,3 +13,4 @@ main
 vendor
 .vscode
 document/
+*.mo

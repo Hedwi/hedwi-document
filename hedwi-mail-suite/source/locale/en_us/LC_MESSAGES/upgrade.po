@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hedwi work suite \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-27 13:22+0800\n"
+"POT-Creation-Date: 2024-11-30 15:22+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en_us\n"
@@ -69,7 +69,7 @@ msgid "# start docker container"
 msgstr ""
 
 #: ../../source/upgrade.rst
-msgid "make up"
+msgid "make"
 msgstr ""
 
 #~ msgid "0. 环境要求"
@@ -165,5 +165,8 @@ msgstr ""
 #~ "update   | # stop docker container "
 #~ "| make down    | # start docker"
 #~ " container | make up       |"
+#~ msgstr ""
+
+#~ msgid "make up"
 #~ msgstr ""
 

@@ -30,4 +30,4 @@ Upgrade
     | # stop docker container 
     | make down   
     | # start docker container 
-    | make up      
+    | make      
