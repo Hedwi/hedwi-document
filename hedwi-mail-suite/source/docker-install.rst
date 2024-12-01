@@ -59,11 +59,15 @@ For example:
   git clone https://github.com/Hedwi/hedwi-docker.git
   cd hedwi-docker/hedwi
   cp env.example .env
-  # Modify the .env configuration, modify all variables marked with 'Need modify'
 
-  make  # After running, http 80 port can be accessed, should be able to access http://configured domain name
+| Modify the .env configuration, modify all variables marked with 'Need modify'
 
-  # The service will automatically create an administrator account (for configuring the system, adding users, adding teams, etc.) and a normal user account admin@your domain name (for using the system service)
+.. code-block:: bash
+
+  make  
+
+| After running, http 80 port can be accessed, should be able to access http://configured domain name
+| The service will automatically create an administrator account (for configuring the system, adding users, adding teams, etc.) and a normal user account admin@your domain name (for using the system service)
 
 
 `Configuration file example <./env-example.html>`_
@@ -72,20 +76,26 @@ For example:
 4. Automatic generation of free SSL certificates
 ==============================================================
 
+| The service has built-in Let’s Encrypt HTTP-01 verification service interface, running this command will request the /acme/create interface to create a certificate
+| After obtaining the certificate successfully, the certificate will be written to inbox/certs/cert.key inbox/certs/cert.crt
+| This command will use the generated free certificate to replace nginx/certs/cert.key nginx/certs/cert.crt
+
 .. code-block:: bash
 
-  # The service has built-in Let’s Encrypt HTTP-01 verification service interface, running this command will request the /acme/create interface to create a certificate
-  # After obtaining the certificate successfully, the certificate will be written to inbox/certs/cert.key inbox/certs/cert.crt
-  # This command will use the generated free certificate to replace nginx/certs/cert.key nginx/certs/cert.crt
   make cert
 
 5. Restart the service
 ===============================================
 
-.. code-block:: bash
+| Stop all running docker containers
 
-  make down # Stop all running docker containers
-  make # Start docker containers
+.. code-block:: bash
+  make down 
+
+| Start docker containers
+
+.. code-block:: bash
+  make 
 
 6. Use https to access and login
 ===============================================

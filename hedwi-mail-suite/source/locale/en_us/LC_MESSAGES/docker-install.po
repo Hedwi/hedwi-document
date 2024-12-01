@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hedwi work suite \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-27 13:15+0800\n"
+"POT-Creation-Date: 2024-12-01 12:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en_us\n"
@@ -89,23 +89,69 @@ msgstr "2. Install docker, docker-compose, git"
 msgid "3. Install"
 msgstr ""
 
+#: ../../source/docker-install.rst:63
+msgid ""
+"Modify the .env configuration, modify all variables marked with 'Need "
+"modify'"
+msgstr ""
+
 #: ../../source/docker-install.rst:69
+msgid ""
+"After running, http 80 port can be accessed, should be able to access "
+"http://configured domain name"
+msgstr ""
+
+#: ../../source/docker-install.rst:70
+msgid ""
+"The service will automatically create an administrator account (for "
+"configuring the system, adding users, adding teams, etc.) and a normal "
+"user account admin@your domain name (for using the system service)"
+msgstr ""
+
+#: ../../source/docker-install.rst:73
 msgid "`Configuration file example <./env-example.html>`_"
 msgstr "config example <./env-example.html>`_"
 
-#: ../../source/docker-install.rst:73
+#: ../../source/docker-install.rst:77
 msgid "4. Automatic generation of free SSL certificates"
 msgstr ""
 
-#: ../../source/docker-install.rst:83
+#: ../../source/docker-install.rst:79
+msgid ""
+"The service has built-in Let’s Encrypt HTTP-01 verification service "
+"interface, running this command will request the /acme/create interface "
+"to create a certificate"
+msgstr ""
+
+#: ../../source/docker-install.rst:80
+msgid ""
+"After obtaining the certificate successfully, the certificate will be "
+"written to inbox/certs/cert.key inbox/certs/cert.crt"
+msgstr ""
+
+#: ../../source/docker-install.rst:81
+msgid ""
+"This command will use the generated free certificate to replace "
+"nginx/certs/cert.key nginx/certs/cert.crt"
+msgstr ""
+
+#: ../../source/docker-install.rst:88
 msgid "5. Restart the service"
 msgstr ""
 
-#: ../../source/docker-install.rst:91
+#: ../../source/docker-install.rst:90
+msgid "Stop all running docker containers"
+msgstr ""
+
+#: ../../source/docker-install.rst:95
+msgid "Start docker containers"
+msgstr ""
+
+#: ../../source/docker-install.rst:101
 msgid "6. Use https to access and login"
 msgstr ""
 
-#: ../../source/docker-install.rst:93
+#: ../../source/docker-install.rst:103
 msgid ""
 "Access https://work.example.com/login?admin=true (work.example.com is the"
 " domain name used), use the administrator account (the email and password"
