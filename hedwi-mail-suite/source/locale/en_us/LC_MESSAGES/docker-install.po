@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hedwi work suite \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-01 12:00+0800\n"
+"POT-Creation-Date: 2025-01-04 15:45+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en_us\n"
@@ -25,18 +25,26 @@ msgid "docker deploy"
 msgstr ""
 
 #: ../../source/docker-install.rst:11
+msgid "About"
+msgstr ""
+
+#: ../../source/docker-install.rst:13
+msgid "To be a nice google workspace alternative"
+msgstr ""
+
+#: ../../source/docker-install.rst:17
 msgid "0. Requirements"
 msgstr ""
 
-#: ../../source/docker-install.rst:12
-msgid "Minimum 2G memory 2 CPU 64-bit Linux system"
-msgstr ""
-
-#: ../../source/docker-install.rst:15
-msgid "1. configure DNS"
+#: ../../source/docker-install.rst:18
+msgid "Minimum 1G memory 1 CPU 64-bit Linux system"
 msgstr ""
 
 #: ../../source/docker-install.rst:21
+msgid "1. configure DNS"
+msgstr ""
+
+#: ../../source/docker-install.rst:27
 msgid "For example:"
 msgstr ""
 
@@ -64,94 +72,94 @@ msgstr "A"
 msgid "x.x.x.x"
 msgstr "x.x.x.x"
 
-#: ../../source/docker-install.rst:30
+#: ../../source/docker-install.rst:36
 msgid "The hostname can be any secondary domain name prefix, here use work"
 msgstr ""
 
-#: ../../source/docker-install.rst:31
+#: ../../source/docker-install.rst:37
 msgid "example.com is your domain name"
 msgstr ""
 
-#: ../../source/docker-install.rst:32
+#: ../../source/docker-install.rst:38
 msgid "x.x.x.x is the public IP address of the server"
 msgstr ""
 
-#: ../../source/docker-install.rst:33
+#: ../../source/docker-install.rst:39
 msgid "The web access address is https://work.example.com"
 msgstr ""
 
-#: ../../source/docker-install.rst:36
+#: ../../source/docker-install.rst:42
 #, fuzzy
 msgid "2. Install docker, docker-compose, git"
 msgstr "2. Install docker, docker-compose, git"
 
-#: ../../source/docker-install.rst:55
+#: ../../source/docker-install.rst:61
 msgid "3. Install"
 msgstr ""
 
-#: ../../source/docker-install.rst:63
+#: ../../source/docker-install.rst:69
 msgid ""
 "Modify the .env configuration, modify all variables marked with 'Need "
 "modify'"
 msgstr ""
 
-#: ../../source/docker-install.rst:69
+#: ../../source/docker-install.rst:75
 msgid ""
 "After running, http 80 port can be accessed, should be able to access "
 "http://configured domain name"
 msgstr ""
 
-#: ../../source/docker-install.rst:70
+#: ../../source/docker-install.rst:76
 msgid ""
 "The service will automatically create an administrator account (for "
 "configuring the system, adding users, adding teams, etc.) and a normal "
 "user account admin@your domain name (for using the system service)"
 msgstr ""
 
-#: ../../source/docker-install.rst:73
+#: ../../source/docker-install.rst:79
 msgid "`Configuration file example <./env-example.html>`_"
 msgstr "config example <./env-example.html>`_"
 
-#: ../../source/docker-install.rst:77
+#: ../../source/docker-install.rst:83
 msgid "4. Automatic generation of free SSL certificates"
 msgstr ""
 
-#: ../../source/docker-install.rst:79
+#: ../../source/docker-install.rst:85
 msgid ""
 "The service has built-in Let’s Encrypt HTTP-01 verification service "
 "interface, running this command will request the /acme/create interface "
 "to create a certificate"
 msgstr ""
 
-#: ../../source/docker-install.rst:80
+#: ../../source/docker-install.rst:86
 msgid ""
 "After obtaining the certificate successfully, the certificate will be "
 "written to inbox/certs/cert.key inbox/certs/cert.crt"
 msgstr ""
 
-#: ../../source/docker-install.rst:81
+#: ../../source/docker-install.rst:87
 msgid ""
 "This command will use the generated free certificate to replace "
 "nginx/certs/cert.key nginx/certs/cert.crt"
 msgstr ""
 
-#: ../../source/docker-install.rst:88
+#: ../../source/docker-install.rst:94
 msgid "5. Restart the service"
 msgstr ""
 
-#: ../../source/docker-install.rst:90
+#: ../../source/docker-install.rst:96
 msgid "Stop all running docker containers"
 msgstr ""
 
-#: ../../source/docker-install.rst:95
+#: ../../source/docker-install.rst:101
 msgid "Start docker containers"
 msgstr ""
 
-#: ../../source/docker-install.rst:101
+#: ../../source/docker-install.rst:107
 msgid "6. Use https to access and login"
 msgstr ""
 
-#: ../../source/docker-install.rst:103
+#: ../../source/docker-install.rst:109
 msgid ""
 "Access https://work.example.com/login?admin=true (work.example.com is the"
 " domain name used), use the administrator account (the email and password"
@@ -222,4 +230,7 @@ msgstr ""
 #~ "password), visit the https://work.example.com/hello"
 #~ " page, continue to add users, teams,"
 #~ " etc."
+
+#~ msgid "Minimum 2G memory 2 CPU 64-bit Linux system"
+#~ msgstr "Minimum 2G memory 2 CPU 64-bit Linux system"
 

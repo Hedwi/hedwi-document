@@ -49,5 +49,5 @@ env 配置内容
   MQTT_PROTOCOL="wss"                                     #   mqtt 协议
   MQTT_PUBLIC_PORT="41883"                                #   mqtt 公网端口
   AI_TOKEN=""                                             #  需要修改 AI token
-  AI_MODEL=""                                             #  需要修改 AI模型
+  AI_MODEL="deepseek-chat"                                #  需要修改 AI模型
   AI_TYPE="deepseek"                                      #  需要修改 AI类型

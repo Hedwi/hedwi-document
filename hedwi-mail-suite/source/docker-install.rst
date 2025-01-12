@@ -7,9 +7,15 @@ docker deploy
 ----------------------------------------------------------------------------
 
 
+About
+======================
+
+  To be a nice google workspace alternative
+
+
 0. Requirements
 =====================
-Minimum 2G memory 2 CPU 64-bit Linux system
+Minimum 1G memory 1 CPU 64-bit Linux system
 
 1. configure DNS
 ===============================================

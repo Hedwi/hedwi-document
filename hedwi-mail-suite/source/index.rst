@@ -13,6 +13,10 @@ Hedwi 海未办公套件私有部署文档
       <br/>
       <a href="/document/mail-suite/en-us/" >English version</a>
 
+
+      To be a nice google workspace alternative
+
+
 目录
 -----------
 
