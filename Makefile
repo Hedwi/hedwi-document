@@ -16,6 +16,14 @@ api:
 	rm -rf static/hedwi-api/*
 	cp -r  ./hedwi-api/build/html/* static/hedwi-api/
 	date -r ./hedwi-api/build/html/index.html "+%Y-%m-%d %H:%M:%S" > date.modified
+	cd ./hedwi-api/ && rm -rf build/* && make -e SPHINXOPTS="-D language='zh_hans'" html && cd ..
+	rm -rf document/hedwi-api/zh-hans/*
+	cp -r  ./hedwi-api/build/html/* document/hedwi-api/zh-hans/
+	cd ./hedwi-api/ && rm -rf build/* && make -e SPHINXOPTS="-D language='en_us'" html && cd ..
+	rm -rf document/hedwi-api/en-us/*
+	cp -r  ./hedwi-api/build/html/* document/hedwi-api/en-us/
+	date -r ./hedwi-api/build/html/index.html "+%Y-%m-%d %H:%M:%S" > mail.modified
+
 
 mail:
 	cd ./hedwi-mail-suite/ && rm -rf build/* && make -e SPHINXOPTS="-D language='zh_hans'" html && cd ..

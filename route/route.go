@@ -21,6 +21,7 @@ import (
 	"hedwi-document/internal/handlers/home"
 	"hedwi-document/internal/handlers/mail"
 	"hedwi-document/internal/handlers/meet"
+	"hedwi-document/internal/handlers/send"
 	"hedwi-document/internal/handlers/staticHandler"
 	"hedwi-document/middlewares"
 	"hedwi-document/render"
@@ -81,6 +82,7 @@ func InitRouter() *gin.Engine {
 	r.GET("/document/mail-suite/", mail.Locale)
 	r.GET("/document/meet", meet.Locale)
 	r.GET("/document/meet/", meet.Locale)
+	r.GET("/document/send/", send.Locale)
 
 	wellknownBox, _ := fs.Sub(StaticBox, "wellknown")
 	r.StaticFS("/.well-known", http.FS(wellknownBox))
@@ -97,6 +99,7 @@ func InitRouter() *gin.Engine {
 
 		mailSuiteBox, _ := fs.Sub(StaticBox, "document/hedwi-mail-suite/"+locale)
 		meetBox, _ := fs.Sub(StaticBox, "document/hedwi-meet/"+locale)
+		apiBox, _ := fs.Sub(StaticBox, "document/hedwi-api/"+locale)
 
 		r.GET("/document/mail-suite/"+locale+"/*path", func(c *gin.Context) {
 			realPath := c.Param("path")
@@ -116,6 +119,16 @@ func InitRouter() *gin.Engine {
 				realPath = "index.html"
 			}
 			staticHandler.HandleStatics(c, realPath, meetBox)
+		})
+
+		r.GET("/document/send/"+locale+"/*path", func(c *gin.Context) {
+			realPath := c.Param("path")
+			realPath = strings.TrimPrefix(realPath, "/")
+			realPath = strings.Replace(realPath, "_static", "static", 1)
+			if realPath == "" {
+				realPath = "index.html"
+			}
+			staticHandler.HandleStatics(c, realPath, apiBox)
 		})
 
 	}
