@@ -82,6 +82,7 @@ func InitRouter() *gin.Engine {
 	r.GET("/document/mail-suite/", mail.Locale)
 	r.GET("/document/meet", meet.Locale)
 	r.GET("/document/meet/", meet.Locale)
+	r.GET("/document/send", send.Locale)
 	r.GET("/document/send/", send.Locale)
 
 	wellknownBox, _ := fs.Sub(StaticBox, "wellknown")
