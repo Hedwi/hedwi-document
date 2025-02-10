@@ -78,10 +78,12 @@ func InitRouter() *gin.Engine {
 	r.HTMLRender = &render.Render
 
 	r.GET("/", home.Home)
-	r.GET("/document/mail-suite", mail.Locale)
-	r.GET("/document/mail-suite/", mail.Locale)
+	r.GET("/meet/", meet.Locale)
+	r.GET("/meet", meet.Locale)
 	r.GET("/document/meet", meet.Locale)
 	r.GET("/document/meet/", meet.Locale)
+	r.GET("/document/mail-suite", mail.Locale)
+	r.GET("/document/mail-suite/", mail.Locale)
 	r.GET("/document/send", send.Locale)
 	r.GET("/document/send/", send.Locale)
 
