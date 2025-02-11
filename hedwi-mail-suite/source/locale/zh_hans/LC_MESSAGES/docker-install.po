@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hedwi work suite \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-04 15:45+0800\n"
+"POT-Creation-Date: 2025-02-11 09:26+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_hans\n"
@@ -29,7 +29,7 @@ msgid "About"
 msgstr "关于"
 
 #: ../../source/docker-install.rst:13
-msgid "To be an awesome google workspace alternative"
+msgid "To be a nice google workspace alternative"
 msgstr "致力于成为好用的google workspace的替代品"
 
 #: ../../source/docker-install.rst:17
@@ -37,7 +37,6 @@ msgid "0. Requirements"
 msgstr "0. 环境要求"
 
 #: ../../source/docker-install.rst:18
-#, fuzzy
 msgid "Minimum 1G memory 1 CPU 64-bit Linux system"
 msgstr "最低1G内存 1核CPU  linux 64位系统"
 

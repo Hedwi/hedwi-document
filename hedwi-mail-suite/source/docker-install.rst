@@ -10,7 +10,7 @@ docker deploy
 About
 ======================
 
-  To be a nice google workspace alternative
+To be a nice google workspace alternative
 
 
 0. Requirements
