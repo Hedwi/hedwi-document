@@ -14,7 +14,7 @@ env 配置内容
   DOMAIN="work.example.com"                               # * 需要修改 域名 建议使用子域名  
   ADMIN_EMAIL="xxx@example.com"                           # * 需要修改 管理员邮箱 
   ADMIN_PASSWORD="passwordneedchange"                     # * 需要修改 管理员密码
-  BINDIP="127.0.0.1"                                      #   监听地址
+  BINDIP="127.0.0.1"                                      #   监听地址 不经过nginx代理的时候应该使用0.0.0.0或者指定地址
   MINIO_USER="changeusername"                             # * 需要修改 minio 用户名 
   MINIO_PASSWORD="changepassword"                         # * 需要修改 minio 密码
   MINIO_ADDR="127.0.0.1:9000"                             #   minio 监听地址
