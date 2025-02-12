@@ -26,6 +26,7 @@ env 配置内容
   CRDB_WEB_ADDR="127.0.0.1:42080"                         #   cockroachdb web 监听地址
   DB_NAME="hedwi_selfhost"                                #   数据库名称
   OFFICE_API_ADDR="127.0.0.1:42201"                       #   office api服务监听地址
+  CONSUL_IP="127.0.0.1"                            #   consul 监听IP
   CONSUL_ADDR="127.0.0.1:8500"                            #   consul 监听地址
   REDIS_ADDR="127.0.0.1:6379"                             #   redis 地址
   REDIS_USER=""                                           #   redis默认监听127.0.0.1 没有密码
