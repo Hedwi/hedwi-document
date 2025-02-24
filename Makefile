@@ -5,6 +5,9 @@ saas: api mail meet main deploy
 
 doc:api mail meet
 
+install:
+	pip3 install -r requirements.txt
+
 
 i18n:
 	cd hedwi-mail-suite && cd source && sphinx-build -b gettext ./ ../build/gettext && cd .. && sphinx-intl update -p build/gettext -l zh_hans -l en_us
