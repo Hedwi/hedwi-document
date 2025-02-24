@@ -84,7 +84,6 @@ msgid "2. Install docker, git"
 msgstr "2. 安装 docker, git"
 
 #: ../../source/docker-install.rst:56
-#, fuzzy
 msgid "3. Install"
 msgstr "docker 安装"
 
