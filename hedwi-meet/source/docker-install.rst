@@ -65,7 +65,7 @@ For example
 
   make
 
-`Configuration file example </meet/meet_env.html>`_
+`Configuration file example </document/meet/zh-hans/meet_env.html>`_
 
 
 4. Automatically generate free SSL certificates
