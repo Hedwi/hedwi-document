@@ -47,9 +47,13 @@ For example
   sudo cp docker/* /usr/local/bin/
 
   curl -SL https://github.com/docker/compose/releases/download/v2.27.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+  sudo chmod +x /usr/local/bin/docker-compose
 
   yum install git # centos
   apt install git  # ubuntu/debian
+
+  # start docker daemon
+  sudo dockerd &
 
 
 3. Install
@@ -58,7 +62,12 @@ For example
 
 .. code-block:: bash
 
+  # github 国内使用github更快
   git clone https://github.com/Hedwi/hedwi-docker.git
+
+  # gitee 国内使用gitee更快
+  git clone https://gitee.com/hedwi/hedwi-docker.git
+
   cd hedwi-docker/meet
   cp env.example .env
   # Modify the .env configuration
