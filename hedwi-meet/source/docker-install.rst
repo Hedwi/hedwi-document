@@ -15,7 +15,7 @@ Minimum 1G memory 1 core CPU linux 64-bit system
 
 .. code-block:: bash
 
-   Configure the A record of the domain name to the public IP address of the server in the domain name service provider or DNS resolution service provider
+Configure the A record of the domain name to the public IP address of the server in the domain name service provider or DNS resolution service provider
 
 
 For example

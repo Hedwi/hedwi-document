@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hedwi-meet \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-27 11:16+0800\n"
+"POT-Creation-Date: 2025-03-14 20:35+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_hans\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../source/docker-install.rst:7
 msgid "docker install"
@@ -34,6 +34,13 @@ msgstr "最低1G内存 1核CPU linux 64位系统"
 #: ../../source/docker-install.rst:14
 msgid "1. Configure DNS"
 msgstr "1. 配置DNS"
+
+#: ../../source/docker-install.rst:18
+msgid ""
+"Configure the A record of the domain name to the public IP address of the"
+" server in the domain name service provider or DNS resolution service "
+"provider"
+msgstr "在域名服务提供商或者DNS解析服务中配置域名的一条A记录指向服务器的IP"
 
 #: ../../source/docker-install.rst:21
 msgid "For example"
@@ -83,19 +90,24 @@ msgstr "访问地址是 https://meet.example.com/meet"
 msgid "2. Install docker, git"
 msgstr "2. 安装 docker, git"
 
-#: ../../source/docker-install.rst:56
+#: ../../source/docker-install.rst:60
 msgid "3. Install"
 msgstr "docker 安装"
 
-#: ../../source/docker-install.rst:68
-msgid "`Configuration file example </meet/meet_env.html>`_"
+#: ../../source/docker-install.rst:77
+msgid "`配置文件示例 </document/meet/zh-hans/meet_env.html>`_"
+msgstr ""
+
+#: ../../source/docker-install.rst:80
+#, fuzzy
+msgid "`Configuration file example </document/meet/en-us/meet_env.html>`_"
 msgstr "`配置文件示例 </meet/meet_env.html>`_"
 
-#: ../../source/docker-install.rst:72
+#: ../../source/docker-install.rst:84
 msgid "4. Automatically generate free SSL certificates"
 msgstr "4. 自动生成免费SSL证书"
 
-#: ../../source/docker-install.rst:80
+#: ../../source/docker-install.rst:92
 msgid "5. Restart nginx"
 msgstr "5. 重启nginx"
 
