@@ -62,14 +62,15 @@ For example
 
 .. code-block:: bash
 
-  # github 国内使用github更快
+  # github 国外用户使用github更快
   git clone https://github.com/Hedwi/hedwi-docker.git
 
-  # gitee 国内使用gitee更快
+  # gitee 国内用户使用gitee更快
   git clone https://gitee.com/hedwi/hedwi-docker.git
 
   cd hedwi-docker/meet
   cp env.example .env
+
   # Modify the .env configuration
 
   make

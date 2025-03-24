@@ -62,19 +62,22 @@ For example:
 
 .. code-block:: bash
 
+
+  # github 国外用户使用github更快
   git clone https://github.com/Hedwi/hedwi-docker.git
+
+  # gitee 国内用户使用gitee更快
+  git clone https://gitee.com/hedwi/hedwi-docker.git
+
   cd hedwi-docker/hedwi
   cp env.example .env
 
 | Modify the .env configuration, modify all variables marked with 'Need modify'
 
-.. code-block:: bash
-
   make  
 
 | After running, http 80 port can be accessed, should be able to access http://configured domain name
 | The service will automatically create an administrator account (for configuring the system, adding users, adding teams, etc.) and a normal user account admin@your domain name (for using the system service)
-
 
 `Configuration file example <./env-example.html>`_
 
