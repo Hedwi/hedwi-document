@@ -20,6 +20,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   firewall
    docker-install  
    docker-upgrade  
    download
