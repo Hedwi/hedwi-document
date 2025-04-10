@@ -1,9 +1,12 @@
-all: main deploy
+all: env main deploy
 
 
-saas: api mail meet main deploy
+saas: env api mail meet main deploy
 
-doc:api mail meet
+doc:env api mail meet
+
+env:
+	source ./env/bin/activate
 
 install:
 	pip3 install -r requirements.txt

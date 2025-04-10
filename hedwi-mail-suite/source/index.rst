@@ -23,6 +23,7 @@ Hedwi 海未办公套件私有部署文档
    :maxdepth: 2
 
    docker-install
+   firewall
    upgrade
    models
    api_index

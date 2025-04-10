@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-10 12:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_hans\n"
+"Language-Team: zh_hans <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/firewall.rst:7
+msgid "Firewall configuration"
+msgstr "防火墙配置"
+
+#: ../../source/firewall.rst:11
+msgid "Configure the firewall"
+msgstr "配置防火墙"
+
+#: ../../source/firewall.rst:1
+msgid "Host"
+msgstr "主机"
+
+#: ../../source/firewall.rst:1
+msgid "Port"
+msgstr "端口"
+
+#: ../../source/firewall.rst:1
+msgid "Purpose"
+msgstr "作用"
+
+#: ../../source/firewall.rst:1
+msgid "\\*"
+msgstr ""
+
+#: ../../source/firewall.rst:1
+msgid "TCP: 80"
+msgstr ""
+
+#: ../../source/firewall.rst:1
+msgid "HTTP Service"
+msgstr "HTTP服务"
+
+#: ../../source/firewall.rst:1
+msgid "TCP: 443"
+msgstr ""
+
+#: ../../source/firewall.rst:1
+msgid "HTTPS Service"
+msgstr "HTTPS服务"
+
+#: ../../source/firewall.rst:1
+msgid "TCP: 41883"
+msgstr ""
+
+#: ../../source/firewall.rst:1
+msgid "mqtt service"
+msgstr "mqtt服务"
+
+#: ../../source/firewall.rst:1
+msgid "TCP: 25"
+msgstr ""
+
+#: ../../source/firewall.rst:1
+msgid "smtp service"
+msgstr "smtp服务"
+
+#: ../../source/firewall.rst:1
+msgid "TCP: 465"
+msgstr ""
+
+#: ../../source/firewall.rst:1
+msgid "smtp over ssl service"
+msgstr "基于ssl的smtp服务"
+
+#: ../../source/firewall.rst:1
+msgid "UDP: 50000-60000"
+msgstr ""
+
+#: ../../source/firewall.rst:1
+msgid "meeting UDP connection for WebRTC"
+msgstr "会议WebRTC UDP连接"
+
+#: ../../source/firewall.rst:1
+msgid "TCP: 7881"
+msgstr ""
+
+#: ../../source/firewall.rst:1
+msgid "meeting TCP connection for WebRTC"
+msgstr "会议 WebRTC TCP连接"
+
+#: ../../source/firewall.rst:26
+msgid "80/443 is the port of the HTTP and HTTPS service"
+msgstr ""
+
+#: ../../source/firewall.rst:27
+msgid "80 port can be used to obtain the free ssl certificate"
+msgstr "80 端口可以用于获取免费ssl证书"
+
+#: ../../source/firewall.rst:28
+msgid "41883 is the port of the mqtt service"
+msgstr "41883是mqtt服务的端口"
+
+#: ../../source/firewall.rst:29
+msgid "25 is the port of the smtp service"
+msgstr "25是smtp发信服务端口"
+
+#: ../../source/firewall.rst:30
+msgid "465 is the port of the smtp over ssl service"
+msgstr "465是基于ssl的smtp发信端口"
+
+#: ../../source/firewall.rst:31
+msgid "50000-60000 is the port range of the UDP connection for WebRTC"
+msgstr "50000-60000是用于WebRTC UDP连接的端口范围"
+
+#: ../../source/firewall.rst:32
+msgid "7881 is the port of the TCP connection for WebRTC"
+msgstr "7881是WebRTC TCP连接的端口"
+
+#: ../../source/firewall.rst:33
+msgid "the meet port range is in the meet configuration file"
+msgstr "会议的端口范围在会议配置文件中设置"
+
