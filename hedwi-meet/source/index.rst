@@ -24,7 +24,6 @@ Contents
    docker-install  
    docker-upgrade  
    download
-   vs-tencent-meeting
    #releaseNote
 
 * :ref:`search`
