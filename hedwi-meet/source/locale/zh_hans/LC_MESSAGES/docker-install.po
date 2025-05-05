@@ -92,7 +92,7 @@ msgstr "2. 安装 docker, git"
 
 #: ../../source/docker-install.rst:60
 msgid "3. Install"
-msgstr "docker 安装"
+msgstr "3. 安装"
 
 #: ../../source/docker-install.rst:77
 msgid "`配置文件示例 </document/meet/zh-hans/meet_env.html>`_"
