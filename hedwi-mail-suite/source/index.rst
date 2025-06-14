@@ -22,6 +22,7 @@ Hedwi 海未办公套件私有部署文档
 .. toctree::
    :maxdepth: 2
 
+   important
    docker-install
    firewall
    upgrade

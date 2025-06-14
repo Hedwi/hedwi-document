@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024, Hedwi
+# This file is distributed under the same license as the Hedwi work suite
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hedwi work suite \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 23:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_us\n"
+"Language-Team: en_us <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/important.rst:10
+msgid "Important changes"
+msgstr ""
+
+#: ../../source/important.rst:13
+msgid ""
+"2025-06-14 inbox web add config for nats  `https://github.com/Hedwi"
+"/hedwi-docker/commit/11e43ceb4cbf545b22a397da068eb65001d0b265`"
+msgstr ""
+
+#~ msgid "重要更新"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "2025-06-14 inbox web部分增加nats配置  "
+#~ "`https://github.com/Hedwi/hedwi-"
+#~ "docker/commit/11e43ceb4cbf545b22a397da068eb65001d0b265`"
+#~ msgstr ""
+
