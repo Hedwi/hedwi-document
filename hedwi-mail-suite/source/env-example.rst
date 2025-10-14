@@ -44,6 +44,7 @@ env 配置内容
   MEET_KEY="changekeyandsecret"                           # * 需要修改 视频会议创建使用的key 
   MEET_SECRET="c7056e2x9689f7f3ecx8c6e4055c4bc565dc9c5a"  # * 需要修改 视频会议创建使用的secret 
   MEET_ADDR="127.0.0.1:8888"                              #   视频会议web监听地址
+  MEET_AUTH_TYPE=""                                       #   Authentication type  internal or none  none means no authentication
   MQTT_ID="1"                                             #   mqtt client id  
   MQTT_IP="127.0.0.1"                                     #   mqtt 监听地址
   MQTT_PORT="1883"                                        #   mqtt 监听端口
