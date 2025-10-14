@@ -14,6 +14,11 @@ meetserver configuration
     web_port: 8888
     port: 7882
     log_level: info
+    meet_auth_type: ldap
+    ldap:
+      enabled: true
+      addr: ldap://127.0.0.1:42389 #Need modify
+      base_dn: dc=hedwi,dc=com #Need modify
     rtc:
       tcp_port: 7883
       port_range_start: 50000
