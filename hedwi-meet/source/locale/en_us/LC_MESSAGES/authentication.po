@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Hedwi
+# This file is distributed under the same license as the hedwi-meet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hedwi-meet \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-16 17:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_us\n"
+"Language-Team: en_us <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/authentication.rst:7
+msgid "Authentication"
+msgstr "Authentication"
+
+#: ../../source/authentication.rst:10
+msgid "1. Authentication type"
+msgstr "1. Authentication type"
+
+#: ../../source/authentication.rst:12
+msgid "none: No authentication"
+msgstr "none: No authentication"
+
+#: ../../source/authentication.rst:13
+msgid "ldap: LDAP authentication"
+msgstr "ldap: LDAP authentication"
+
+#: ../../source/authentication.rst:16
+msgid "2. How to configure authentication"
+msgstr "2. How to configure authentication"
+
+#: ../../source/authentication.rst:17
+msgid "set MEET_AUTH_TYPE in .env file"
+msgstr "set MEET_AUTH_TYPE in .env file"
+
+#: ../../source/authentication.rst:20
+msgid "3. How to configure LDAP authentication"
+msgstr "3. How to configure LDAP authentication"
+
+#: ../../source/authentication.rst:22
+msgid "set the following variables in .env file"
+msgstr "set the following variables in .env file"
+
+#: ../../source/authentication.rst:24
+msgid ""
+"MEET_LDAP_ENABLED=\"true\"                  # whether to enable ldap "
+"authentication MEET_LDAP_ADDR=\"ldap://127.0.0.1:42389\"   #ldap server "
+"address MEET_LDAP_BASE_DN=\"dc=hedwi,dc=com\"       # ldap base dn"
+msgstr "MEET_LDAP_ENABLED=\"true\"                  # whether to enable ldap authentication MEET_LDAP_ADDR=\"ldap://127.0.0.1:42389\"   #ldap server address MEET_LDAP_BASE_DN=\"dc=hedwi,dc=com\"       # ldap base dn"
+
+#: ../../source/authentication.rst:29
+msgid "4. How to use authentication in mobile app"
+msgstr "4. How to use authentication in mobile app"
+
+#: ../../source/authentication.rst:31
+msgid "ldap enabled, the mobile app will use ldap authentication"
+msgstr "ldap enabled, the mobile app will use ldap authentication"
+
+#: ../../source/authentication.rst:33
+msgid "password =  ldap password + \" \" + meeting password"
+msgstr "password =  ldap password + \" \" + meeting password"
+
+#: ../../source/authentication.rst:36
+msgid ""
+"ldap disabled, the mobile app will use meeting password and if meeting "
+"password is not set, leave it blank"
+msgstr "ldap disabled, the mobile app will use meeting password and if meeting password is not set, leave it blank"
+
+#: ../../source/authentication.rst:38
+msgid "password =  meeting password or blank"
+msgstr "password =  meeting password or blank"
+

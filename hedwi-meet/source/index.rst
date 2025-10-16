@@ -23,6 +23,7 @@ Contents
    firewall
    docker-install  
    docker-upgrade  
+   authentication
    download
    #releaseNote
 
