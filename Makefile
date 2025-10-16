@@ -1,5 +1,6 @@
 all: env main deploy
 
+.PHONY: main
 
 saas: env api mail meet main deploy
 
