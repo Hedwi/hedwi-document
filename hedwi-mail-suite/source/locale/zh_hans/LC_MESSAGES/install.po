@@ -29,7 +29,7 @@ msgid "环境要求"
 msgstr ""
 
 #: ../../source/install.rst:11
-msgid "最低1G内存 1核CPU  linux 64位系统"
+msgid "最低2G内存 2核CPU  linux 64位系统"
 msgstr ""
 
 #: ../../source/install.rst:14

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hedwi work suite \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-24 15:51+0800\n"
+"POT-Creation-Date: 2025-11-01 19:26+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en_us\n"
@@ -29,7 +29,7 @@ msgid "About"
 msgstr ""
 
 #: ../../source/docker-install.rst:13
-msgid "To be a nice google workspace alternative"
+msgid "To be the best self-hosted work suite"
 msgstr ""
 
 #: ../../source/docker-install.rst:17
@@ -37,7 +37,7 @@ msgid "0. Requirements"
 msgstr ""
 
 #: ../../source/docker-install.rst:18
-msgid "Minimum 1G memory 1 CPU 64-bit Linux system"
+msgid "Minimum 2G memory 2 cores CPU 64-bit Linux system"
 msgstr ""
 
 #: ../../source/docker-install.rst:21
@@ -237,4 +237,10 @@ msgstr ""
 
 #~ msgid "Minimum 2G memory 2 CPU 64-bit Linux system"
 #~ msgstr "Minimum 2G memory 2 CPU 64-bit Linux system"
+
+#~ msgid "To be a nice google workspace alternative"
+#~ msgstr ""
+
+#~ msgid "Minimum 1G memory 1 CPU 64-bit Linux system"
+#~ msgstr "Minimum 2G memory 2 cores CPU 64-bit Linux system"
 

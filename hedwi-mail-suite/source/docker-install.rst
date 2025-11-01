@@ -10,12 +10,12 @@ docker deploy
 About
 ======================
 
-To be a nice google workspace alternative
+To be the best self-hosted work suite
 
 
 0. Requirements
 =====================
-Minimum 1G memory 1 CPU 64-bit Linux system
+Minimum 2G memory 2 cores CPU 64-bit Linux system
 
 1. configure DNS
 ===============================================
